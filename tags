@@ -1,0 +1,2528 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADD_OUTPUT	src/jsonsl/jsonsl.c	1259;"	d	file:
+ADD_OUTPUT	src/jsonsl/jsonsl.c	1277;"	d	file:
+ARRAY	src/bson/bcon.c	/^   bson_t *ARRAY;$/;"	m	union:bcon_append	file:
+ARRAY	src/bson/bcon.c	/^   bson_t *ARRAY;$/;"	m	union:bcon_extract	file:
+ASSERT	tests/TestSuite.h	36;"	d
+ASSERT	tests/TestSuite.h	38;"	d
+ASSERT_ALMOST_EQUAL	tests/TestSuite.h	107;"	d
+ASSERT_ALMOST_EQUAL	tests/TestSuite.h	109;"	d
+ASSERT_CMPDOUBLE	tests/TestSuite.h	89;"	d
+ASSERT_CMPINT	tests/TestSuite.h	78;"	d
+ASSERT_CMPINT32	tests/TestSuite.h	82;"	d
+ASSERT_CMPINT64	tests/TestSuite.h	83;"	d
+ASSERT_CMPINT_HELPER	tests/TestSuite.h	61;"	d
+ASSERT_CMPJSON	tests/TestSuite.h	140;"	d
+ASSERT_CMPLONG	tests/TestSuite.h	80;"	d
+ASSERT_CMPOID	tests/TestSuite.h	176;"	d
+ASSERT_CMPSIZE_T	tests/TestSuite.h	87;"	d
+ASSERT_CMPSSIZE_T	tests/TestSuite.h	88;"	d
+ASSERT_CMPSTR	tests/TestSuite.h	129;"	d
+ASSERT_CMPTIME	tests/TestSuite.h	251;"	d
+ASSERT_CMPUINT	tests/TestSuite.h	79;"	d
+ASSERT_CMPUINT16	tests/TestSuite.h	84;"	d
+ASSERT_CMPUINT32	tests/TestSuite.h	85;"	d
+ASSERT_CMPUINT64	tests/TestSuite.h	86;"	d
+ASSERT_CMPUINT8	tests/TestSuite.h	137;"	d
+ASSERT_CMPULONG	tests/TestSuite.h	81;"	d
+ASSERT_CONTAINS	tests/TestSuite.h	193;"	d
+ASSERT_ERROR_CONTAINS	tests/TestSuite.h	232;"	d
+ASSERT_HAS_FIELD	tests/TestSuite.h	239;"	d
+ASSERT_MEMCMP	tests/TestSuite.h	91;"	d
+ASSERT_OR_PRINT	tests/TestSuite.h	42;"	d
+ASSERT_OR_PRINT	tests/TestSuite.h	45;"	d
+ASSERT_OR_PRINT_ERRNO	tests/TestSuite.h	265;"	d
+ASSERT_STARTSWITH	tests/TestSuite.h	204;"	d
+ATTRIBUTE_CONST	src/bson/bson-timegm.c	25;"	d	file:
+ATTRIBUTE_CONST	src/bson/bson-timegm.c	29;"	d	file:
+ATTRIBUTE_FORMAT	src/bson/bson-timegm.c	27;"	d	file:
+ATTRIBUTE_FORMAT	src/bson/bson-timegm.c	31;"	d	file:
+ATTRIBUTE_PURE	src/bson/bson-timegm.c	26;"	d	file:
+ATTRIBUTE_PURE	src/bson/bson-timegm.c	30;"	d	file:
+AT_LEAST_0	src/bson/bson-json.c	48;"	d	file:
+AWAIT	tests/TestSuite.h	216;"	d
+Allowed_Escapes	src/jsonsl/jsonsl.c	/^static int Allowed_Escapes[0x100] = {$/;"	v	file:
+Allowed_Whitespace	src/jsonsl/jsonsl.c	/^static int Allowed_Whitespace[0x100] = {$/;"	v	file:
+Assert	src/bson/b64_ntop.h	47;"	d
+Assert	src/bson/b64_pton.h	45;"	d
+AtomicInt_DecrementAndTest	tests/TestSuite.c	91;"	d	file:
+BASIC_CB_BAIL_IF_NOT_NORMAL	src/bson/bson-json.c	364;"	d	file:
+BASIC_CB_PREAMBLE	src/bson/bson-json.c	357;"	d	file:
+BCON	src/bson/bcon.c	/^   bson_t *BCON;$/;"	m	union:bcon_append	file:
+BCON	src/bson/bcon.h	111;"	d
+BCONE_ARRAY	src/bson/bcon.h	122;"	d
+BCONE_BIN	src/bson/bcon.h	124;"	d
+BCONE_BOOL	src/bson/bcon.h	131;"	d
+BCONE_CODE	src/bson/bcon.h	144;"	d
+BCONE_CODEWSCOPE	src/bson/bcon.h	149;"	d
+BCONE_DATE_TIME	src/bson/bcon.h	133;"	d
+BCONE_DBPOINTER	src/bson/bcon.h	140;"	d
+BCONE_DECIMAL128	src/bson/bcon.h	161;"	d
+BCONE_DOCUMENT	src/bson/bcon.h	120;"	d
+BCONE_DOUBLE	src/bson/bcon.h	118;"	d
+BCONE_INT32	src/bson/bcon.h	153;"	d
+BCONE_INT64	src/bson/bcon.h	159;"	d
+BCONE_ITER	src/bson/bcon.h	168;"	d
+BCONE_MAGIC	src/bson/bcon.h	172;"	d
+BCONE_MAXKEY	src/bson/bcon.h	164;"	d
+BCONE_MINKEY	src/bson/bcon.h	165;"	d
+BCONE_NULL	src/bson/bcon.h	135;"	d
+BCONE_OID	src/bson/bcon.h	129;"	d
+BCONE_REGEX	src/bson/bcon.h	136;"	d
+BCONE_SKIP	src/bson/bcon.h	166;"	d
+BCONE_SYMBOL	src/bson/bcon.h	146;"	d
+BCONE_TIMESTAMP	src/bson/bcon.h	155;"	d
+BCONE_UNDEFINED	src/bson/bcon.h	128;"	d
+BCONE_UTF8	src/bson/bcon.h	116;"	d
+BCON_APPEND	src/bson/bcon.h	271;"	d
+BCON_APPEND_CTX	src/bson/bcon.h	273;"	d
+BCON_ARRAY	src/bson/bcon.h	73;"	d
+BCON_BIN	src/bson/bcon.h	75;"	d
+BCON_BOOL	src/bson/bcon.h	82;"	d
+BCON_CODE	src/bson/bcon.h	93;"	d
+BCON_CODEWSCOPE	src/bson/bcon.h	97;"	d
+BCON_DATE_TIME	src/bson/bcon.h	83;"	d
+BCON_DBPOINTER	src/bson/bcon.h	89;"	d
+BCON_DECIMAL128	src/bson/bcon.h	107;"	d
+BCON_DOCUMENT	src/bson/bcon.h	71;"	d
+BCON_DOUBLE	src/bson/bcon.h	69;"	d
+BCON_ENSURE	src/bson/bcon.h	38;"	d
+BCON_ENSURE_DECLARE	src/bson/bcon.h	32;"	d
+BCON_ENSURE_STORAGE	src/bson/bcon.h	40;"	d
+BCON_EXTRACT	src/bson/bcon.h	276;"	d
+BCON_EXTRACT_CTX	src/bson/bcon.h	279;"	d
+BCON_H_	src/bson/bcon.h	22;"	d
+BCON_INT32	src/bson/bcon.h	100;"	d
+BCON_INT64	src/bson/bcon.h	105;"	d
+BCON_ITER	src/bson/bcon.h	113;"	d
+BCON_MAGIC	src/bson/bcon.h	171;"	d
+BCON_MAXKEY	src/bson/bcon.h	109;"	d
+BCON_MINKEY	src/bson/bcon.h	110;"	d
+BCON_NEW	src/bson/bcon.h	282;"	d
+BCON_NULL	src/bson/bcon.h	85;"	d
+BCON_OID	src/bson/bcon.h	80;"	d
+BCON_REGEX	src/bson/bcon.h	86;"	d
+BCON_STACK_MAX	src/bson/bcon.h	30;"	d
+BCON_SYMBOL	src/bson/bcon.h	95;"	d
+BCON_TIMESTAMP	src/bson/bcon.h	102;"	d
+BCON_TYPE_ARRAY	src/bson/bcon.h	/^   BCON_TYPE_ARRAY,$/;"	e	enum:__anon4
+BCON_TYPE_ARRAY_END	src/bson/bcon.h	/^   BCON_TYPE_ARRAY_END,$/;"	e	enum:__anon4
+BCON_TYPE_ARRAY_START	src/bson/bcon.h	/^   BCON_TYPE_ARRAY_START,$/;"	e	enum:__anon4
+BCON_TYPE_BCON	src/bson/bcon.h	/^   BCON_TYPE_BCON,$/;"	e	enum:__anon4
+BCON_TYPE_BIN	src/bson/bcon.h	/^   BCON_TYPE_BIN,$/;"	e	enum:__anon4
+BCON_TYPE_BOOL	src/bson/bcon.h	/^   BCON_TYPE_BOOL,$/;"	e	enum:__anon4
+BCON_TYPE_CODE	src/bson/bcon.h	/^   BCON_TYPE_CODE,$/;"	e	enum:__anon4
+BCON_TYPE_CODEWSCOPE	src/bson/bcon.h	/^   BCON_TYPE_CODEWSCOPE,$/;"	e	enum:__anon4
+BCON_TYPE_DATE_TIME	src/bson/bcon.h	/^   BCON_TYPE_DATE_TIME,$/;"	e	enum:__anon4
+BCON_TYPE_DBPOINTER	src/bson/bcon.h	/^   BCON_TYPE_DBPOINTER,$/;"	e	enum:__anon4
+BCON_TYPE_DECIMAL128	src/bson/bcon.h	/^   BCON_TYPE_DECIMAL128,$/;"	e	enum:__anon4
+BCON_TYPE_DOCUMENT	src/bson/bcon.h	/^   BCON_TYPE_DOCUMENT,$/;"	e	enum:__anon4
+BCON_TYPE_DOC_END	src/bson/bcon.h	/^   BCON_TYPE_DOC_END,$/;"	e	enum:__anon4
+BCON_TYPE_DOC_START	src/bson/bcon.h	/^   BCON_TYPE_DOC_START,$/;"	e	enum:__anon4
+BCON_TYPE_DOUBLE	src/bson/bcon.h	/^   BCON_TYPE_DOUBLE,$/;"	e	enum:__anon4
+BCON_TYPE_END	src/bson/bcon.h	/^   BCON_TYPE_END,$/;"	e	enum:__anon4
+BCON_TYPE_ERROR	src/bson/bcon.h	/^   BCON_TYPE_ERROR,$/;"	e	enum:__anon4
+BCON_TYPE_INT32	src/bson/bcon.h	/^   BCON_TYPE_INT32,$/;"	e	enum:__anon4
+BCON_TYPE_INT64	src/bson/bcon.h	/^   BCON_TYPE_INT64,$/;"	e	enum:__anon4
+BCON_TYPE_ITER	src/bson/bcon.h	/^   BCON_TYPE_ITER,$/;"	e	enum:__anon4
+BCON_TYPE_MAXKEY	src/bson/bcon.h	/^   BCON_TYPE_MAXKEY,$/;"	e	enum:__anon4
+BCON_TYPE_MINKEY	src/bson/bcon.h	/^   BCON_TYPE_MINKEY,$/;"	e	enum:__anon4
+BCON_TYPE_NULL	src/bson/bcon.h	/^   BCON_TYPE_NULL,$/;"	e	enum:__anon4
+BCON_TYPE_OID	src/bson/bcon.h	/^   BCON_TYPE_OID,$/;"	e	enum:__anon4
+BCON_TYPE_RAW	src/bson/bcon.h	/^   BCON_TYPE_RAW,$/;"	e	enum:__anon4
+BCON_TYPE_REGEX	src/bson/bcon.h	/^   BCON_TYPE_REGEX,$/;"	e	enum:__anon4
+BCON_TYPE_SKIP	src/bson/bcon.h	/^   BCON_TYPE_SKIP,$/;"	e	enum:__anon4
+BCON_TYPE_SYMBOL	src/bson/bcon.h	/^   BCON_TYPE_SYMBOL,$/;"	e	enum:__anon4
+BCON_TYPE_TIMESTAMP	src/bson/bcon.h	/^   BCON_TYPE_TIMESTAMP,$/;"	e	enum:__anon4
+BCON_TYPE_UNDEFINED	src/bson/bcon.h	/^   BCON_TYPE_UNDEFINED,$/;"	e	enum:__anon4
+BCON_TYPE_UTF8	src/bson/bcon.h	/^   BCON_TYPE_UTF8,$/;"	e	enum:__anon4
+BCON_UNDEFINED	src/bson/bcon.h	79;"	d
+BCON_UTF8	src/bson/bcon.h	67;"	d
+BEGIN_IGNORE_DEPRECATIONS	src/bson/bson-private.h	28;"	d
+BEGIN_IGNORE_DEPRECATIONS	src/bson/bson-private.h	33;"	d
+BEGIN_IGNORE_DEPRECATIONS	src/bson/bson-private.h	38;"	d
+BIGGEST	src/bson/bson-timegm.c	188;"	d	file:
+BIN	src/bson/bcon.c	/^   } BIN;$/;"	m	union:bcon_append	typeref:struct:bcon_append::__anon36	file:
+BIN	src/bson/bcon.c	/^   } BIN;$/;"	m	union:bcon_extract	typeref:struct:bcon_extract::__anon41	file:
+BINARY_DIR	tests/TestSuite.h	31;"	d
+BINARY_DIR	tests/test-bson.c	30;"	d	file:
+BINARY_DIR	tests/test-iso8601.c	10;"	d	file:
+BINARY_DIR	tests/test-iter.c	26;"	d	file:
+BINARY_DIR	tests/test-json.c	17;"	d	file:
+BINARY_DIR	tests/test-reader.c	25;"	d	file:
+BOOL	src/bson/bcon.c	/^   bool *BOOL;$/;"	m	union:bcon_extract	file:
+BOOL	src/bson/bcon.c	/^   bool BOOL;$/;"	m	union:bcon_append	file:
+BSON_ABS	src/bson/bson-macros.h	142;"	d
+BSON_ABS	src/bson/bson-macros.h	144;"	d
+BSON_ALIGNED_BEGIN	src/bson/bson-macros.h	159;"	d
+BSON_ALIGNED_BEGIN	src/bson/bson-macros.h	162;"	d
+BSON_ALIGNED_BEGIN	src/bson/bson-macros.h	167;"	d
+BSON_ALIGNED_BEGIN	src/bson/bson-macros.h	170;"	d
+BSON_ALIGNED_END	src/bson/bson-macros.h	160;"	d
+BSON_ALIGNED_END	src/bson/bson-macros.h	163;"	d
+BSON_ALIGNED_END	src/bson/bson-macros.h	168;"	d
+BSON_ALIGNED_END	src/bson/bson-macros.h	171;"	d
+BSON_ALIGNED_END	src/bson/bson-types.h	/^} bson_reader_t BSON_ALIGNED_END (BSON_ALIGN_OF_PTR);$/;"	t	typeref:struct:__anon63
+BSON_ALIGN_OF_PTR	src/bson/bson-macros.h	149;"	d
+BSON_ALIGN_OF_PTR	src/bson/bson-macros.h	151;"	d
+BSON_ALIGN_OF_PTR	src/bson/bson-macros.h	154;"	d
+BSON_API	src/bson/bson-macros.h	101;"	d
+BSON_API	src/bson/bson-macros.h	103;"	d
+BSON_API	src/bson/bson-macros.h	111;"	d
+BSON_API	src/bson/bson-macros.h	86;"	d
+BSON_API	src/bson/bson-macros.h	88;"	d
+BSON_API	src/bson/bson-macros.h	90;"	d
+BSON_API	src/bson/bson-macros.h	99;"	d
+BSON_APPEND_ARRAY	src/bson/bson.h	102;"	d
+BSON_APPEND_ARRAY_BEGIN	src/bson/bson.h	105;"	d
+BSON_APPEND_BINARY	src/bson/bson.h	108;"	d
+BSON_APPEND_BOOL	src/bson/bson.h	111;"	d
+BSON_APPEND_CODE	src/bson/bson.h	114;"	d
+BSON_APPEND_CODE_WITH_SCOPE	src/bson/bson.h	117;"	d
+BSON_APPEND_DATE_TIME	src/bson/bson.h	167;"	d
+BSON_APPEND_DBPOINTER	src/bson/bson.h	120;"	d
+BSON_APPEND_DECIMAL128	src/bson/bson.h	141;"	d
+BSON_APPEND_DOCUMENT	src/bson/bson.h	129;"	d
+BSON_APPEND_DOCUMENT_BEGIN	src/bson/bson.h	123;"	d
+BSON_APPEND_DOUBLE	src/bson/bson.h	126;"	d
+BSON_APPEND_INT32	src/bson/bson.h	132;"	d
+BSON_APPEND_INT64	src/bson/bson.h	135;"	d
+BSON_APPEND_MAXKEY	src/bson/bson.h	144;"	d
+BSON_APPEND_MINKEY	src/bson/bson.h	138;"	d
+BSON_APPEND_NULL	src/bson/bson.h	147;"	d
+BSON_APPEND_OID	src/bson/bson.h	149;"	d
+BSON_APPEND_REGEX	src/bson/bson.h	152;"	d
+BSON_APPEND_SYMBOL	src/bson/bson.h	158;"	d
+BSON_APPEND_TIMESTAMP	src/bson/bson.h	170;"	d
+BSON_APPEND_TIMEVAL	src/bson/bson.h	164;"	d
+BSON_APPEND_TIME_T	src/bson/bson.h	161;"	d
+BSON_APPEND_UNDEFINED	src/bson/bson.h	173;"	d
+BSON_APPEND_UTF8	src/bson/bson.h	155;"	d
+BSON_APPEND_VALUE	src/bson/bson.h	176;"	d
+BSON_ASSERT	src/bson/bson-macros.h	190;"	d
+BSON_ASSERT_BSON_EQUAL	tests/test-bson.c	/^BSON_ASSERT_BSON_EQUAL (const bson_t *a, const bson_t *b)$/;"	f	file:
+BSON_ASSERT_BSON_EQUAL_FILE	tests/test-bson.c	/^BSON_ASSERT_BSON_EQUAL_FILE (const bson_t *b, const char *filename)$/;"	f	file:
+BSON_ASSERT_CMPINT	tests/bson-tests.h	43;"	d
+BSON_ASSERT_CMPSTR	tests/bson-tests.h	30;"	d
+BSON_ASSERT_KEY_AND_VALUE	tests/test-bson.c	/^BSON_ASSERT_KEY_AND_VALUE (const bson_t *bson)$/;"	f	file:
+BSON_ATOMIC_H	src/bson/bson-atomic.h	19;"	d
+BSON_BEGIN_DECLS	src/bson/bson-macros.h	46;"	d
+BSON_BEGIN_DECLS	src/bson/bson-macros.h	49;"	d
+BSON_BIG_ENDIAN	src/bson/bson-endian.h	39;"	d
+BSON_CALL	src/bson/bson-macros.h	105;"	d
+BSON_CALL	src/bson/bson-macros.h	112;"	d
+BSON_CALL	src/bson/bson-macros.h	92;"	d
+BSON_CLOCK_H	src/bson/bson-clock.h	19;"	d
+BSON_COMPAT_H	src/bson/bson-compat.h	19;"	d
+BSON_CONTEXT_DISABLE_HOST_CACHE	src/bson/bson-types.h	/^   BSON_CONTEXT_DISABLE_HOST_CACHE = (1 << 1),$/;"	e	enum:__anon46
+BSON_CONTEXT_DISABLE_PID_CACHE	src/bson/bson-types.h	/^   BSON_CONTEXT_DISABLE_PID_CACHE = (1 << 2),$/;"	e	enum:__anon46
+BSON_CONTEXT_H	src/bson/bson-context.h	19;"	d
+BSON_CONTEXT_NONE	src/bson/bson-types.h	/^   BSON_CONTEXT_NONE = 0,$/;"	e	enum:__anon46
+BSON_CONTEXT_PRIVATE_H	src/bson/bson-context-private.h	19;"	d
+BSON_CONTEXT_THREAD_SAFE	src/bson/bson-types.h	/^   BSON_CONTEXT_THREAD_SAFE = (1 << 0),$/;"	e	enum:__anon46
+BSON_CONTEXT_USE_TASK_ID	src/bson/bson-types.h	/^   BSON_CONTEXT_USE_TASK_ID = (1 << 3),$/;"	e	enum:__anon46
+BSON_DECIMAL128_EXPONENT_BIAS	src/bson/bson-decimal128.c	30;"	d	file:
+BSON_DECIMAL128_EXPONENT_MAX	src/bson/bson-decimal128.c	28;"	d	file:
+BSON_DECIMAL128_EXPONENT_MIN	src/bson/bson-decimal128.c	29;"	d	file:
+BSON_DECIMAL128_H	src/bson/bson-decimal128.h	19;"	d
+BSON_DECIMAL128_INF	src/bson/bson-decimal128.h	44;"	d
+BSON_DECIMAL128_MAX_DIGITS	src/bson/bson-decimal128.c	31;"	d	file:
+BSON_DECIMAL128_NAN	src/bson/bson-decimal128.h	45;"	d
+BSON_DECIMAL128_SET_INF	src/bson/bson-decimal128.c	38;"	d	file:
+BSON_DECIMAL128_SET_NAN	src/bson/bson-decimal128.c	33;"	d	file:
+BSON_DECIMAL128_STRING	src/bson/bson-decimal128.h	43;"	d
+BSON_DOUBLE_FROM_LE	src/bson/bson-endian.h	98;"	d
+BSON_DOUBLE_TO_LE	src/bson/bson-endian.h	99;"	d
+BSON_ENDIAN_H	src/bson/bson-endian.h	19;"	d
+BSON_END_DECLS	src/bson/bson-macros.h	47;"	d
+BSON_END_DECLS	src/bson/bson-macros.h	50;"	d
+BSON_ENSURE_ARRAY_PARAM_SIZE	src/bson/bson-macros.h	273;"	d
+BSON_ENSURE_ARRAY_PARAM_SIZE	src/bson/bson-macros.h	276;"	d
+BSON_ERROR_BUFFER_SIZE	src/bson/bson-types.h	494;"	d
+BSON_ERROR_H	src/bson/bson-error.h	19;"	d
+BSON_ERROR_INVALID	src/bson/bson-error.h	32;"	d
+BSON_ERROR_JSON	src/bson/bson-error.h	30;"	d
+BSON_ERROR_READER	src/bson/bson-error.h	31;"	d
+BSON_ERROR_READER_BADFD	src/bson/bson-reader.h	35;"	d
+BSON_EXPORT	src/bson/bson-macros.h	116;"	d
+BSON_FLAG_CHILD	src/bson/bson-private.h	/^   BSON_FLAG_CHILD = (1 << 3),$/;"	e	enum:__anon33
+BSON_FLAG_INLINE	src/bson/bson-private.h	/^   BSON_FLAG_INLINE = (1 << 0),$/;"	e	enum:__anon33
+BSON_FLAG_IN_CHILD	src/bson/bson-private.h	/^   BSON_FLAG_IN_CHILD = (1 << 4),$/;"	e	enum:__anon33
+BSON_FLAG_NONE	src/bson/bson-private.h	/^   BSON_FLAG_NONE = 0,$/;"	e	enum:__anon33
+BSON_FLAG_NO_FREE	src/bson/bson-private.h	/^   BSON_FLAG_NO_FREE = (1 << 5),$/;"	e	enum:__anon33
+BSON_FLAG_RDONLY	src/bson/bson-private.h	/^   BSON_FLAG_RDONLY = (1 << 2),$/;"	e	enum:__anon33
+BSON_FLAG_STATIC	src/bson/bson-private.h	/^   BSON_FLAG_STATIC = (1 << 1),$/;"	e	enum:__anon33
+BSON_FUNC	src/bson/bson-macros.h	183;"	d
+BSON_FUNC	src/bson/bson-macros.h	185;"	d
+BSON_FUNC	src/bson/bson-macros.h	187;"	d
+BSON_GNUC_CHECK_VERSION	src/bson/bson-macros.h	55;"	d
+BSON_GNUC_CHECK_VERSION	src/bson/bson-macros.h	59;"	d
+BSON_GNUC_CONST	src/bson/bson-macros.h	223;"	d
+BSON_GNUC_CONST	src/bson/bson-macros.h	226;"	d
+BSON_GNUC_DEPRECATED	src/bson/bson-macros.h	282;"	d
+BSON_GNUC_DEPRECATED	src/bson/bson-macros.h	284;"	d
+BSON_GNUC_DEPRECATED_FOR	src/bson/bson-macros.h	289;"	d
+BSON_GNUC_DEPRECATED_FOR	src/bson/bson-macros.h	292;"	d
+BSON_GNUC_INTERNAL	src/bson/bson-macros.h	233;"	d
+BSON_GNUC_INTERNAL	src/bson/bson-macros.h	236;"	d
+BSON_GNUC_IS_VERSION	src/bson/bson-macros.h	64;"	d
+BSON_GNUC_IS_VERSION	src/bson/bson-macros.h	67;"	d
+BSON_GNUC_NULL_TERMINATED	src/bson/bson-macros.h	232;"	d
+BSON_GNUC_NULL_TERMINATED	src/bson/bson-macros.h	235;"	d
+BSON_GNUC_PRINTF	src/bson/bson-macros.h	250;"	d
+BSON_GNUC_PRINTF	src/bson/bson-macros.h	252;"	d
+BSON_GNUC_PRINTF	src/bson/bson-macros.h	254;"	d
+BSON_GNUC_WARN_UNUSED_RESULT	src/bson/bson-macros.h	224;"	d
+BSON_GNUC_WARN_UNUSED_RESULT	src/bson/bson-macros.h	227;"	d
+BSON_H	src/bson/bson.h	19;"	d
+BSON_INITIALIZER	src/bson/bson-types.h	140;"	d
+BSON_INLINE	src/bson/bson-macros.h	266;"	d
+BSON_INLINE	src/bson/bson-macros.h	268;"	d
+BSON_INLINE_DATA_SIZE	src/bson/bson-private.h	57;"	d
+BSON_INSIDE	src/bson/bson.h	21;"	d
+BSON_INSIDE	src/bson/bson.h	51;"	d
+BSON_INSIDE	tests/test-bson.c	20;"	d	file:
+BSON_INSIDE	tests/test-bson.c	22;"	d	file:
+BSON_INSIDE	tests/test-oid.c	19;"	d	file:
+BSON_INSIDE	tests/test-oid.c	21;"	d	file:
+BSON_ISO8601_PRIVATE_H	src/bson/bson-iso8601-private.h	19;"	d
+BSON_ITER_H	src/bson/bson-iter.h	19;"	d
+BSON_ITER_HOLDS_ARRAY	src/bson/bson-iter.h	44;"	d
+BSON_ITER_HOLDS_BINARY	src/bson/bson-iter.h	46;"	d
+BSON_ITER_HOLDS_BOOL	src/bson/bson-iter.h	54;"	d
+BSON_ITER_HOLDS_CODE	src/bson/bson-iter.h	66;"	d
+BSON_ITER_HOLDS_CODEWSCOPE	src/bson/bson-iter.h	71;"	d
+BSON_ITER_HOLDS_DATE_TIME	src/bson/bson-iter.h	56;"	d
+BSON_ITER_HOLDS_DBPOINTER	src/bson/bson-iter.h	63;"	d
+BSON_ITER_HOLDS_DECIMAL128	src/bson/bson-iter.h	81;"	d
+BSON_ITER_HOLDS_DOCUMENT	src/bson/bson-iter.h	41;"	d
+BSON_ITER_HOLDS_DOUBLE	src/bson/bson-iter.h	36;"	d
+BSON_ITER_HOLDS_INT	src/bson/bson-iter.h	90;"	d
+BSON_ITER_HOLDS_INT32	src/bson/bson-iter.h	74;"	d
+BSON_ITER_HOLDS_INT64	src/bson/bson-iter.h	79;"	d
+BSON_ITER_HOLDS_MAXKEY	src/bson/bson-iter.h	84;"	d
+BSON_ITER_HOLDS_MINKEY	src/bson/bson-iter.h	87;"	d
+BSON_ITER_HOLDS_NULL	src/bson/bson-iter.h	59;"	d
+BSON_ITER_HOLDS_NUMBER	src/bson/bson-iter.h	93;"	d
+BSON_ITER_HOLDS_OID	src/bson/bson-iter.h	52;"	d
+BSON_ITER_HOLDS_REGEX	src/bson/bson-iter.h	61;"	d
+BSON_ITER_HOLDS_SYMBOL	src/bson/bson-iter.h	68;"	d
+BSON_ITER_HOLDS_TIMESTAMP	src/bson/bson-iter.h	76;"	d
+BSON_ITER_HOLDS_UNDEFINED	src/bson/bson-iter.h	49;"	d
+BSON_ITER_HOLDS_UTF8	src/bson/bson-iter.h	39;"	d
+BSON_ITER_IS_KEY	src/bson/bson-iter.h	96;"	d
+BSON_JSON_DEFAULT_BUF_SIZE	src/bson/bson-json.c	47;"	d	file:
+BSON_JSON_ERROR_READ_CB_FAILURE	src/bson/bson-json.h	/^   BSON_JSON_ERROR_READ_CB_FAILURE,$/;"	e	enum:__anon3
+BSON_JSON_ERROR_READ_CORRUPT_JS	src/bson/bson-json.h	/^   BSON_JSON_ERROR_READ_CORRUPT_JS = 1,$/;"	e	enum:__anon3
+BSON_JSON_ERROR_READ_INVALID_PARAM	src/bson/bson-json.h	/^   BSON_JSON_ERROR_READ_INVALID_PARAM,$/;"	e	enum:__anon3
+BSON_JSON_FRAME_ARRAY	src/bson/bson-json.c	/^   BSON_JSON_FRAME_ARRAY,$/;"	e	enum:__anon9	file:
+BSON_JSON_FRAME_DBPOINTER	src/bson/bson-json.c	/^   BSON_JSON_FRAME_DBPOINTER,$/;"	e	enum:__anon9	file:
+BSON_JSON_FRAME_DOC	src/bson/bson-json.c	/^   BSON_JSON_FRAME_DOC,$/;"	e	enum:__anon9	file:
+BSON_JSON_FRAME_SCOPE	src/bson/bson-json.c	/^   BSON_JSON_FRAME_SCOPE,$/;"	e	enum:__anon9	file:
+BSON_JSON_H	src/bson/bson-json.h	19;"	d
+BSON_JSON_MODE_CANONICAL	src/bson/bson.c	/^   BSON_JSON_MODE_CANONICAL,$/;"	e	enum:__anon30	file:
+BSON_JSON_MODE_LEGACY	src/bson/bson.c	/^   BSON_JSON_MODE_LEGACY,$/;"	e	enum:__anon30	file:
+BSON_JSON_MODE_RELAXED	src/bson/bson.c	/^   BSON_JSON_MODE_RELAXED,$/;"	e	enum:__anon30	file:
+BSON_KEYS_H	src/bson/bson-keys.h	19;"	d
+BSON_LIKELY	src/bson/bson-macros.h	241;"	d
+BSON_LIKELY	src/bson/bson-macros.h	244;"	d
+BSON_LITTLE_ENDIAN	src/bson/bson-endian.h	40;"	d
+BSON_MACROS_H	src/bson/bson-macros.h	19;"	d
+BSON_MAX	src/bson/bson-macros.h	131;"	d
+BSON_MAX	src/bson/bson-macros.h	133;"	d
+BSON_MAX	src/bson/bson-macros.h	135;"	d
+BSON_MAX	src/bson/bson-macros.h	137;"	d
+BSON_MAX_RECURSION	src/bson/bson.c	30;"	d	file:
+BSON_MAX_SIZE	src/bson/bson.h	99;"	d
+BSON_MD5_H	src/bson/bson-md5.h	58;"	d
+BSON_MEMORY_H	src/bson/bson-memory.h	19;"	d
+BSON_MIN	src/bson/bson-macros.h	120;"	d
+BSON_MIN	src/bson/bson-macros.h	122;"	d
+BSON_MIN	src/bson/bson-macros.h	124;"	d
+BSON_MIN	src/bson/bson-macros.h	126;"	d
+BSON_OID_H	src/bson/bson-oid.h	19;"	d
+BSON_ONCE_FUN	src/bson/bson-context.c	/^static BSON_ONCE_FUN (_bson_context_init_default)$/;"	f	file:
+BSON_ONCE_FUN	src/bson/bson-thread-private.h	47;"	d
+BSON_ONCE_INIT	src/bson/bson-thread-private.h	50;"	d
+BSON_ONCE_RETURN	src/bson/bson-thread-private.h	48;"	d
+BSON_OS_UNIX	src/bson/bson-macros.h	37;"	d
+BSON_OS_WIN32	src/bson/bson-macros.h	39;"	d
+BSON_PRIVATE_H	src/bson/bson-private.h	19;"	d
+BSON_READER_DATA	src/bson/bson-reader.c	/^   BSON_READER_DATA = 2,$/;"	e	enum:__anon68	file:
+BSON_READER_H	src/bson/bson-reader.h	19;"	d
+BSON_READER_HANDLE	src/bson/bson-reader.c	/^   BSON_READER_HANDLE = 1,$/;"	e	enum:__anon68	file:
+BSON_REGEX_OPTIONS_SORTED	src/bson/bson-private.h	89;"	d
+BSON_STATE_ENUM	src/bson/bson-json.c	79;"	d	file:
+BSON_STATIC_ASSERT	src/bson/bson-macros.h	204;"	d
+BSON_STATIC_ASSERT2	src/bson/bson-macros.h	212;"	d
+BSON_STATIC_ASSERT2_	src/bson/bson-macros.h	217;"	d
+BSON_STATIC_ASSERT_	src/bson/bson-macros.h	207;"	d
+BSON_STATIC_ASSERT_JOIN	src/bson/bson-macros.h	205;"	d
+BSON_STATIC_ASSERT_JOIN2	src/bson/bson-macros.h	206;"	d
+BSON_STATIC_ASSERT_JOIN3	src/bson/bson-macros.h	214;"	d
+BSON_STATIC_ASSERT_JOIN4	src/bson/bson-macros.h	216;"	d
+BSON_STRING_H	src/bson/bson-string.h	19;"	d
+BSON_SUBTYPE_BINARY	src/bson/bson-types.h	/^   BSON_SUBTYPE_BINARY = 0x00,$/;"	e	enum:__anon51
+BSON_SUBTYPE_BINARY_DEPRECATED	src/bson/bson-types.h	/^   BSON_SUBTYPE_BINARY_DEPRECATED = 0x02,$/;"	e	enum:__anon51
+BSON_SUBTYPE_FUNCTION	src/bson/bson-types.h	/^   BSON_SUBTYPE_FUNCTION = 0x01,$/;"	e	enum:__anon51
+BSON_SUBTYPE_MD5	src/bson/bson-types.h	/^   BSON_SUBTYPE_MD5 = 0x05,$/;"	e	enum:__anon51
+BSON_SUBTYPE_USER	src/bson/bson-types.h	/^   BSON_SUBTYPE_USER = 0x80,$/;"	e	enum:__anon51
+BSON_SUBTYPE_UUID	src/bson/bson-types.h	/^   BSON_SUBTYPE_UUID = 0x04,$/;"	e	enum:__anon51
+BSON_SUBTYPE_UUID_DEPRECATED	src/bson/bson-types.h	/^   BSON_SUBTYPE_UUID_DEPRECATED = 0x03,$/;"	e	enum:__anon51
+BSON_TESTS_H	tests/bson-tests.h	19;"	d
+BSON_THREAD_PRIVATE_H	src/bson/bson-thread-private.h	19;"	d
+BSON_TIMEGM_PRIVATE_H	src/bson/bson-timegm-private.h	19;"	d
+BSON_TYPEOF	src/bson/bson-macros.h	274;"	d
+BSON_TYPEOF	src/bson/bson-macros.h	277;"	d
+BSON_TYPES_H	src/bson/bson-types.h	19;"	d
+BSON_TYPE_ARRAY	src/bson/bson-types.h	/^   BSON_TYPE_ARRAY = 0x04,$/;"	e	enum:__anon50
+BSON_TYPE_BINARY	src/bson/bson-types.h	/^   BSON_TYPE_BINARY = 0x05,$/;"	e	enum:__anon50
+BSON_TYPE_BOOL	src/bson/bson-types.h	/^   BSON_TYPE_BOOL = 0x08,$/;"	e	enum:__anon50
+BSON_TYPE_CODE	src/bson/bson-types.h	/^   BSON_TYPE_CODE = 0x0D,$/;"	e	enum:__anon50
+BSON_TYPE_CODEWSCOPE	src/bson/bson-types.h	/^   BSON_TYPE_CODEWSCOPE = 0x0F,$/;"	e	enum:__anon50
+BSON_TYPE_DATE_TIME	src/bson/bson-types.h	/^   BSON_TYPE_DATE_TIME = 0x09,$/;"	e	enum:__anon50
+BSON_TYPE_DBPOINTER	src/bson/bson-types.h	/^   BSON_TYPE_DBPOINTER = 0x0C,$/;"	e	enum:__anon50
+BSON_TYPE_DECIMAL128	src/bson/bson-types.h	/^   BSON_TYPE_DECIMAL128 = 0x13,$/;"	e	enum:__anon50
+BSON_TYPE_DOCUMENT	src/bson/bson-types.h	/^   BSON_TYPE_DOCUMENT = 0x03,$/;"	e	enum:__anon50
+BSON_TYPE_DOUBLE	src/bson/bson-types.h	/^   BSON_TYPE_DOUBLE = 0x01,$/;"	e	enum:__anon50
+BSON_TYPE_EOD	src/bson/bson-types.h	/^   BSON_TYPE_EOD = 0x00,$/;"	e	enum:__anon50
+BSON_TYPE_INT32	src/bson/bson-types.h	/^   BSON_TYPE_INT32 = 0x10,$/;"	e	enum:__anon50
+BSON_TYPE_INT64	src/bson/bson-types.h	/^   BSON_TYPE_INT64 = 0x12,$/;"	e	enum:__anon50
+BSON_TYPE_MAXKEY	src/bson/bson-types.h	/^   BSON_TYPE_MAXKEY = 0x7F,$/;"	e	enum:__anon50
+BSON_TYPE_MINKEY	src/bson/bson-types.h	/^   BSON_TYPE_MINKEY = 0xFF,$/;"	e	enum:__anon50
+BSON_TYPE_NULL	src/bson/bson-types.h	/^   BSON_TYPE_NULL = 0x0A,$/;"	e	enum:__anon50
+BSON_TYPE_OID	src/bson/bson-types.h	/^   BSON_TYPE_OID = 0x07,$/;"	e	enum:__anon50
+BSON_TYPE_REGEX	src/bson/bson-types.h	/^   BSON_TYPE_REGEX = 0x0B,$/;"	e	enum:__anon50
+BSON_TYPE_SYMBOL	src/bson/bson-types.h	/^   BSON_TYPE_SYMBOL = 0x0E,$/;"	e	enum:__anon50
+BSON_TYPE_TIMESTAMP	src/bson/bson-types.h	/^   BSON_TYPE_TIMESTAMP = 0x11,$/;"	e	enum:__anon50
+BSON_TYPE_UNDEFINED	src/bson/bson-types.h	/^   BSON_TYPE_UNDEFINED = 0x06,$/;"	e	enum:__anon50
+BSON_TYPE_UTF8	src/bson/bson-types.h	/^   BSON_TYPE_UTF8 = 0x02,$/;"	e	enum:__anon50
+BSON_UINT16_FROM_BE	src/bson/bson-endian.h	88;"	d
+BSON_UINT16_FROM_LE	src/bson/bson-endian.h	86;"	d
+BSON_UINT16_SWAP_LE_BE	src/bson/bson-endian.h	44;"	d
+BSON_UINT16_SWAP_LE_BE	src/bson/bson-endian.h	71;"	d
+BSON_UINT16_TO_BE	src/bson/bson-endian.h	89;"	d
+BSON_UINT16_TO_LE	src/bson/bson-endian.h	87;"	d
+BSON_UINT32_FROM_BE	src/bson/bson-endian.h	92;"	d
+BSON_UINT32_FROM_LE	src/bson/bson-endian.h	90;"	d
+BSON_UINT32_SWAP_LE_BE	src/bson/bson-endian.h	45;"	d
+BSON_UINT32_SWAP_LE_BE	src/bson/bson-endian.h	76;"	d
+BSON_UINT32_TO_BE	src/bson/bson-endian.h	93;"	d
+BSON_UINT32_TO_LE	src/bson/bson-endian.h	91;"	d
+BSON_UINT64_FROM_BE	src/bson/bson-endian.h	96;"	d
+BSON_UINT64_FROM_LE	src/bson/bson-endian.h	94;"	d
+BSON_UINT64_SWAP_LE_BE	src/bson/bson-endian.h	46;"	d
+BSON_UINT64_SWAP_LE_BE	src/bson/bson-endian.h	81;"	d
+BSON_UINT64_TO_BE	src/bson/bson-endian.h	97;"	d
+BSON_UINT64_TO_LE	src/bson/bson-endian.h	95;"	d
+BSON_UNLIKELY	src/bson/bson-macros.h	242;"	d
+BSON_UNLIKELY	src/bson/bson-macros.h	245;"	d
+BSON_UTF8_H	src/bson/bson-utf8.h	19;"	d
+BSON_VALIDATE_DOLLAR_KEYS	src/bson/bson-types.h	/^   BSON_VALIDATE_DOLLAR_KEYS = (1 << 1),$/;"	e	enum:__anon49
+BSON_VALIDATE_DOT_KEYS	src/bson/bson-types.h	/^   BSON_VALIDATE_DOT_KEYS = (1 << 2),$/;"	e	enum:__anon49
+BSON_VALIDATE_EMPTY_KEYS	src/bson/bson-types.h	/^   BSON_VALIDATE_EMPTY_KEYS = (1 << 4),$/;"	e	enum:__anon49
+BSON_VALIDATE_NONE	src/bson/bson-types.h	/^   BSON_VALIDATE_NONE = 0,$/;"	e	enum:__anon49
+BSON_VALIDATE_PHASE_LF_DB_KEY	src/bson/bson.c	/^   BSON_VALIDATE_PHASE_LF_DB_KEY,$/;"	e	enum:__anon29	file:
+BSON_VALIDATE_PHASE_LF_DB_UTF8	src/bson/bson.c	/^   BSON_VALIDATE_PHASE_LF_DB_UTF8,$/;"	e	enum:__anon29	file:
+BSON_VALIDATE_PHASE_LF_ID_KEY	src/bson/bson.c	/^   BSON_VALIDATE_PHASE_LF_ID_KEY,$/;"	e	enum:__anon29	file:
+BSON_VALIDATE_PHASE_LF_REF_KEY	src/bson/bson.c	/^   BSON_VALIDATE_PHASE_LF_REF_KEY,$/;"	e	enum:__anon29	file:
+BSON_VALIDATE_PHASE_LF_REF_UTF8	src/bson/bson.c	/^   BSON_VALIDATE_PHASE_LF_REF_UTF8,$/;"	e	enum:__anon29	file:
+BSON_VALIDATE_PHASE_NOT_DBREF	src/bson/bson.c	/^   BSON_VALIDATE_PHASE_NOT_DBREF,$/;"	e	enum:__anon29	file:
+BSON_VALIDATE_PHASE_START	src/bson/bson.c	/^   BSON_VALIDATE_PHASE_START,$/;"	e	enum:__anon29	file:
+BSON_VALIDATE_PHASE_TOP	src/bson/bson.c	/^   BSON_VALIDATE_PHASE_TOP,$/;"	e	enum:__anon29	file:
+BSON_VALIDATE_UTF8	src/bson/bson-types.h	/^   BSON_VALIDATE_UTF8 = (1 << 0),$/;"	e	enum:__anon49
+BSON_VALIDATE_UTF8_ALLOW_NULL	src/bson/bson-types.h	/^   BSON_VALIDATE_UTF8_ALLOW_NULL = (1 << 3),$/;"	e	enum:__anon49
+BSON_VALUE_H	src/bson/bson-value.h	19;"	d
+BSON_VERSION_FUNCTIONS_H	src/bson/bson-version-functions.h	24;"	d
+BSON_WORD_SIZE	src/bson/bson-macros.h	259;"	d
+BSON_WORD_SIZE	src/bson/bson-macros.h	261;"	d
+BSON_WRITER_H	src/bson/bson-writer.h	19;"	d
+BYTE_ORDER	src/bson/bson-md5.c	66;"	d	file:
+BYTE_ORDER	src/bson/bson-md5.c	68;"	d	file:
+BYTE_ORDER	src/bson/bson-md5.c	70;"	d	file:
+Base64	src/bson/b64_ntop.h	/^static const char Base64[] =$/;"	v
+Base64	src/bson/b64_pton.h	/^static const char Base64[] =$/;"	v
+CALLBACK_AND_POP	src/jsonsl/jsonsl.c	1658;"	d	file:
+CALLBACK_AND_POP	src/jsonsl/jsonsl.c	255;"	d	file:
+CALLBACK_AND_POP_NOPOS	src/jsonsl/jsonsl.c	1657;"	d	file:
+CALLBACK_AND_POP_NOPOS	src/jsonsl/jsonsl.c	249;"	d	file:
+CASE_DIGITS	src/jsonsl/jsonsl.c	1652;"	d	file:
+CASE_DIGITS	src/jsonsl/jsonsl.c	83;"	d	file:
+CEIL	tests/TestSuite.c	694;"	d	file:
+CHECK_TYPE	src/bson/bcon.c	296;"	d	file:
+CODE	src/bson/bcon.c	/^   const char **CODE;$/;"	m	union:bcon_extract	file:
+CODE	src/bson/bcon.c	/^   const char *CODE;$/;"	m	union:bcon_append	file:
+CODEWSCOPE	src/bson/bcon.c	/^   } CODEWSCOPE;$/;"	m	union:bcon_append	typeref:struct:bcon_append::__anon39	file:
+CODEWSCOPE	src/bson/bcon.c	/^   } CODEWSCOPE;$/;"	m	union:bcon_extract	typeref:struct:bcon_extract::__anon44	file:
+COL_VIEW_CREATE	examples/bcon-col-view.c	23;"	d	file:
+CONTINUE_NEXT_CHAR	src/jsonsl/jsonsl.c	306;"	d	file:
+CORPUS_TEST_H	tests/corpus-test.h	18;"	d
+CUR_CHAR	src/jsonsl/jsonsl.c	1660;"	d	file:
+CUR_CHAR	src/jsonsl/jsonsl.c	264;"	d	file:
+CheckFunc	tests/TestSuite.h	/^typedef int (*CheckFunc) (void);$/;"	t
+DATE_PARSE_ERR	src/bson/bson-iso8601.c	142;"	d	file:
+DATE_TIME	src/bson/bcon.c	/^   int64_t *DATE_TIME;$/;"	m	union:bcon_extract	file:
+DATE_TIME	src/bson/bcon.c	/^   int64_t DATE_TIME;$/;"	m	union:bcon_append	file:
+DAYSPERLYEAR	src/bson/bson-timegm.c	87;"	d	file:
+DAYSPERNYEAR	src/bson/bson-timegm.c	86;"	d	file:
+DAYSPERWEEK	src/bson/bson-timegm.c	85;"	d	file:
+DAY_OF_YEAR	src/bson/bson-timegm.c	221;"	d	file:
+DBPOINTER	src/bson/bcon.c	/^   } DBPOINTER;$/;"	m	union:bcon_append	typeref:struct:bcon_append::__anon38	file:
+DBPOINTER	src/bson/bcon.c	/^   } DBPOINTER;$/;"	m	union:bcon_extract	typeref:struct:bcon_extract::__anon43	file:
+DECIMAL128	src/bson/bcon.c	/^   bson_decimal128_t *DECIMAL128;$/;"	m	union:bcon_append	file:
+DECIMAL128	src/bson/bcon.c	/^   bson_decimal128_t *DECIMAL128;$/;"	m	union:bcon_extract	file:
+DECIMAL128_FROM_ULLS	tests/test-decimal128.c	40;"	d	file:
+DEFAULT_DATE_PARSE_ERR	src/bson/bson-iso8601.c	150;"	d	file:
+DEFAULT_HOST	examples/bson-streaming-reader.c	34;"	d	file:
+DEFAULT_PORT	examples/bson-streaming-reader.c	33;"	d	file:
+DELTA_EPOCH_IN_MICROSEC	src/bson/bson-clock.c	59;"	d	file:
+DOCUMENT	src/bson/bcon.c	/^   bson_t *DOCUMENT;$/;"	m	union:bcon_append	file:
+DOCUMENT	src/bson/bcon.c	/^   bson_t *DOCUMENT;$/;"	m	union:bcon_extract	file:
+DOUBLE	src/bson/bcon.c	/^   double *DOUBLE;$/;"	m	union:bcon_extract	file:
+DOUBLE	src/bson/bcon.c	/^   double DOUBLE;$/;"	m	union:bcon_append	file:
+DO_CALLBACK	src/jsonsl/jsonsl.c	1661;"	d	file:
+DO_CALLBACK	src/jsonsl/jsonsl.c	266;"	d	file:
+Directive	doc/taglist.py	/^    from docutils.parsers.rst import Directive$/;"	i
+Directive	doc/taglist.py	/^    from sphinx.util.compat import Directive$/;"	i
+ELE_END	examples/bcon-col-view.c	/^   ELE_END,$/;"	e	enum:ele	file:
+ELE_LIMIT	examples/bcon-col-view.c	/^   ELE_LIMIT,$/;"	e	enum:ele	file:
+ELE_QUERY	examples/bcon-col-view.c	/^   ELE_QUERY,$/;"	e	enum:ele	file:
+ELE_SORT	examples/bcon-col-view.c	/^   ELE_SORT,$/;"	e	enum:ele	file:
+END	tests/test-string.c	202;"	d	file:
+END	tests/test-string.c	204;"	d	file:
+END	tests/test-string.c	272;"	d	file:
+END_IGNORE_DEPRECATIONS	src/bson/bson-private.h	31;"	d
+END_IGNORE_DEPRECATIONS	src/bson/bson-private.h	36;"	d
+END_IGNORE_DEPRECATIONS	src/bson/bson-private.h	39;"	d
+ENSURE_HVAL	src/jsonsl/jsonsl.c	1662;"	d	file:
+ENSURE_HVAL	src/jsonsl/jsonsl.c	282;"	d	file:
+EPOCH_WDAY	src/bson/bson-timegm.c	116;"	d	file:
+EPOCH_YEAR	src/bson/bson-timegm.c	115;"	d	file:
+EU	tests/test-bson.c	1367;"	d	file:
+EU	tests/test-json.c	587;"	d	file:
+Escape_Equivs	src/jsonsl/jsonsl.c	/^static unsigned char Escape_Equivs[0x100] = {$/;"	v	file:
+F	src/bson/bson-md5.c	220;"	d	file:
+FASTPARSE_BREAK	src/jsonsl/jsonsl.c	148;"	d	file:
+FASTPARSE_BREAK	src/jsonsl/jsonsl.c	1668;"	d	file:
+FASTPARSE_EXHAUSTED	src/jsonsl/jsonsl.c	147;"	d	file:
+FASTPARSE_EXHAUSTED	src/jsonsl/jsonsl.c	1667;"	d	file:
+FIVE_EUROS	tests/test-bson.c	1368;"	d	file:
+FIVE_EUROS	tests/test-json.c	588;"	d	file:
+FOREACH_BSON_STATE	src/bson/bson-json.c	/^   FOREACH_BSON_STATE (BSON_STATE_ENUM)$/;"	e	enum:__anon7	file:
+FOREACH_BSON_STATE	src/bson/bson-json.c	81;"	d	file:
+FOREACH_READ_STATE	src/bson/bson-json.c	/^typedef enum { FOREACH_READ_STATE (READ_STATE_ENUM) } bson_json_read_state_t;$/;"	e	enum:__anon6	file:
+FOREACH_READ_STATE	src/bson/bson-json.c	54;"	d	file:
+FUZZ_N_PASSES	tests/test-iter.c	30;"	d	file:
+G	src/bson/bson-md5.c	246;"	d	file:
+GENERATE_STRING	src/bson/bson-json.c	52;"	d	file:
+GET_DIGIT	src/jsonsl/jsonsl.c	1305;"	d	file:
+GET_DIGIT	src/jsonsl/jsonsl.c	1314;"	d	file:
+GenericCounter	src/jsonsl/jsonsl.c	/^static unsigned long GenericCounter[0x100] = { 0 };$/;"	v	file:
+GlobalMetrics	src/jsonsl/jsonsl.c	/^static struct jsonsl_metrics_st GlobalMetrics = { 0 };$/;"	v	typeref:struct:jsonsl_metrics_st	file:
+H	src/bson/bson-md5.c	272;"	d	file:
+HANDLE_OPTION	src/bson/bson-json.c	378;"	d	file:
+HOST_NAME_MAX	src/bson/bson-context.c	39;"	d	file:
+HOURSPERDAY	src/bson/bson-timegm.c	84;"	d	file:
+I	src/bson/bson-md5.c	298;"	d	file:
+INCR_GENERIC	src/jsonsl/jsonsl.c	1650;"	d	file:
+INCR_GENERIC	src/jsonsl/jsonsl.c	43;"	d	file:
+INCR_GENERIC	src/jsonsl/jsonsl.c	77;"	d	file:
+INCR_METRIC	src/jsonsl/jsonsl.c	1649;"	d	file:
+INCR_METRIC	src/jsonsl/jsonsl.c	40;"	d	file:
+INCR_METRIC	src/jsonsl/jsonsl.c	76;"	d	file:
+INCR_STRINGY_CATCH	src/jsonsl/jsonsl.c	1651;"	d	file:
+INCR_STRINGY_CATCH	src/jsonsl/jsonsl.c	47;"	d	file:
+INCR_STRINGY_CATCH	src/jsonsl/jsonsl.c	78;"	d	file:
+INFO_BUFFER_SIZE	tests/TestSuite.c	556;"	d	file:
+INIT_ONCE	src/bson/bson-compat.h	/^typedef RTL_RUN_ONCE INIT_ONCE;$/;"	t
+INIT_ONCE_STATIC_INIT	src/bson/bson-compat.h	139;"	d
+INT16_C	src/bson/bson-stdint-win32.h	240;"	d
+INT16_MAX	src/bson/bson-stdint-win32.h	143;"	d
+INT16_MIN	src/bson/bson-stdint-win32.h	142;"	d
+INT32	src/bson/bcon.c	/^   int32_t *INT32;$/;"	m	union:bcon_extract	file:
+INT32	src/bson/bcon.c	/^   int32_t INT32;$/;"	m	union:bcon_append	file:
+INT32_C	src/bson/bson-stdint-win32.h	241;"	d
+INT32_MAX	src/bson/bson-stdint-win32.h	145;"	d
+INT32_MIN	src/bson/bson-stdint-win32.h	144;"	d
+INT64	src/bson/bcon.c	/^   int64_t *INT64;$/;"	m	union:bcon_extract	file:
+INT64	src/bson/bcon.c	/^   int64_t INT64;$/;"	m	union:bcon_append	file:
+INT64_C	src/bson/bson-stdint-win32.h	242;"	d
+INT64_MAX	src/bson/bson-stdint-win32.h	147;"	d
+INT64_MIN	src/bson/bson-stdint-win32.h	146;"	d
+INT8_C	src/bson/bson-stdint-win32.h	239;"	d
+INT8_MAX	src/bson/bson-stdint-win32.h	141;"	d
+INT8_MIN	src/bson/bson-stdint-win32.h	140;"	d
+INTMAX_C	src/bson/bson-stdint-win32.h	253;"	d
+INTMAX_MAX	src/bson/bson-stdint-win32.h	194;"	d
+INTMAX_MIN	src/bson/bson-stdint-win32.h	193;"	d
+INTPTR_MAX	src/bson/bson-stdint-win32.h	184;"	d
+INTPTR_MAX	src/bson/bson-stdint-win32.h	188;"	d
+INTPTR_MIN	src/bson/bson-stdint-win32.h	183;"	d
+INTPTR_MIN	src/bson/bson-stdint-win32.h	187;"	d
+INT_FAST16_MAX	src/bson/bson-stdint-win32.h	171;"	d
+INT_FAST16_MIN	src/bson/bson-stdint-win32.h	170;"	d
+INT_FAST32_MAX	src/bson/bson-stdint-win32.h	173;"	d
+INT_FAST32_MIN	src/bson/bson-stdint-win32.h	172;"	d
+INT_FAST64_MAX	src/bson/bson-stdint-win32.h	175;"	d
+INT_FAST64_MIN	src/bson/bson-stdint-win32.h	174;"	d
+INT_FAST8_MAX	src/bson/bson-stdint-win32.h	169;"	d
+INT_FAST8_MIN	src/bson/bson-stdint-win32.h	168;"	d
+INT_LEAST16_MAX	src/bson/bson-stdint-win32.h	157;"	d
+INT_LEAST16_MIN	src/bson/bson-stdint-win32.h	156;"	d
+INT_LEAST32_MAX	src/bson/bson-stdint-win32.h	159;"	d
+INT_LEAST32_MIN	src/bson/bson-stdint-win32.h	158;"	d
+INT_LEAST64_MAX	src/bson/bson-stdint-win32.h	161;"	d
+INT_LEAST64_MIN	src/bson/bson-stdint-win32.h	160;"	d
+INT_LEAST8_MAX	src/bson/bson-stdint-win32.h	155;"	d
+INT_LEAST8_MIN	src/bson/bson-stdint-win32.h	154;"	d
+INVOKE_ERROR	src/jsonsl/jsonsl.c	1653;"	d	file:
+INVOKE_ERROR	src/jsonsl/jsonsl.c	225;"	d	file:
+IS_KEY	src/bson/bson-json.c	1084;"	d	file:
+IS_KEY	src/bson/bson-json.c	1097;"	d	file:
+IS_NAN	tests/test-bson-corpus.c	11;"	d	file:
+IS_NAN	tests/test-decimal128.c	267;"	d	file:
+IS_NINFINITY	tests/test-decimal128.c	335;"	d	file:
+IS_NORMAL_NUMBER	src/jsonsl/jsonsl.c	1665;"	d	file:
+IS_NORMAL_NUMBER	src/jsonsl/jsonsl.c	300;"	d	file:
+IS_PINFINITY	tests/test-decimal128.c	334;"	d	file:
+IS_TIME_T_SMALL	tests/test-iso8601.c	13;"	d	file:
+ITER	src/bson/bcon.c	/^   bson_iter_t *ITER;$/;"	m	union:bcon_extract	file:
+ITER	src/bson/bcon.c	/^   const bson_iter_t *ITER;$/;"	m	union:bcon_append	file:
+ITER_TYPE	src/bson/bson-iter.c	23;"	d	file:
+JPR_BAIL	src/jsonsl/jsonsl.c	881;"	d	file:
+JPR_BAIL	src/jsonsl/jsonsl.c	969;"	d	file:
+JSONSL_ACTION_UNKNOWN	src/jsonsl/jsonsl.h	/^    JSONSL_ACTION_UNKNOWN = '?'$/;"	e	enum:__anon74
+JSONSL_API	src/jsonsl/jsonsl.h	80;"	d
+JSONSL_API	src/jsonsl/jsonsl.h	82;"	d
+JSONSL_ERROR_GENERIC	src/jsonsl/jsonsl.h	/^    JSONSL_ERROR_GENERIC$/;"	e	enum:__anon75
+JSONSL_ERROR_SUCCESS	src/jsonsl/jsonsl.h	/^    JSONSL_ERROR_SUCCESS = 0,$/;"	e	enum:__anon75
+JSONSL_H_	src/jsonsl/jsonsl.h	13;"	d
+JSONSL_INLINE	src/jsonsl/jsonsl.h	89;"	d
+JSONSL_INLINE	src/jsonsl/jsonsl.h	91;"	d
+JSONSL_INLINE	src/jsonsl/jsonsl.h	93;"	d
+JSONSL_JPR_COMPONENT_USER_FIELDS	src/jsonsl/jsonsl.h	71;"	d
+JSONSL_LIST_SIZE	src/jsonsl/jsonsl.h	375;"	d
+JSONSL_MATCH_UNKNOWN	src/jsonsl/jsonsl.h	/^    JSONSL_MATCH_UNKNOWN$/;"	e	enum:__anon77
+JSONSL_MAX_LEVELS	src/jsonsl/jsonsl.h	97;"	d
+JSONSL_NUMERIC_VALUE	src/jsonsl/jsonsl.h	389;"	d
+JSONSL_OBJECT_SIZE	src/jsonsl/jsonsl.h	381;"	d
+JSONSL_PATH_INVALID	src/jsonsl/jsonsl.h	/^    JSONSL_PATH_INVALID = -1,$/;"	e	enum:__anon78
+JSONSL_PATH_NONE	src/jsonsl/jsonsl.h	/^    JSONSL_PATH_NONE = 0$/;"	e	enum:__anon78
+JSONSL_PATH_NUMERIC	src/jsonsl/jsonsl.h	/^    JSONSL_PATH_NUMERIC,$/;"	e	enum:__anon78
+JSONSL_PATH_ROOT	src/jsonsl/jsonsl.h	/^    JSONSL_PATH_ROOT,$/;"	e	enum:__anon78
+JSONSL_PATH_STRING	src/jsonsl/jsonsl.h	/^    JSONSL_PATH_STRING = 1,$/;"	e	enum:__anon78
+JSONSL_PATH_WILDCARD	src/jsonsl/jsonsl.h	/^    JSONSL_PATH_WILDCARD,$/;"	e	enum:__anon78
+JSONSL_PATH_WILDCARD_CHAR	src/jsonsl/jsonsl.h	729;"	d
+JSONSL_SPECIALf_BOOLEAN	src/jsonsl/jsonsl.h	/^    JSONSL_SPECIALf_BOOLEAN = (JSONSL_SPECIALf_TRUE|JSONSL_SPECIALf_FALSE),$/;"	e	enum:__anon73
+JSONSL_SPECIALf_DASH	src/jsonsl/jsonsl.h	/^    JSONSL_SPECIALf_DASH    = 1 << 12,$/;"	e	enum:__anon73
+JSONSL_SPECIALf_NEG_INF	src/jsonsl/jsonsl.h	/^    JSONSL_SPECIALf_NEG_INF = (JSONSL_SPECIALf_INF|JSONSL_SPECIALf_SIGNED),$/;"	e	enum:__anon73
+JSONSL_SPECIALf_NUMERIC	src/jsonsl/jsonsl.h	/^    JSONSL_SPECIALf_NUMERIC = (JSONSL_SPECIALf_SIGNED| JSONSL_SPECIALf_UNSIGNED),$/;"	e	enum:__anon73
+JSONSL_SPECIALf_NUMNOINT	src/jsonsl/jsonsl.h	/^   JSONSL_SPECIALf_NUMNOINT =$/;"	e	enum:__anon73
+JSONSL_SPECIALf_POS_INF	src/jsonsl/jsonsl.h	/^    JSONSL_SPECIALf_POS_INF = (JSONSL_SPECIALf_INF),$/;"	e	enum:__anon73
+JSONSL_SPECIALf_UNKNOWN	src/jsonsl/jsonsl.h	/^    JSONSL_SPECIALf_UNKNOWN = 1 << 10,$/;"	e	enum:__anon73
+JSONSL_SPECIALf_ZERO	src/jsonsl/jsonsl.h	/^    JSONSL_SPECIALf_ZERO    = 1 << 11 | JSONSL_SPECIALf_UNSIGNED,$/;"	e	enum:__anon73
+JSONSL_STATE_GENERIC	src/jsonsl/jsonsl.h	62;"	d
+JSONSL_STATE_IS_CONTAINER	src/jsonsl/jsonsl.h	668;"	d
+JSONSL_STATE_USER_FIELDS	src/jsonsl/jsonsl.h	66;"	d
+JSONSL_T_ROOT	src/jsonsl/jsonsl.h	/^    JSONSL_T_ROOT = 0$/;"	e	enum:__anon72
+JSONSL_T_UNKNOWN	src/jsonsl/jsonsl.h	/^    JSONSL_T_UNKNOWN = '?',$/;"	e	enum:__anon72
+JSONSL_Tf_STRINGY	src/jsonsl/jsonsl.h	108;"	d
+JSONSL_XACTION	src/jsonsl/jsonsl.h	/^    JSONSL_XACTION$/;"	e	enum:__anon74
+JSONSL_XACTION	src/jsonsl/jsonsl.h	192;"	d
+JSONSL_XERR	src/jsonsl/jsonsl.h	/^    JSONSL_XERR$/;"	e	enum:__anon75
+JSONSL_XERR	src/jsonsl/jsonsl.h	209;"	d
+JSONSL_XMATCH	src/jsonsl/jsonsl.h	/^    JSONSL_XMATCH$/;"	e	enum:__anon77
+JSONSL_XMATCH	src/jsonsl/jsonsl.h	732;"	d
+JSONSL_XSPECIAL	src/jsonsl/jsonsl.h	/^    JSONSL_XSPECIAL$/;"	e	enum:__anon73
+JSONSL_XSPECIAL	src/jsonsl/jsonsl.h	145;"	d
+JSONSL_XTYPE	src/jsonsl/jsonsl.h	/^    JSONSL_XTYPE$/;"	e	enum:__anon72
+JSONSL_XTYPE	src/jsonsl/jsonsl.h	122;"	d
+JSONSL__INF_PROXY	src/jsonsl/jsonsl.h	36;"	d
+JSONSL__INF_PROXY	src/jsonsl/jsonsl.h	39;"	d
+JSONSL__NAN_PROXY	src/jsonsl/jsonsl.h	35;"	d
+JSONSL__NAN_PROXY	src/jsonsl/jsonsl.h	38;"	d
+JSON_DIR	tests/test-bson-corpus.c	7;"	d	file:
+JSON_DIR	tests/test-json.c	21;"	d	file:
+JSON_TEST_H	tests/json-test.h	18;"	d
+JULIAN_DAY	src/bson/bson-timegm.c	220;"	d	file:
+LIMIT	examples/bcon-col-view.c	22;"	d	file:
+MAX_NUM_TESTS	tests/json-test.h	24;"	d
+MAX_RECURSION	examples/bson-metrics.c	26;"	d	file:
+MAX_TEST_CHECK_FUNCS	tests/TestSuite.h	283;"	d
+MAX_TEST_NAME_LENGTH	tests/TestSuite.h	282;"	d
+MAX_THREADS	tests/TestSuite.c	/^const int MAX_THREADS = 10;$/;"	v
+MINSPERHOUR	src/bson/bson-timegm.c	83;"	d	file:
+MONSPERYEAR	src/bson/bson-timegm.c	90;"	d	file:
+MONTH_NTH_DAY_OF_WEEK	src/bson/bson-timegm.c	222;"	d	file:
+MY_TZNAME_MAX	src/bson/bson-timegm.c	191;"	d	file:
+MY_TZNAME_MAX	src/bson/bson-timegm.c	194;"	d	file:
+Memory_Barrier	tests/TestSuite.c	87;"	d	file:
+Mutex	tests/TestSuite.c	66;"	d	file:
+Mutex	tests/TestSuite.c	75;"	d	file:
+Mutex_Destroy	tests/TestSuite.c	70;"	d	file:
+Mutex_Destroy	tests/TestSuite.c	79;"	d	file:
+Mutex_Init	tests/TestSuite.c	67;"	d	file:
+Mutex_Init	tests/TestSuite.c	76;"	d	file:
+Mutex_Lock	tests/TestSuite.c	68;"	d	file:
+Mutex_Lock	tests/TestSuite.c	77;"	d	file:
+Mutex_Unlock	tests/TestSuite.c	69;"	d	file:
+Mutex_Unlock	tests/TestSuite.c	78;"	d	file:
+NANOSEC_PER_SEC	tests/TestSuite.c	61;"	d	file:
+NOMINMAX	src/bson/bson-compat.h	49;"	d
+N_THREADS	tests/test-oid.c	33;"	d	file:
+NoUri	doc/taglist.py	/^from sphinx.environment import NoUri$/;"	i
+OID	src/bson/bcon.c	/^   bson_oid_t *OID;$/;"	m	union:bcon_append	file:
+OID	src/bson/bcon.c	/^   const bson_oid_t **OID;$/;"	m	union:bcon_extract	file:
+PRId32	src/bson/bson-compat.h	119;"	d
+PRId64	src/bson/bson-compat.h	128;"	d
+PRIi32	src/bson/bson-compat.h	116;"	d
+PRIi64	src/bson/bson-compat.h	125;"	d
+PRIu32	src/bson/bson-compat.h	122;"	d
+PRIu64	src/bson/bson-compat.h	131;"	d
+PTRDIFF_MAX	src/bson/bson-stdint-win32.h	201;"	d
+PTRDIFF_MAX	src/bson/bson-stdint-win32.h	204;"	d
+PTRDIFF_MIN	src/bson/bson-stdint-win32.h	200;"	d
+PTRDIFF_MIN	src/bson/bson-stdint-win32.h	203;"	d
+Pad64	src/bson/b64_ntop.h	/^static const char Pad64 = '=';$/;"	v
+Pad64	src/bson/b64_pton.h	/^static const char Pad64 = '=';$/;"	v
+ParallelInfo	tests/TestSuite.c	/^} ParallelInfo;$/;"	t	typeref:struct:__anon80	file:
+QUERY	examples/bcon-col-view.c	20;"	d	file:
+RAND_R	tests/test-json.c	777;"	d	file:
+RAND_R	tests/test-json.c	779;"	d	file:
+READ_STATE_ENUM	src/bson/bson-json.c	51;"	d	file:
+REGEX	src/bson/bcon.c	/^   } REGEX;$/;"	m	union:bcon_append	typeref:struct:bcon_append::__anon37	file:
+REGEX	src/bson/bcon.c	/^   } REGEX;$/;"	m	union:bcon_extract	typeref:struct:bcon_extract::__anon42	file:
+ROTATE_LEFT	src/bson/bson-md5.c	215;"	d	file:
+SECSPERDAY	src/bson/bson-timegm.c	89;"	d	file:
+SECSPERHOUR	src/bson/bson-timegm.c	88;"	d	file:
+SECSPERMIN	src/bson/bson-timegm.c	82;"	d	file:
+SET	src/bson/bson-md5.c	221;"	d	file:
+SET	src/bson/bson-md5.c	241;"	d	file:
+SET	src/bson/bson-md5.c	247;"	d	file:
+SET	src/bson/bson-md5.c	267;"	d	file:
+SET	src/bson/bson-md5.c	273;"	d	file:
+SET	src/bson/bson-md5.c	293;"	d	file:
+SET	src/bson/bson-md5.c	299;"	d	file:
+SET	src/bson/bson-md5.c	319;"	d	file:
+SIG_ATOMIC_MAX	src/bson/bson-stdint-win32.h	208;"	d
+SIG_ATOMIC_MIN	src/bson/bson-stdint-win32.h	207;"	d
+SIZE_MAX	src/bson/bson-stdint-win32.h	212;"	d
+SIZE_MAX	src/bson/bson-stdint-win32.h	214;"	d
+SKIPPED_CORPUS_TESTS	tests/test-bson-corpus.c	/^skipped_corpus_test_t SKIPPED_CORPUS_TESTS[] = {$/;"	v
+SORT	examples/bcon-col-view.c	21;"	d	file:
+SPECIAL_POP	src/jsonsl/jsonsl.c	1659;"	d	file:
+SPECIAL_POP	src/jsonsl/jsonsl.c	259;"	d	file:
+SSCANF	src/bson/bson-decimal128.c	543;"	d	file:
+SSCANF	src/bson/bson-decimal128.c	555;"	d	file:
+SSCANF	src/bson/bson-json.c	41;"	d	file:
+SSCANF	src/bson/bson-json.c	43;"	d	file:
+SSCANF	tests/corpus-test.c	25;"	d	file:
+SSCANF	tests/corpus-test.c	27;"	d	file:
+STACK_BSON	src/bson/bcon.c	34;"	d	file:
+STACK_BSON	src/bson/bson-json.c	265;"	d	file:
+STACK_BSON_CHILD	src/bson/bcon.c	41;"	d	file:
+STACK_BSON_CHILD	src/bson/bson-json.c	268;"	d	file:
+STACK_BSON_PARENT	src/bson/bcon.c	40;"	d	file:
+STACK_BSON_PARENT	src/bson/bson-json.c	267;"	d	file:
+STACK_ELE	src/bson/bcon.c	32;"	d	file:
+STACK_ELE	src/bson/bson-json.c	264;"	d	file:
+STACK_FRAME_TYPE	src/bson/bson-json.c	270;"	d	file:
+STACK_HAS_ID	src/bson/bson-json.c	276;"	d	file:
+STACK_HAS_REF	src/bson/bson-json.c	275;"	d	file:
+STACK_I	src/bson/bcon.c	46;"	d	file:
+STACK_I	src/bson/bson-json.c	269;"	d	file:
+STACK_IS_ARRAY	src/bson/bcon.c	47;"	d	file:
+STACK_IS_ARRAY	src/bson/bson-json.c	271;"	d	file:
+STACK_IS_DBPOINTER	src/bson/bson-json.c	274;"	d	file:
+STACK_IS_DOC	src/bson/bson-json.c	272;"	d	file:
+STACK_IS_SCOPE	src/bson/bson-json.c	273;"	d	file:
+STACK_ITER	src/bson/bcon.c	37;"	d	file:
+STACK_ITER_CHILD	src/bson/bcon.c	44;"	d	file:
+STACK_ITER_PARENT	src/bson/bcon.c	43;"	d	file:
+STACK_MAX	src/bson/bson-json.c	46;"	d	file:
+STACK_POP	src/jsonsl/jsonsl.c	1656;"	d	file:
+STACK_POP	src/jsonsl/jsonsl.c	245;"	d	file:
+STACK_POP_ARRAY	src/bson/bcon.c	66;"	d	file:
+STACK_POP_ARRAY	src/bson/bson-json.c	325;"	d	file:
+STACK_POP_DBPOINTER	src/bson/bson-json.c	356;"	d	file:
+STACK_POP_DOC	src/bson/bcon.c	74;"	d	file:
+STACK_POP_DOC	src/bson/bson-json.c	338;"	d	file:
+STACK_POP_NOPOS	src/jsonsl/jsonsl.c	1655;"	d	file:
+STACK_POP_NOPOS	src/jsonsl/jsonsl.c	240;"	d	file:
+STACK_POP_SCOPE	src/bson/bson-json.c	351;"	d	file:
+STACK_PUSH	src/jsonsl/jsonsl.c	1654;"	d	file:
+STACK_PUSH	src/jsonsl/jsonsl.c	231;"	d	file:
+STACK_PUSH_ARRAY	src/bson/bcon.c	49;"	d	file:
+STACK_PUSH_ARRAY	src/bson/bson-json.c	277;"	d	file:
+STACK_PUSH_DBPOINTER	src/bson/bson-json.c	314;"	d	file:
+STACK_PUSH_DOC	src/bson/bcon.c	58;"	d	file:
+STACK_PUSH_DOC	src/bson/bson-json.c	289;"	d	file:
+STACK_PUSH_SCOPE	src/bson/bson-json.c	302;"	d	file:
+STATE_NUM_LAST	src/jsonsl/jsonsl.c	1666;"	d	file:
+STATE_NUM_LAST	src/jsonsl/jsonsl.c	304;"	d	file:
+STATE_SPECIAL_LENGTH	src/jsonsl/jsonsl.c	1664;"	d	file:
+STATE_SPECIAL_LENGTH	src/jsonsl/jsonsl.c	297;"	d	file:
+STDIN_FILENO	examples/bson-to-json.c	28;"	d	file:
+STDIN_FILENO	examples/json-to-bson.c	30;"	d	file:
+SYMBOL	src/bson/bcon.c	/^   char *SYMBOL;$/;"	m	union:bcon_append	file:
+SYMBOL	src/bson/bcon.c	/^   const char **SYMBOL;$/;"	m	union:bcon_extract	file:
+Special_Endings	src/jsonsl/jsonsl.c	/^static int Special_Endings[0x100] = {$/;"	v	file:
+Special_Table	src/jsonsl/jsonsl.c	/^static unsigned short Special_Table[0x100] = {$/;"	v	file:
+String_No_Passthrough	src/jsonsl/jsonsl.c	/^static const int String_No_Passthrough[0x100] = {$/;"	v	file:
+StringyCatchCounter	src/jsonsl/jsonsl.c	/^static unsigned long StringyCatchCounter[0x100] = { 0 };$/;"	v	file:
+SymbolRole	doc/mongoc/__init__.py	/^class SymbolRole(XRefRole):$/;"	c
+T1	src/bson/bson-md5.c	74;"	d	file:
+T10	src/bson/bson-md5.c	83;"	d	file:
+T11	src/bson/bson-md5.c	84;"	d	file:
+T12	src/bson/bson-md5.c	85;"	d	file:
+T13	src/bson/bson-md5.c	86;"	d	file:
+T14	src/bson/bson-md5.c	87;"	d	file:
+T15	src/bson/bson-md5.c	88;"	d	file:
+T16	src/bson/bson-md5.c	89;"	d	file:
+T17	src/bson/bson-md5.c	90;"	d	file:
+T18	src/bson/bson-md5.c	91;"	d	file:
+T19	src/bson/bson-md5.c	92;"	d	file:
+T2	src/bson/bson-md5.c	75;"	d	file:
+T20	src/bson/bson-md5.c	93;"	d	file:
+T21	src/bson/bson-md5.c	94;"	d	file:
+T22	src/bson/bson-md5.c	95;"	d	file:
+T23	src/bson/bson-md5.c	96;"	d	file:
+T24	src/bson/bson-md5.c	97;"	d	file:
+T25	src/bson/bson-md5.c	98;"	d	file:
+T26	src/bson/bson-md5.c	99;"	d	file:
+T27	src/bson/bson-md5.c	100;"	d	file:
+T28	src/bson/bson-md5.c	101;"	d	file:
+T29	src/bson/bson-md5.c	102;"	d	file:
+T3	src/bson/bson-md5.c	76;"	d	file:
+T30	src/bson/bson-md5.c	103;"	d	file:
+T31	src/bson/bson-md5.c	104;"	d	file:
+T32	src/bson/bson-md5.c	105;"	d	file:
+T33	src/bson/bson-md5.c	106;"	d	file:
+T34	src/bson/bson-md5.c	107;"	d	file:
+T35	src/bson/bson-md5.c	108;"	d	file:
+T36	src/bson/bson-md5.c	109;"	d	file:
+T37	src/bson/bson-md5.c	110;"	d	file:
+T38	src/bson/bson-md5.c	111;"	d	file:
+T39	src/bson/bson-md5.c	112;"	d	file:
+T4	src/bson/bson-md5.c	77;"	d	file:
+T40	src/bson/bson-md5.c	113;"	d	file:
+T41	src/bson/bson-md5.c	114;"	d	file:
+T42	src/bson/bson-md5.c	115;"	d	file:
+T43	src/bson/bson-md5.c	116;"	d	file:
+T44	src/bson/bson-md5.c	117;"	d	file:
+T45	src/bson/bson-md5.c	118;"	d	file:
+T46	src/bson/bson-md5.c	119;"	d	file:
+T47	src/bson/bson-md5.c	120;"	d	file:
+T48	src/bson/bson-md5.c	121;"	d	file:
+T49	src/bson/bson-md5.c	122;"	d	file:
+T5	src/bson/bson-md5.c	78;"	d	file:
+T50	src/bson/bson-md5.c	123;"	d	file:
+T51	src/bson/bson-md5.c	124;"	d	file:
+T52	src/bson/bson-md5.c	125;"	d	file:
+T53	src/bson/bson-md5.c	126;"	d	file:
+T54	src/bson/bson-md5.c	127;"	d	file:
+T55	src/bson/bson-md5.c	128;"	d	file:
+T56	src/bson/bson-md5.c	129;"	d	file:
+T57	src/bson/bson-md5.c	130;"	d	file:
+T58	src/bson/bson-md5.c	131;"	d	file:
+T59	src/bson/bson-md5.c	132;"	d	file:
+T6	src/bson/bson-md5.c	79;"	d	file:
+T60	src/bson/bson-md5.c	133;"	d	file:
+T61	src/bson/bson-md5.c	134;"	d	file:
+T62	src/bson/bson-md5.c	135;"	d	file:
+T63	src/bson/bson-md5.c	136;"	d	file:
+T64	src/bson/bson-md5.c	137;"	d	file:
+T7	src/bson/bson-md5.c	80;"	d	file:
+T8	src/bson/bson-md5.c	81;"	d	file:
+T9	src/bson/bson-md5.c	82;"	d	file:
+TEST_DEBUGOUTPUT	tests/TestSuite.c	57;"	d	file:
+TEST_HELPONLY	tests/TestSuite.c	55;"	d	file:
+TEST_JSON_PRODUCES_MULTIPLE	tests/test-json.c	2829;"	d	file:
+TEST_NOFORK	tests/TestSuite.c	54;"	d	file:
+TEST_SUITE_H	tests/TestSuite.h	19;"	d
+TEST_THREADS	tests/TestSuite.c	56;"	d	file:
+TEST_VALGRIND	tests/TestSuite.c	58;"	d	file:
+TEST_VERBOSE	tests/TestSuite.c	53;"	d	file:
+TIMESTAMP	src/bson/bcon.c	/^   } TIMESTAMP;$/;"	m	union:bcon_append	typeref:struct:bcon_append::__anon40	file:
+TIMESTAMP	src/bson/bcon.c	/^   } TIMESTAMP;$/;"	m	union:bcon_extract	typeref:struct:bcon_extract::__anon45	file:
+TM_APRIL	src/bson/bson-timegm.c	103;"	d	file:
+TM_AUGUST	src/bson/bson-timegm.c	107;"	d	file:
+TM_DECEMBER	src/bson/bson-timegm.c	111;"	d	file:
+TM_FEBRUARY	src/bson/bson-timegm.c	101;"	d	file:
+TM_FRIDAY	src/bson/bson-timegm.c	97;"	d	file:
+TM_JANUARY	src/bson/bson-timegm.c	100;"	d	file:
+TM_JULY	src/bson/bson-timegm.c	106;"	d	file:
+TM_JUNE	src/bson/bson-timegm.c	105;"	d	file:
+TM_MARCH	src/bson/bson-timegm.c	102;"	d	file:
+TM_MAY	src/bson/bson-timegm.c	104;"	d	file:
+TM_MONDAY	src/bson/bson-timegm.c	93;"	d	file:
+TM_NOVEMBER	src/bson/bson-timegm.c	110;"	d	file:
+TM_OCTOBER	src/bson/bson-timegm.c	109;"	d	file:
+TM_SATURDAY	src/bson/bson-timegm.c	98;"	d	file:
+TM_SEPTEMBER	src/bson/bson-timegm.c	108;"	d	file:
+TM_SUNDAY	src/bson/bson-timegm.c	92;"	d	file:
+TM_THURSDAY	src/bson/bson-timegm.c	96;"	d	file:
+TM_TUESDAY	src/bson/bson-timegm.c	94;"	d	file:
+TM_WEDNESDAY	src/bson/bson-timegm.c	95;"	d	file:
+TM_YEAR_BASE	src/bson/bson-timegm.c	113;"	d	file:
+TYPE	src/bson/bcon.c	/^   bson_type_t TYPE;$/;"	m	union:bcon_extract	file:
+TZ_ABBR_CHAR_SET	src/bson/bson-timegm.c	139;"	d	file:
+TZ_ABBR_ERR_CHAR	src/bson/bson-timegm.c	144;"	d	file:
+TZ_ABBR_MAX_LEN	src/bson/bson-timegm.c	135;"	d	file:
+TZ_MAX_CHARS	src/bson/bson-timegm.c	74;"	d	file:
+TZ_MAX_LEAPS	src/bson/bson-timegm.c	79;"	d	file:
+TZ_MAX_TIMES	src/bson/bson-timegm.c	65;"	d	file:
+TZ_MAX_TYPES	src/bson/bson-timegm.c	70;"	d	file:
+T_MASK	src/bson/bson-md5.c	73;"	d	file:
+TaglistDirective	doc/taglist.py	/^class TaglistDirective(Directive):$/;"	c
+Test	tests/TestSuite.h	/^typedef struct _Test Test;$/;"	t	typeref:struct:_Test
+TestFunc	tests/TestSuite.h	/^typedef void (*TestFunc) (void);$/;"	t
+TestFuncDtor	tests/TestSuite.h	/^typedef void (*TestFuncDtor) (void *);$/;"	t
+TestFuncWC	tests/TestSuite.h	/^typedef void (*TestFuncWC) (void *);$/;"	t
+TestSuite	tests/TestSuite.h	/^typedef struct _TestSuite TestSuite;$/;"	t	typeref:struct:_TestSuite
+TestSuite_Add	tests/TestSuite.c	/^TestSuite_Add (TestSuite *suite, \/* IN *\/$/;"	f
+TestSuite_AddFull	tests/TestSuite.h	334;"	d
+TestSuite_AddHelper	tests/TestSuite.c	/^TestSuite_AddHelper (void *cb_)$/;"	f	file:
+TestSuite_AddWC	tests/TestSuite.c	/^TestSuite_AddWC (TestSuite *suite,  \/* IN *\/$/;"	f
+TestSuite_CheckDummy	tests/TestSuite.c	/^TestSuite_CheckDummy (void)$/;"	f	file:
+TestSuite_Destroy	tests/TestSuite.c	/^TestSuite_Destroy (TestSuite *suite)$/;"	f
+TestSuite_Init	tests/TestSuite.c	/^TestSuite_Init (TestSuite *suite, const char *name, int argc, char **argv)$/;"	f
+TestSuite_ParallelWorker	tests/TestSuite.c	/^TestSuite_ParallelWorker (void *data) \/* IN *\/$/;"	f	file:
+TestSuite_PrintHelp	tests/TestSuite.c	/^TestSuite_PrintHelp (TestSuite *suite, \/* IN *\/$/;"	f	file:
+TestSuite_PrintJsonFooter	tests/TestSuite.c	/^TestSuite_PrintJsonFooter (FILE *stream) \/* IN *\/$/;"	f	file:
+TestSuite_PrintJsonHeader	tests/TestSuite.c	/^TestSuite_PrintJsonHeader (TestSuite *suite, \/* IN *\/$/;"	f	file:
+TestSuite_PrintJsonSystemHeader	tests/TestSuite.c	/^TestSuite_PrintJsonSystemHeader (FILE *stream)$/;"	f	file:
+TestSuite_Run	tests/TestSuite.c	/^TestSuite_Run (TestSuite *suite) \/* IN *\/$/;"	f
+TestSuite_RunFuncInChild	tests/TestSuite.c	/^TestSuite_RunFuncInChild (TestSuite *suite, \/* IN *\/$/;"	f	file:
+TestSuite_RunNamed	tests/TestSuite.c	/^TestSuite_RunNamed (TestSuite *suite,     \/* IN *\/$/;"	f	file:
+TestSuite_RunParallel	tests/TestSuite.c	/^TestSuite_RunParallel (TestSuite *suite) \/* IN *\/$/;"	f	file:
+TestSuite_RunSerial	tests/TestSuite.c	/^TestSuite_RunSerial (TestSuite *suite) \/* IN *\/$/;"	f	file:
+TestSuite_RunTest	tests/TestSuite.c	/^TestSuite_RunTest (TestSuite *suite, \/* IN *\/$/;"	f	file:
+TestSuite_SeedRand	tests/TestSuite.c	/^TestSuite_SeedRand (TestSuite *suite, \/* IN *\/$/;"	f	file:
+Text	doc/mongoc/__init__.py	/^from docutils.nodes import literal, Text$/;"	i
+Thread	tests/TestSuite.c	71;"	d	file:
+Thread	tests/TestSuite.c	80;"	d	file:
+Thread_Create	tests/TestSuite.c	/^Thread_Create (Thread *thread, void *(*cb) (void *), void *arg)$/;"	f	file:
+Thread_Create	tests/TestSuite.c	72;"	d	file:
+Thread_Join	tests/TestSuite.c	73;"	d	file:
+Thread_Join	tests/TestSuite.c	81;"	d	file:
+UINT16_C	src/bson/bson-stdint-win32.h	245;"	d
+UINT16_MAX	src/bson/bson-stdint-win32.h	149;"	d
+UINT32_C	src/bson/bson-stdint-win32.h	246;"	d
+UINT32_MAX	src/bson/bson-stdint-win32.h	150;"	d
+UINT64_C	src/bson/bson-stdint-win32.h	247;"	d
+UINT64_MAX	src/bson/bson-stdint-win32.h	151;"	d
+UINT8_C	src/bson/bson-stdint-win32.h	244;"	d
+UINT8_MAX	src/bson/bson-stdint-win32.h	148;"	d
+UINTMAX_C	src/bson/bson-stdint-win32.h	256;"	d
+UINTMAX_MAX	src/bson/bson-stdint-win32.h	195;"	d
+UINTPTR_MAX	src/bson/bson-stdint-win32.h	185;"	d
+UINTPTR_MAX	src/bson/bson-stdint-win32.h	189;"	d
+UINT_FAST16_MAX	src/bson/bson-stdint-win32.h	177;"	d
+UINT_FAST32_MAX	src/bson/bson-stdint-win32.h	178;"	d
+UINT_FAST64_MAX	src/bson/bson-stdint-win32.h	179;"	d
+UINT_FAST8_MAX	src/bson/bson-stdint-win32.h	176;"	d
+UINT_LEAST16_MAX	src/bson/bson-stdint-win32.h	163;"	d
+UINT_LEAST32_MAX	src/bson/bson-stdint-win32.h	164;"	d
+UINT_LEAST64_MAX	src/bson/bson-stdint-win32.h	165;"	d
+UINT_LEAST8_MAX	src/bson/bson-stdint-win32.h	162;"	d
+UNESCAPE_BAIL	src/jsonsl/jsonsl.c	1340;"	d	file:
+UTF8	src/bson/bcon.c	/^   char *UTF8;$/;"	m	union:bcon_append	file:
+UTF8	src/bson/bcon.c	/^   const char **UTF8;$/;"	m	union:bcon_extract	file:
+VALIDATE_TEST	tests/test-bson.c	1136;"	d	file:
+VALIDATE_TEST	tests/test-bson.c	1288;"	d	file:
+VALIDATION_ERR	src/bson/bson.c	3219;"	d	file:
+VERIFY_SPECIAL	src/jsonsl/jsonsl.c	1663;"	d	file:
+VERIFY_SPECIAL	src/jsonsl/jsonsl.c	287;"	d	file:
+VERIFY_SPECIAL_CI	src/jsonsl/jsonsl.c	292;"	d	file:
+VISIT_AFTER	src/bson/bson-iter.c	1826;"	d	file:
+VISIT_ARRAY	src/bson/bson-iter.c	1834;"	d	file:
+VISIT_BEFORE	src/bson/bson-iter.c	1827;"	d	file:
+VISIT_BINARY	src/bson/bson-iter.c	1835;"	d	file:
+VISIT_BOOL	src/bson/bson-iter.c	1838;"	d	file:
+VISIT_CODE	src/bson/bson-iter.c	1843;"	d	file:
+VISIT_CODEWSCOPE	src/bson/bson-iter.c	1845;"	d	file:
+VISIT_CORRUPT	src/bson/bson-iter.c	1828;"	d	file:
+VISIT_DATE_TIME	src/bson/bson-iter.c	1839;"	d	file:
+VISIT_DBPOINTER	src/bson/bson-iter.c	1842;"	d	file:
+VISIT_DECIMAL128	src/bson/bson-iter.c	1849;"	d	file:
+VISIT_DOCUMENT	src/bson/bson-iter.c	1833;"	d	file:
+VISIT_DOUBLE	src/bson/bson-iter.c	1831;"	d	file:
+VISIT_FIELD	src/bson/bson-iter.c	1825;"	d	file:
+VISIT_FIELD	src/bson/bson-iter.c	2148;"	d	file:
+VISIT_INT32	src/bson/bson-iter.c	1846;"	d	file:
+VISIT_INT64	src/bson/bson-iter.c	1848;"	d	file:
+VISIT_MAXKEY	src/bson/bson-iter.c	1850;"	d	file:
+VISIT_MINKEY	src/bson/bson-iter.c	1851;"	d	file:
+VISIT_NULL	src/bson/bson-iter.c	1840;"	d	file:
+VISIT_OID	src/bson/bson-iter.c	1837;"	d	file:
+VISIT_REGEX	src/bson/bson-iter.c	1841;"	d	file:
+VISIT_SYMBOL	src/bson/bson-iter.c	1844;"	d	file:
+VISIT_TIMESTAMP	src/bson/bson-iter.c	1847;"	d	file:
+VISIT_UNDEFINED	src/bson/bson-iter.c	1836;"	d	file:
+VISIT_UTF8	src/bson/bson-iter.c	1832;"	d	file:
+VS2013_SKIPPED_CORPUS_TESTS	tests/test-bson-corpus.c	/^skipped_corpus_test_t VS2013_SKIPPED_CORPUS_TESTS[] = {$/;"	v
+WCHAR_MAX	src/bson/bson-stdint-win32.h	223;"	d
+WCHAR_MIN	src/bson/bson-stdint-win32.h	220;"	d
+WILDABBR	src/bson/bson-timegm.c	167;"	d	file:
+WIN32_LEAN_AND_MEAN	src/bson/bson-compat.h	53;"	d
+WIN32_LEAN_AND_MEAN	src/bson/bson-compat.h	55;"	d
+WINT_MAX	src/bson/bson-stdint-win32.h	227;"	d
+WINT_MIN	src/bson/bson-stdint-win32.h	226;"	d
+WRONG	src/bson/bson-timegm.c	457;"	d	file:
+X	src/jsonsl/jsonsl.c	1246;"	d	file:
+X	src/jsonsl/jsonsl.c	1250;"	d	file:
+X	src/jsonsl/jsonsl.c	30;"	d	file:
+X	src/jsonsl/jsonsl.c	33;"	d	file:
+X	src/jsonsl/jsonsl.c	56;"	d	file:
+X	src/jsonsl/jsonsl.c	60;"	d	file:
+X	src/jsonsl/jsonsl.c	751;"	d	file:
+X	src/jsonsl/jsonsl.c	755;"	d	file:
+X	src/jsonsl/jsonsl.c	762;"	d	file:
+X	src/jsonsl/jsonsl.c	766;"	d	file:
+X	src/jsonsl/jsonsl.h	130;"	d
+X	src/jsonsl/jsonsl.h	136;"	d
+X	src/jsonsl/jsonsl.h	158;"	d
+X	src/jsonsl/jsonsl.h	161;"	d
+X	src/jsonsl/jsonsl.h	198;"	d
+X	src/jsonsl/jsonsl.h	202;"	d
+X	src/jsonsl/jsonsl.h	265;"	d
+X	src/jsonsl/jsonsl.h	268;"	d
+X	src/jsonsl/jsonsl.h	740;"	d
+X	src/jsonsl/jsonsl.h	744;"	d
+XMETRICS	src/jsonsl/jsonsl.c	13;"	d	file:
+XRefRole	doc/mongoc/__init__.py	/^from sphinx.roles import XRefRole$/;"	i
+_CRT_RAND_S	tests/test-json.c	2;"	d	file:
+_Clock_GetMonotonic	tests/TestSuite.c	/^_Clock_GetMonotonic (struct timespec *ts) \/* OUT *\/$/;"	f
+_Clock_Subtract	tests/TestSuite.c	/^_Clock_Subtract (struct timespec *ts, \/* OUT *\/$/;"	f
+_MSC_STDINT_H_	src/bson/bson-stdint-win32.h	38;"	d
+_Noreturn	src/bson/bson-timegm.c	37;"	d	file:
+_Noreturn	src/bson/bson-timegm.c	39;"	d	file:
+_Print_StdErr	tests/TestSuite.c	/^_Print_StdErr (const char *format, ...)$/;"	f
+_Print_StdOut	tests/TestSuite.c	/^_Print_StdOut (const char *format, ...)$/;"	f
+_SIZE_T_DEFINED	src/bson/bson-compat.h	99;"	d
+_SSIZE_T_DEFINED	src/bson/bson-compat.h	95;"	d
+_Test	tests/TestSuite.h	/^struct _Test {$/;"	s
+_TestSuite	tests/TestSuite.h	/^struct _TestSuite {$/;"	s
+_TestSuite_AddFull	tests/TestSuite.c	/^_TestSuite_AddFull (TestSuite *suite,  \/* IN *\/$/;"	f
+_W64	src/bson/bson-stdint-win32.h	65;"	d
+_W64	src/bson/bson-stdint-win32.h	67;"	d
+_WIN32_WINNT	src/bson/bson-compat.h	43;"	d
+_WIN32_WINNT	src/bson/bson-compat.h	46;"	d
+__BSON_NEED_BARRIER	src/bson/bson-atomic.h	93;"	d
+__USE_MINGW_ANSI_STDIO	src/bson/bson-compat.h	33;"	d
+__bool_true_false_are_defined	src/bson/bson-compat.h	151;"	d
+__bson_double_swap_slow	src/bson/bson-endian.h	/^__bson_double_swap_slow (double v) \/* IN *\/$/;"	f
+__bson_uint16_swap_slow	src/bson/bson-endian.h	/^__bson_uint16_swap_slow (uint16_t v) \/* IN *\/$/;"	f
+__bson_uint32_swap_slow	src/bson/bson-endian.h	/^__bson_uint32_swap_slow (uint32_t v) \/* IN *\/$/;"	f
+__bson_uint64_swap_slow	src/bson/bson-endian.h	/^__bson_uint64_swap_slow (uint64_t v) \/* IN *\/$/;"	f
+__call__	doc/mongoc/__init__.py	/^    def __call__(self, *args, **kwargs):$/;"	m	class:SymbolRole	file:
+__init__	doc/taglist.py	/^    def __init__(self, *a, **b):$/;"	m	class:taglist
+_bad_extended_json	src/bson/bson-json.c	/^_bad_extended_json (bson_json_reader_t *reader)$/;"	f	file:
+_bcon_append_ctx_t	src/bson/bcon.h	/^typedef struct _bcon_append_ctx_t {$/;"	s
+_bcon_append_single	src/bson/bcon.c	/^_bcon_append_single (bson_t *bson,$/;"	f	file:
+_bcon_append_tokenize	src/bson/bcon.c	/^_bcon_append_tokenize (va_list *ap, bcon_append_t *u)$/;"	f	file:
+_bcon_extract_ctx_t	src/bson/bcon.h	/^typedef struct _bcon_extract_ctx_t {$/;"	s
+_bcon_extract_single	src/bson/bcon.c	/^_bcon_extract_single (const bson_iter_t *iter,$/;"	f	file:
+_bcon_extract_tokenize	src/bson/bcon.c	/^_bcon_extract_tokenize (va_list *ap, bcon_extract_t *u)$/;"	f	file:
+_bson_append	src/bson/bson.c	/^_bson_append (bson_t *bson,              \/* IN *\/$/;"	f	file:
+_bson_append_bson_begin	src/bson/bson.c	/^_bson_append_bson_begin (bson_t *bson,           \/* IN *\/$/;"	f	file:
+_bson_append_bson_end	src/bson/bson.c	/^_bson_append_bson_end (bson_t *bson,  \/* IN *\/$/;"	f	file:
+_bson_append_regex_options_sorted	src/bson/bson.c	/^_bson_append_regex_options_sorted (bson_string_t *buffer, \/* IN *\/$/;"	f	file:
+_bson_append_va	src/bson/bson.c	/^_bson_append_va (bson_t *bson,              \/* IN *\/$/;"	f	file:
+_bson_as_json_visit_all	src/bson/bson.c	/^_bson_as_json_visit_all (const bson_t *bson,$/;"	f	file:
+_bson_as_json_visit_array	src/bson/bson.c	/^_bson_as_json_visit_array (const bson_iter_t *iter,$/;"	f	file:
+_bson_as_json_visit_before	src/bson/bson.c	/^_bson_as_json_visit_before (const bson_iter_t *iter,$/;"	f	file:
+_bson_as_json_visit_binary	src/bson/bson.c	/^_bson_as_json_visit_binary (const bson_iter_t *iter,$/;"	f	file:
+_bson_as_json_visit_bool	src/bson/bson.c	/^_bson_as_json_visit_bool (const bson_iter_t *iter,$/;"	f	file:
+_bson_as_json_visit_code	src/bson/bson.c	/^_bson_as_json_visit_code (const bson_iter_t *iter,$/;"	f	file:
+_bson_as_json_visit_codewscope	src/bson/bson.c	/^_bson_as_json_visit_codewscope (const bson_iter_t *iter,$/;"	f	file:
+_bson_as_json_visit_corrupt	src/bson/bson.c	/^_bson_as_json_visit_corrupt (const bson_iter_t *iter, void *data)$/;"	f	file:
+_bson_as_json_visit_date_time	src/bson/bson.c	/^_bson_as_json_visit_date_time (const bson_iter_t *iter,$/;"	f	file:
+_bson_as_json_visit_dbpointer	src/bson/bson.c	/^_bson_as_json_visit_dbpointer (const bson_iter_t *iter,$/;"	f	file:
+_bson_as_json_visit_decimal128	src/bson/bson.c	/^_bson_as_json_visit_decimal128 (const bson_iter_t *iter,$/;"	f	file:
+_bson_as_json_visit_document	src/bson/bson.c	/^_bson_as_json_visit_document (const bson_iter_t *iter,$/;"	f	file:
+_bson_as_json_visit_double	src/bson/bson.c	/^_bson_as_json_visit_double (const bson_iter_t *iter,$/;"	f	file:
+_bson_as_json_visit_int32	src/bson/bson.c	/^_bson_as_json_visit_int32 (const bson_iter_t *iter,$/;"	f	file:
+_bson_as_json_visit_int64	src/bson/bson.c	/^_bson_as_json_visit_int64 (const bson_iter_t *iter,$/;"	f	file:
+_bson_as_json_visit_maxkey	src/bson/bson.c	/^_bson_as_json_visit_maxkey (const bson_iter_t *iter,$/;"	f	file:
+_bson_as_json_visit_minkey	src/bson/bson.c	/^_bson_as_json_visit_minkey (const bson_iter_t *iter,$/;"	f	file:
+_bson_as_json_visit_null	src/bson/bson.c	/^_bson_as_json_visit_null (const bson_iter_t *iter, const char *key, void *data)$/;"	f	file:
+_bson_as_json_visit_oid	src/bson/bson.c	/^_bson_as_json_visit_oid (const bson_iter_t *iter,$/;"	f	file:
+_bson_as_json_visit_regex	src/bson/bson.c	/^_bson_as_json_visit_regex (const bson_iter_t *iter,$/;"	f	file:
+_bson_as_json_visit_symbol	src/bson/bson.c	/^_bson_as_json_visit_symbol (const bson_iter_t *iter,$/;"	f	file:
+_bson_as_json_visit_timestamp	src/bson/bson.c	/^_bson_as_json_visit_timestamp (const bson_iter_t *iter,$/;"	f	file:
+_bson_as_json_visit_undefined	src/bson/bson.c	/^_bson_as_json_visit_undefined (const bson_iter_t *iter,$/;"	f	file:
+_bson_as_json_visit_utf8	src/bson/bson.c	/^_bson_as_json_visit_utf8 (const bson_iter_t *iter,$/;"	f	file:
+_bson_concat_array	src/bson/bcon.c	/^_bson_concat_array (bson_t *dest, const bson_t *src, bcon_append_ctx_t *ctx)$/;"	f	file:
+_bson_context_get_oid_host	src/bson/bson-context.c	/^_bson_context_get_oid_host (bson_context_t *context, \/* IN *\/$/;"	f	file:
+_bson_context_get_oid_host_cached	src/bson/bson-context.c	/^_bson_context_get_oid_host_cached (bson_context_t *context, \/* IN *\/$/;"	f	file:
+_bson_context_get_oid_pid	src/bson/bson-context.c	/^_bson_context_get_oid_pid (bson_context_t *context, \/* IN *\/$/;"	f	file:
+_bson_context_get_oid_pid_cached	src/bson/bson-context.c	/^_bson_context_get_oid_pid_cached (bson_context_t *context, \/* IN *\/$/;"	f	file:
+_bson_context_get_oid_seq32	src/bson/bson-context.c	/^_bson_context_get_oid_seq32 (bson_context_t *context, \/* IN *\/$/;"	f	file:
+_bson_context_get_oid_seq32_threadsafe	src/bson/bson-context.c	/^_bson_context_get_oid_seq32_threadsafe (bson_context_t *context, \/* IN *\/$/;"	f	file:
+_bson_context_get_oid_seq64	src/bson/bson-context.c	/^_bson_context_get_oid_seq64 (bson_context_t *context, \/* IN *\/$/;"	f	file:
+_bson_context_get_oid_seq64_threadsafe	src/bson/bson-context.c	/^_bson_context_get_oid_seq64_threadsafe (bson_context_t *context, \/* IN *\/$/;"	f	file:
+_bson_context_init	src/bson/bson-context.c	/^_bson_context_init (bson_context_t *context,    \/* IN *\/$/;"	f	file:
+_bson_context_t	src/bson/bson-context-private.h	/^struct _bson_context_t {$/;"	s
+_bson_copy_to_excluding_va	src/bson/bson.c	/^_bson_copy_to_excluding_va (const bson_t *src,$/;"	f	file:
+_bson_data	src/bson/bson.c	/^_bson_data (const bson_t *bson) \/* IN *\/$/;"	f	file:
+_bson_encode_length	src/bson/bson.c	/^_bson_encode_length (bson_t *bson) \/* IN *\/$/;"	f	file:
+_bson_error_t	src/bson/bson-types.h	/^typedef struct _bson_error_t {$/;"	s
+_bson_getpid	src/bson/bson-context.c	/^_bson_getpid (void)$/;"	f	file:
+_bson_grow	src/bson/bson.c	/^_bson_grow (bson_t *bson,  \/* IN *\/$/;"	f	file:
+_bson_impl_alloc_grow	src/bson/bson.c	/^_bson_impl_alloc_grow (bson_impl_alloc_t *impl, \/* IN *\/$/;"	f	file:
+_bson_impl_inline_grow	src/bson/bson.c	/^_bson_impl_inline_grow (bson_impl_inline_t *impl, \/* IN *\/$/;"	f	file:
+_bson_iso8601_date_format	src/bson/bson-iso8601.c	/^_bson_iso8601_date_format (int64_t msec_since_epoch, bson_string_t *str)$/;"	f
+_bson_iso8601_date_parse	src/bson/bson-iso8601.c	/^_bson_iso8601_date_parse (const char *str,$/;"	f
+_bson_iter_find_with_len	src/bson/bson-iter.c	/^_bson_iter_find_with_len (bson_iter_t *iter, \/* INOUT *\/$/;"	f	file:
+_bson_iter_next_internal	src/bson/bson-iter.c	/^_bson_iter_next_internal (bson_iter_t *iter,   \/* INOUT *\/$/;"	f	file:
+_bson_iter_validate_before	src/bson/bson.c	/^_bson_iter_validate_before (const bson_iter_t *iter,$/;"	f	file:
+_bson_iter_validate_codewscope	src/bson/bson.c	/^_bson_iter_validate_codewscope (const bson_iter_t *iter,$/;"	f	file:
+_bson_iter_validate_corrupt	src/bson/bson.c	/^_bson_iter_validate_corrupt (const bson_iter_t *iter, void *data)$/;"	f	file:
+_bson_iter_validate_document	src/bson/bson.c	/^_bson_iter_validate_document (const bson_iter_t *iter,$/;"	f	file:
+_bson_iter_validate_utf8	src/bson/bson.c	/^_bson_iter_validate_utf8 (const bson_iter_t *iter,$/;"	f	file:
+_bson_json_bad_key_in_type	src/bson/bson-json.c	/^_bson_json_bad_key_in_type (bson_json_reader_t *reader, \/* IN *\/$/;"	f	file:
+_bson_json_buf_append	src/bson/bson-json.c	/^_bson_json_buf_append (bson_json_buf_t *buf, const void *from, size_t len)$/;"	f	file:
+_bson_json_buf_ensure	src/bson/bson-json.c	/^_bson_json_buf_ensure (bson_json_buf_t *buf, \/* IN *\/$/;"	f	file:
+_bson_json_buf_set	src/bson/bson-json.c	/^_bson_json_buf_set (bson_json_buf_t *buf, const void *from, size_t len)$/;"	f	file:
+_bson_json_code_cleanup	src/bson/bson-json.c	/^_bson_json_code_cleanup (bson_json_code_t *code_data)$/;"	f	file:
+_bson_json_data_reader_cb	src/bson/bson-json.c	/^_bson_json_data_reader_cb (void *_ctx, uint8_t *buf, size_t len)$/;"	f	file:
+_bson_json_parse_binary_elem	src/bson/bson-json.c	/^_bson_json_parse_binary_elem (bson_json_reader_t *reader,$/;"	f	file:
+_bson_json_parse_double	src/bson/bson-json.c	/^_bson_json_parse_double (bson_json_reader_t *reader,$/;"	f	file:
+_bson_json_read_append_binary	src/bson/bson-json.c	/^_bson_json_read_append_binary (bson_json_reader_t *reader,    \/* IN *\/$/;"	f	file:
+_bson_json_read_append_code	src/bson/bson-json.c	/^_bson_json_read_append_code (bson_json_reader_t *reader,    \/* IN *\/$/;"	f	file:
+_bson_json_read_append_date_time	src/bson/bson-json.c	/^_bson_json_read_append_date_time (bson_json_reader_t *reader,    \/* IN *\/$/;"	f	file:
+_bson_json_read_append_dbpointer	src/bson/bson-json.c	/^_bson_json_read_append_dbpointer (bson_json_reader_t *reader,    \/* IN *\/$/;"	f	file:
+_bson_json_read_append_oid	src/bson/bson-json.c	/^_bson_json_read_append_oid (bson_json_reader_t *reader,    \/* IN *\/$/;"	f	file:
+_bson_json_read_append_regex	src/bson/bson-json.c	/^_bson_json_read_append_regex (bson_json_reader_t *reader,    \/* IN *\/$/;"	f	file:
+_bson_json_read_append_timestamp	src/bson/bson-json.c	/^_bson_json_read_append_timestamp (bson_json_reader_t *reader,    \/* IN *\/$/;"	f	file:
+_bson_json_read_boolean	src/bson/bson-json.c	/^_bson_json_read_boolean (bson_json_reader_t *reader, \/* IN *\/$/;"	f	file:
+_bson_json_read_code_or_scope_key	src/bson/bson-json.c	/^_bson_json_read_code_or_scope_key (bson_json_reader_bson_t *bson,$/;"	f	file:
+_bson_json_read_corrupt	src/bson/bson-json.c	/^_bson_json_read_corrupt (bson_json_reader_t *reader, \/* IN *\/$/;"	f	file:
+_bson_json_read_double	src/bson/bson-json.c	/^_bson_json_read_double (bson_json_reader_t *reader, \/* IN *\/$/;"	f	file:
+_bson_json_read_end_array	src/bson/bson-json.c	/^_bson_json_read_end_array (bson_json_reader_t *reader) \/* IN *\/$/;"	f	file:
+_bson_json_read_end_map	src/bson/bson-json.c	/^_bson_json_read_end_map (bson_json_reader_t *reader) \/* IN *\/$/;"	f	file:
+_bson_json_read_fixup_key	src/bson/bson-json.c	/^_bson_json_read_fixup_key (bson_json_reader_bson_t *bson) \/* IN *\/$/;"	f	file:
+_bson_json_read_int64_or_set_error	src/bson/bson-json.c	/^_bson_json_read_int64_or_set_error (bson_json_reader_t *reader, \/* IN *\/$/;"	f	file:
+_bson_json_read_integer	src/bson/bson-json.c	/^_bson_json_read_integer (bson_json_reader_t *reader, uint64_t val, int64_t sign)$/;"	f	file:
+_bson_json_read_map_key	src/bson/bson-json.c	/^_bson_json_read_map_key (bson_json_reader_t *reader, \/* IN *\/$/;"	f	file:
+_bson_json_read_null	src/bson/bson-json.c	/^_bson_json_read_null (bson_json_reader_t *reader)$/;"	f	file:
+_bson_json_read_set_error	src/bson/bson-json.c	/^_bson_json_read_set_error (bson_json_reader_t *reader, \/* IN *\/$/;"	f	file:
+_bson_json_read_start_array	src/bson/bson-json.c	/^_bson_json_read_start_array (bson_json_reader_t *reader) \/* IN *\/$/;"	f	file:
+_bson_json_read_start_map	src/bson/bson-json.c	/^_bson_json_read_start_map (bson_json_reader_t *reader) \/* IN *\/$/;"	f	file:
+_bson_json_read_string	src/bson/bson-json.c	/^_bson_json_read_string (bson_json_reader_t *reader, \/* IN *\/$/;"	f	file:
+_bson_json_reader_handle_fd_destroy	src/bson/bson-json.c	/^_bson_json_reader_handle_fd_destroy (void *handle) \/* IN *\/$/;"	f	file:
+_bson_json_reader_handle_fd_read	src/bson/bson-json.c	/^_bson_json_reader_handle_fd_read (void *handle, \/* IN *\/$/;"	f	file:
+_bson_json_reader_t	src/bson/bson-json.c	/^struct _bson_json_reader_t {$/;"	s	file:
+_bson_json_save_map_key	src/bson/bson-json.c	/^_bson_json_save_map_key (bson_json_reader_bson_t *bson,$/;"	f	file:
+_bson_json_type_name	src/bson/bson-json.c	/^_bson_json_type_name (bson_type_t type)$/;"	f	file:
+_bson_json_unescape	src/bson/bson-json.c	/^_bson_json_unescape (bson_json_reader_t *reader,$/;"	f	file:
+_bson_mem_vtable_t	src/bson/bson-memory.h	/^typedef struct _bson_mem_vtable_t {$/;"	s
+_bson_reader_data_read	src/bson/bson-reader.c	/^_bson_reader_data_read (bson_reader_data_t *reader, \/* IN *\/$/;"	f	file:
+_bson_reader_data_tell	src/bson/bson-reader.c	/^_bson_reader_data_tell (bson_reader_data_t *reader) \/* IN *\/$/;"	f	file:
+_bson_reader_handle_fd_destroy	src/bson/bson-reader.c	/^_bson_reader_handle_fd_destroy (void *handle) \/* IN *\/$/;"	f	file:
+_bson_reader_handle_fd_read	src/bson/bson-reader.c	/^_bson_reader_handle_fd_read (void *handle, \/* IN *\/$/;"	f	file:
+_bson_reader_handle_fill_buffer	src/bson/bson-reader.c	/^_bson_reader_handle_fill_buffer (bson_reader_handle_t *reader) \/* IN *\/$/;"	f	file:
+_bson_reader_handle_grow_buffer	src/bson/bson-reader.c	/^_bson_reader_handle_grow_buffer (bson_reader_handle_t *reader) \/* IN *\/$/;"	f	file:
+_bson_reader_handle_read	src/bson/bson-reader.c	/^_bson_reader_handle_read (bson_reader_handle_t *reader, \/* IN *\/$/;"	f	file:
+_bson_reader_handle_tell	src/bson/bson-reader.c	/^_bson_reader_handle_tell (bson_reader_handle_t *reader) \/* IN *\/$/;"	f	file:
+_bson_t	src/bson/bson-types.h	/^typedef struct _bson_t {$/;"	s
+_bson_timegm	src/bson/bson-timegm.c	/^_bson_timegm (struct bson_tm *const tmp)$/;"	f
+_bson_uint128_6464_t	src/bson/bson-decimal128.c	/^} _bson_uint128_6464_t;$/;"	t	typeref:struct:__anon66	file:
+_bson_uint128_divide1B	src/bson/bson-decimal128.c	/^_bson_uint128_divide1B (_bson_uint128_t value,     \/* IN *\/$/;"	f	file:
+_bson_uint128_t	src/bson/bson-decimal128.c	/^} _bson_uint128_t;$/;"	t	typeref:struct:__anon65	file:
+_bson_utf8_get_sequence	src/bson/bson-utf8.c	/^_bson_utf8_get_sequence (const char *utf8,    \/* IN *\/$/;"	f	file:
+_bson_validate_internal	src/bson/bson.c	/^_bson_validate_internal (const bson_t *bson, bson_validate_state_t *state)$/;"	f	file:
+_bson_value_t	src/bson/bson-types.h	/^typedef struct _bson_value_t {$/;"	s
+_bson_writer_t	src/bson/bson-writer.c	/^struct _bson_writer_t {$/;"	s	file:
+_dec128_istreq	src/bson/bson-decimal128.c	/^_dec128_istreq (const char *a, \/* IN *\/$/;"	f
+_dec128_tolower	src/bson/bson-decimal128.c	/^_dec128_tolower (char c)$/;"	f
+_errno	tests/test-string.c	/^   int _errno;$/;"	m	struct:__anon81	file:
+_error_callback	src/bson/bson-json.c	/^_error_callback (jsonsl_t json,$/;"	f	file:
+_get_json_text	src/bson/bson-json.c	/^_get_json_text (jsonsl_t json,                 \/* IN *\/$/;"	f	file:
+_is_known_key	src/bson/bson-json.c	/^_is_known_key (const char *key, size_t len)$/;"	f	file:
+_mul_64x64	src/bson/bson-decimal128.c	/^_mul_64x64 (uint64_t left,                 \/* IN *\/$/;"	f	file:
+_noop	src/bson/bcon.c	/^_noop (void)$/;"	f	file:
+_noop	src/bson/bson-json.c	/^_noop (void)$/;"	f	file:
+_pop_callback	src/bson/bson-json.c	/^_pop_callback (jsonsl_t json,$/;"	f	file:
+_push_callback	src/bson/bson-json.c	/^_push_callback (jsonsl_t json,$/;"	f	file:
+_single_to_double	tests/test-json.c	/^_single_to_double (const char *json)$/;"	f	file:
+_test_bson_decode_error_type_t	tests/corpus-test.h	/^typedef struct _test_bson_decode_error_type_t {$/;"	s
+_test_bson_json_read_compare	tests/test-json.c	/^_test_bson_json_read_compare (const char *json, int size, ...)$/;"	f	file:
+_test_bson_parse_error_type_t	tests/corpus-test.h	/^typedef struct _test_bson_parse_error_type_t {$/;"	s
+_test_bson_valid_type_t	tests/corpus-test.h	/^typedef struct _test_bson_valid_type_t {$/;"	s
+_test_json_produces_multiple	tests/test-json.c	/^_test_json_produces_multiple (const char *json_in, int err_expected, ...)$/;"	f	file:
+abcd	src/bson/bson-md5.h	/^   uint32_t abcd[4];  \/* digest buffer *\/$/;"	m	struct:__anon67
+action_callback	src/jsonsl/jsonsl.h	/^    jsonsl_stack_callback action_callback;$/;"	m	struct:jsonsl_st
+action_callback_POP	src/jsonsl/jsonsl.h	/^    jsonsl_stack_callback action_callback_POP;$/;"	m	struct:jsonsl_st
+action_callback_PUSH	src/jsonsl/jsonsl.h	/^    jsonsl_stack_callback action_callback_PUSH;$/;"	m	struct:jsonsl_st
+action_callback_UESCAPE	src/jsonsl/jsonsl.h	/^    jsonsl_stack_callback action_callback_UESCAPE;$/;"	m	struct:jsonsl_st
+add_canonical_link	doc/conf.py	/^def add_canonical_link(app, pagename, templatename, context, doctree):$/;"	f
+add_ga_javascript	doc/conf.py	/^def add_ga_javascript(app, pagename, templatename, context, doctree):$/;"	f
+advance	src/bson/bson-json.c	/^   ssize_t advance;$/;"	m	struct:_bson_json_reader_t	file:
+all_whitespace	src/bson/bson-json.c	/^   bool all_whitespace;$/;"	m	struct:__anon26	file:
+alloc	src/bson/bson-private.h	/^   uint8_t *alloc;            \/* buffer that we own. *\/$/;"	m	struct:__anon35
+alloc	src/bson/bson-string.h	/^   uint32_t alloc;$/;"	m	struct:__anon5
+alloclen	src/bson/bson-private.h	/^   size_t alloclen;           \/* length of buffer that we own. *\/$/;"	m	struct:__anon35
+allow_trailing_comma	src/jsonsl/jsonsl.h	/^        int allow_trailing_comma;$/;"	m	struct:jsonsl_st::__anon76
+assemble_path	tests/json-test.c	/^assemble_path (const char *parent_path,$/;"	f
+ats	src/bson/bson-timegm.c	/^   int64_t ats[TZ_MAX_TIMES];$/;"	m	struct:state	file:
+author	doc/conf.py	/^author = 'MongoDB, Inc'$/;"	v
+b	src/bson/bson-writer.c	/^   bson_t b;$/;"	m	struct:_bson_writer_t	file:
+b	src/bson/bson.h	/^bson_init (bson_t *b);$/;"	v
+b	src/bson/bson.h	/^bson_reinit (bson_t *b);$/;"	v
+b64_initialize_rmap	src/bson/b64_pton.h	/^b64_initialize_rmap ()$/;"	f
+b64_ntop	src/bson/b64_ntop.h	/^b64_ntop (uint8_t const *src, size_t srclength, char *target, size_t targsize)$/;"	f
+b64_pton	src/bson/b64_pton.h	/^b64_pton (char const *src, uint8_t *target, size_t targsize)$/;"	f
+b64_pton_do	src/bson/b64_pton.h	/^b64_pton_do (char const *src, uint8_t *target, size_t targsize)$/;"	f
+b64_pton_len	src/bson/b64_pton.h	/^b64_pton_len (char const *src)$/;"	f
+b64rmap	src/bson/b64_pton.h	/^static uint8_t b64rmap[256];$/;"	v
+b64rmap_end	src/bson/b64_pton.h	/^static const uint8_t b64rmap_end = 0xfd;$/;"	v
+b64rmap_initialized	src/bson/b64_pton.h	/^static int b64rmap_initialized = 0;$/;"	v
+b64rmap_invalid	src/bson/b64_pton.h	/^static const uint8_t b64rmap_invalid = 0xff;$/;"	v
+b64rmap_space	src/bson/b64_pton.h	/^static const uint8_t b64rmap_space = 0xfe;$/;"	v
+b64rmap_special	src/bson/b64_pton.h	/^static const uint8_t b64rmap_special = 0xf0;$/;"	v
+base	src/jsonsl/jsonsl.h	/^    const jsonsl_char_t *base;$/;"	m	struct:jsonsl_st
+base	tests/test-string.c	/^   int base;$/;"	m	struct:__anon81	file:
+basestr	src/jsonsl/jsonsl.h	/^    char *basestr;$/;"	m	struct:jsonsl_jpr_st
+bcon_append	src/bson/bcon.c	/^bcon_append (bson_t *bson, ...)$/;"	f
+bcon_append	src/bson/bcon.c	/^typedef union bcon_append {$/;"	u	file:
+bcon_append_ctx	src/bson/bcon.c	/^bcon_append_ctx (bson_t *bson, bcon_append_ctx_t *ctx, ...)$/;"	f
+bcon_append_ctx_frame	src/bson/bcon.h	/^typedef struct bcon_append_ctx_frame {$/;"	s
+bcon_append_ctx_frame_t	src/bson/bcon.h	/^} bcon_append_ctx_frame_t;$/;"	t	typeref:struct:bcon_append_ctx_frame
+bcon_append_ctx_init	src/bson/bcon.c	/^bcon_append_ctx_init (bcon_append_ctx_t *ctx)$/;"	f
+bcon_append_ctx_t	src/bson/bcon.h	/^} bcon_append_ctx_t;$/;"	t	typeref:struct:_bcon_append_ctx_t
+bcon_append_ctx_va	src/bson/bcon.c	/^bcon_append_ctx_va (bson_t *bson, bcon_append_ctx_t *ctx, va_list *ap)$/;"	f
+bcon_append_t	src/bson/bcon.c	/^} bcon_append_t;$/;"	t	typeref:union:bcon_append	file:
+bcon_extract	src/bson/bcon.c	/^bcon_extract (bson_t *bson, ...)$/;"	f
+bcon_extract	src/bson/bcon.c	/^typedef union bcon_extract {$/;"	u	file:
+bcon_extract_ctx	src/bson/bcon.c	/^bcon_extract_ctx (bson_t *bson, bcon_extract_ctx_t *ctx, ...)$/;"	f
+bcon_extract_ctx_frame	src/bson/bcon.h	/^typedef struct bcon_extract_ctx_frame {$/;"	s
+bcon_extract_ctx_frame_t	src/bson/bcon.h	/^} bcon_extract_ctx_frame_t;$/;"	t	typeref:struct:bcon_extract_ctx_frame
+bcon_extract_ctx_init	src/bson/bcon.c	/^bcon_extract_ctx_init (bcon_extract_ctx_t *ctx)$/;"	f
+bcon_extract_ctx_t	src/bson/bcon.h	/^} bcon_extract_ctx_t;$/;"	t	typeref:struct:_bcon_extract_ctx_t
+bcon_extract_ctx_va	src/bson/bcon.c	/^bcon_extract_ctx_va (bson_t *bson, bcon_extract_ctx_t *ctx, va_list *ap)$/;"	f
+bcon_extract_t	src/bson/bcon.c	/^} bcon_extract_t;$/;"	t	typeref:union:bcon_extract	file:
+bcon_new	src/bson/bcon.c	/^bcon_new (void *unused, ...)$/;"	f
+bcon_type_t	src/bson/bcon.h	/^} bcon_type_t;$/;"	t	typeref:enum:__anon4
+binary	src/bson/bcon.c	/^      const uint8_t **binary;$/;"	m	struct:bcon_extract::__anon41	file:
+binary	src/bson/bcon.c	/^      uint8_t *binary;$/;"	m	struct:bcon_append::__anon36	file:
+binary	src/bson/bson-json.c	/^   } binary;$/;"	m	union:__anon11	typeref:struct:__anon11::__anon14	file:
+bloat	tests/test-bson.c	/^bloat (bson_t *b)$/;"	f	file:
+bool	src/bson/bson-compat.h	/^typedef signed char bool;$/;"	t
+bson	src/bson/bcon.h	/^   bson_t bson;$/;"	m	struct:bcon_append_ctx_frame
+bson	src/bson/bson-json.c	/^   bson_json_reader_bson_t bson;$/;"	m	struct:_bson_json_reader_t	file:
+bson	src/bson/bson-json.c	/^   bson_t *bson;$/;"	m	struct:__anon25	file:
+bson	src/bson/bson-json.c	/^   bson_t bson;$/;"	m	struct:__anon10	file:
+bson	src/bson/bson.h	/^bson_copy (const bson_t *bson);$/;"	v
+bson	src/bson/bson.h	/^bson_count_keys (const bson_t *bson);$/;"	v
+bson	src/bson/bson.h	/^bson_destroy (bson_t *bson);$/;"	v
+bson	src/bson/bson.h	/^bson_get_data (const bson_t *bson);$/;"	v
+bson	tests/corpus-test.h	/^   uint8_t *bson;$/;"	m	struct:_test_bson_decode_error_type_t
+bson_append_array	src/bson/bson.c	/^bson_append_array (bson_t *bson,        \/* IN *\/$/;"	f
+bson_append_array_begin	src/bson/bson.c	/^bson_append_array_begin (bson_t *bson,    \/* IN *\/$/;"	f
+bson_append_array_end	src/bson/bson.c	/^bson_append_array_end (bson_t *bson,  \/* IN *\/$/;"	f
+bson_append_binary	src/bson/bson.c	/^bson_append_binary (bson_t *bson,           \/* IN *\/$/;"	f
+bson_append_bool	src/bson/bson.c	/^bson_append_bool (bson_t *bson,    \/* IN *\/$/;"	f
+bson_append_code	src/bson/bson.c	/^bson_append_code (bson_t *bson,           \/* IN *\/$/;"	f
+bson_append_code_with_scope	src/bson/bson.c	/^bson_append_code_with_scope (bson_t *bson,           \/* IN *\/$/;"	f
+bson_append_date_time	src/bson/bson.c	/^bson_append_date_time (bson_t *bson,$/;"	f
+bson_append_dbpointer	src/bson/bson.c	/^bson_append_dbpointer (bson_t *bson,           \/* IN *\/$/;"	f
+bson_append_decimal128	src/bson/bson.c	/^bson_append_decimal128 (bson_t *bson,$/;"	f
+bson_append_document	src/bson/bson.c	/^bson_append_document (bson_t *bson,        \/* IN *\/$/;"	f
+bson_append_document_begin	src/bson/bson.c	/^bson_append_document_begin (bson_t *bson,    \/* IN *\/$/;"	f
+bson_append_document_end	src/bson/bson.c	/^bson_append_document_end (bson_t *bson,  \/* IN *\/$/;"	f
+bson_append_double	src/bson/bson.c	/^bson_append_double (bson_t *bson, const char *key, int key_length, double value)$/;"	f
+bson_append_int32	src/bson/bson.c	/^bson_append_int32 (bson_t *bson, const char *key, int key_length, int32_t value)$/;"	f
+bson_append_int64	src/bson/bson.c	/^bson_append_int64 (bson_t *bson, const char *key, int key_length, int64_t value)$/;"	f
+bson_append_iter	src/bson/bson.c	/^bson_append_iter (bson_t *bson,$/;"	f
+bson_append_maxkey	src/bson/bson.c	/^bson_append_maxkey (bson_t *bson, const char *key, int key_length)$/;"	f
+bson_append_minkey	src/bson/bson.c	/^bson_append_minkey (bson_t *bson, const char *key, int key_length)$/;"	f
+bson_append_now_utc	src/bson/bson.c	/^bson_append_now_utc (bson_t *bson, const char *key, int key_length)$/;"	f
+bson_append_null	src/bson/bson.c	/^bson_append_null (bson_t *bson, const char *key, int key_length)$/;"	f
+bson_append_oid	src/bson/bson.c	/^bson_append_oid (bson_t *bson,$/;"	f
+bson_append_regex	src/bson/bson.c	/^bson_append_regex (bson_t *bson,$/;"	f
+bson_append_symbol	src/bson/bson.c	/^bson_append_symbol ($/;"	f
+bson_append_time_t	src/bson/bson.c	/^bson_append_time_t (bson_t *bson, const char *key, int key_length, time_t value)$/;"	f
+bson_append_timestamp	src/bson/bson.c	/^bson_append_timestamp (bson_t *bson,$/;"	f
+bson_append_timeval	src/bson/bson.c	/^bson_append_timeval (bson_t *bson,$/;"	f
+bson_append_undefined	src/bson/bson.c	/^bson_append_undefined (bson_t *bson, const char *key, int key_length)$/;"	f
+bson_append_utf8	src/bson/bson.c	/^bson_append_utf8 ($/;"	f
+bson_append_value	src/bson/bson.c	/^bson_append_value (bson_t *bson,$/;"	f
+bson_array_as_json	src/bson/bson.c	/^bson_array_as_json (const bson_t *bson, size_t *length)$/;"	f
+bson_as_canonical_extended_json	src/bson/bson.c	/^bson_as_canonical_extended_json (const bson_t *bson, size_t *length)$/;"	f
+bson_as_json	src/bson/bson.c	/^bson_as_json (const bson_t *bson, size_t *length)$/;"	f
+bson_as_json_visitors	src/bson/bson.c	/^static const bson_visitor_t bson_as_json_visitors = {$/;"	v	file:
+bson_as_relaxed_extended_json	src/bson/bson.c	/^bson_as_relaxed_extended_json (const bson_t *bson, size_t *length)$/;"	f
+bson_ascii_strtoll	src/bson/bson-string.c	/^bson_ascii_strtoll (const char *s, char **e, int base)$/;"	f
+bson_atomic_int64_add	src/bson/bson-atomic.c	/^bson_atomic_int64_add (volatile int64_t *p, int64_t n)$/;"	f
+bson_atomic_int64_add	src/bson/bson-atomic.h	35;"	d
+bson_atomic_int_add	src/bson/bson-atomic.c	/^bson_atomic_int_add (volatile int32_t *p, int32_t n)$/;"	f
+bson_atomic_int_add	src/bson/bson-atomic.h	33;"	d
+bson_bcon_magic	src/bson/bcon.c	/^bson_bcon_magic (void)$/;"	f
+bson_bcone_magic	src/bson/bcon.c	/^bson_bcone_magic (void)$/;"	f
+bson_check_version	src/bson/bson-version-functions.c	/^bson_check_version (int required_major, int required_minor, int required_micro)$/;"	f
+bson_clear	src/bson/bson.h	85;"	d
+bson_close	tests/bson-tests.h	70;"	d
+bson_compare	src/bson/bson.c	/^bson_compare (const bson_t *bson, const bson_t *other)$/;"	f
+bson_concat	src/bson/bson.c	/^bson_concat (bson_t *dst, const bson_t *src)$/;"	f
+bson_context_destroy	src/bson/bson-context.c	/^bson_context_destroy (bson_context_t *context) \/* IN *\/$/;"	f
+bson_context_flags_t	src/bson/bson-types.h	/^} bson_context_flags_t;$/;"	t	typeref:enum:__anon46
+bson_context_get_default	src/bson/bson-context.c	/^bson_context_get_default (void)$/;"	f
+bson_context_new	src/bson/bson-context.c	/^bson_context_new (bson_context_flags_t flags)$/;"	f
+bson_context_t	src/bson/bson-types.h	/^typedef struct _bson_context_t bson_context_t;$/;"	t	typeref:struct:_bson_context_t
+bson_copy	src/bson/bson.c	/^bson_copy (const bson_t *bson)$/;"	f
+bson_copy_to	src/bson/bson.c	/^bson_copy_to (const bson_t *src, bson_t *dst)$/;"	f
+bson_copy_to_excluding	src/bson/bson.c	/^bson_copy_to_excluding (const bson_t *src,$/;"	f
+bson_copy_to_excluding_noinit	src/bson/bson.c	/^bson_copy_to_excluding_noinit (const bson_t *src,$/;"	f
+bson_count_keys	src/bson/bson.c	/^bson_count_keys (const bson_t *bson)$/;"	f
+bson_decimal128_from_string	src/bson/bson-decimal128.c	/^bson_decimal128_from_string (const char *string,     \/* IN *\/$/;"	f
+bson_decimal128_t	src/bson/bson-types.h	/^} bson_decimal128_t;$/;"	t	typeref:struct:__anon48
+bson_decimal128_to_string	src/bson/bson-decimal128.c	/^bson_decimal128_to_string (const bson_decimal128_t *dec, \/* IN  *\/$/;"	f
+bson_destroy	src/bson/bson.c	/^bson_destroy (bson_t *bson)$/;"	f
+bson_destroy_with_steal	src/bson/bson.c	/^bson_destroy_with_steal (bson_t *bson, bool steal, uint32_t *length)$/;"	f
+bson_empty	src/bson/bson.h	65;"	d
+bson_empty0	src/bson/bson.h	73;"	d
+bson_eq_bson	tests/bson-tests.h	81;"	d
+bson_equal	src/bson/bson.c	/^bson_equal (const bson_t *bson, const bson_t *other)$/;"	f
+bson_flags_t	src/bson/bson-private.h	/^} bson_flags_t;$/;"	t	typeref:enum:__anon33
+bson_free	src/bson/bson-memory.c	/^bson_free (void *mem) \/* IN *\/$/;"	f
+bson_get_data	src/bson/bson.c	/^bson_get_data (const bson_t *bson)$/;"	f
+bson_get_major_version	src/bson/bson-version-functions.c	/^bson_get_major_version (void)$/;"	f
+bson_get_micro_version	src/bson/bson-version-functions.c	/^bson_get_micro_version (void)$/;"	f
+bson_get_minor_version	src/bson/bson-version-functions.c	/^bson_get_minor_version (void)$/;"	f
+bson_get_monotonic_time	src/bson/bson-clock.c	/^bson_get_monotonic_time (void)$/;"	f
+bson_get_version	src/bson/bson-version-functions.c	/^bson_get_version (void)$/;"	f
+bson_gettid	src/bson/bson-context.c	/^bson_gettid (void)$/;"	f	file:
+bson_gettimeofday	src/bson/bson-clock.c	/^bson_gettimeofday (struct timeval *tv) \/* OUT *\/$/;"	f
+bson_has_field	src/bson/bson.c	/^bson_has_field (const bson_t *bson, const char *key)$/;"	f
+bson_init	src/bson/bson.c	/^bson_init (bson_t *bson)$/;"	f
+bson_init_from_json	src/bson/bson-json.c	/^bson_init_from_json (bson_t *bson,        \/* OUT *\/$/;"	f
+bson_init_static	src/bson/bson.c	/^bson_init_static (bson_t *bson, const uint8_t *data, size_t length)$/;"	f
+bson_is_power_of_two	src/bson/bson-types.h	/^bson_is_power_of_two (uint32_t v)$/;"	f
+bson_iter_array	src/bson/bson-iter.c	/^bson_iter_array (const bson_iter_t *iter, \/* IN *\/$/;"	f
+bson_iter_as_bool	src/bson/bson-iter.c	/^bson_iter_as_bool (const bson_iter_t *iter) \/* IN *\/$/;"	f
+bson_iter_as_double	src/bson/bson-iter.c	/^bson_iter_as_double (const bson_iter_t *iter) \/* IN *\/$/;"	f
+bson_iter_as_int64	src/bson/bson-iter.c	/^bson_iter_as_int64 (const bson_iter_t *iter) \/* IN *\/$/;"	f
+bson_iter_binary	src/bson/bson-iter.c	/^bson_iter_binary (const bson_iter_t *iter, \/* IN *\/$/;"	f
+bson_iter_bool	src/bson/bson-iter.c	/^bson_iter_bool (const bson_iter_t *iter) \/* IN *\/$/;"	f
+bson_iter_bool_unsafe	src/bson/bson-iter.h	/^bson_iter_bool_unsafe (const bson_iter_t *iter)$/;"	f
+bson_iter_code	src/bson/bson-iter.c	/^bson_iter_code (const bson_iter_t *iter, \/* IN *\/$/;"	f
+bson_iter_code_unsafe	src/bson/bson-iter.h	/^bson_iter_code_unsafe (const bson_iter_t *iter, uint32_t *length)$/;"	f
+bson_iter_codewscope	src/bson/bson-iter.c	/^bson_iter_codewscope (const bson_iter_t *iter, \/* IN *\/$/;"	f
+bson_iter_date_time	src/bson/bson-iter.c	/^bson_iter_date_time (const bson_iter_t *iter) \/* IN *\/$/;"	f
+bson_iter_dbpointer	src/bson/bson-iter.c	/^bson_iter_dbpointer (const bson_iter_t *iter,  \/* IN *\/$/;"	f
+bson_iter_decimal128	src/bson/bson-iter.c	/^bson_iter_decimal128 (const bson_iter_t *iter, \/* IN *\/$/;"	f
+bson_iter_decimal128_unsafe	src/bson/bson-iter.h	/^bson_iter_decimal128_unsafe (const bson_iter_t *iter, bson_decimal128_t *dec)$/;"	f
+bson_iter_document	src/bson/bson-iter.c	/^bson_iter_document (const bson_iter_t *iter,  \/* IN *\/$/;"	f
+bson_iter_double	src/bson/bson-iter.c	/^bson_iter_double (const bson_iter_t *iter) \/* IN *\/$/;"	f
+bson_iter_double_unsafe	src/bson/bson-iter.h	/^bson_iter_double_unsafe (const bson_iter_t *iter)$/;"	f
+bson_iter_dup_utf8	src/bson/bson-iter.c	/^bson_iter_dup_utf8 (const bson_iter_t *iter, \/* IN *\/$/;"	f
+bson_iter_find	src/bson/bson-iter.c	/^bson_iter_find (bson_iter_t *iter, \/* INOUT *\/$/;"	f
+bson_iter_find_case	src/bson/bson-iter.c	/^bson_iter_find_case (bson_iter_t *iter, \/* INOUT *\/$/;"	f
+bson_iter_find_descendant	src/bson/bson-iter.c	/^bson_iter_find_descendant (bson_iter_t *iter,       \/* INOUT *\/$/;"	f
+bson_iter_init	src/bson/bson-iter.c	/^bson_iter_init (bson_iter_t *iter,  \/* OUT *\/$/;"	f
+bson_iter_init_find	src/bson/bson-iter.c	/^bson_iter_init_find (bson_iter_t *iter,  \/* INOUT *\/$/;"	f
+bson_iter_init_find_case	src/bson/bson-iter.c	/^bson_iter_init_find_case (bson_iter_t *iter,  \/* INOUT *\/$/;"	f
+bson_iter_init_from_data	src/bson/bson-iter.c	/^bson_iter_init_from_data (bson_iter_t *iter,   \/* OUT *\/$/;"	f
+bson_iter_int32	src/bson/bson-iter.c	/^bson_iter_int32 (const bson_iter_t *iter) \/* IN *\/$/;"	f
+bson_iter_int32_unsafe	src/bson/bson-iter.h	/^bson_iter_int32_unsafe (const bson_iter_t *iter)$/;"	f
+bson_iter_int64	src/bson/bson-iter.c	/^bson_iter_int64 (const bson_iter_t *iter) \/* IN *\/$/;"	f
+bson_iter_int64_unsafe	src/bson/bson-iter.h	/^bson_iter_int64_unsafe (const bson_iter_t *iter)$/;"	f
+bson_iter_key	src/bson/bson-iter.c	/^bson_iter_key (const bson_iter_t *iter) \/* IN *\/$/;"	f
+bson_iter_key_unsafe	src/bson/bson-iter.h	/^bson_iter_key_unsafe (const bson_iter_t *iter)$/;"	f
+bson_iter_next	src/bson/bson-iter.c	/^bson_iter_next (bson_iter_t *iter) \/* INOUT *\/$/;"	f
+bson_iter_oid	src/bson/bson-iter.c	/^bson_iter_oid (const bson_iter_t *iter) \/* IN *\/$/;"	f
+bson_iter_oid_unsafe	src/bson/bson-iter.h	/^bson_iter_oid_unsafe (const bson_iter_t *iter)$/;"	f
+bson_iter_overwrite_bool	src/bson/bson-iter.c	/^bson_iter_overwrite_bool (bson_iter_t *iter, \/* IN *\/$/;"	f
+bson_iter_overwrite_decimal128	src/bson/bson-iter.c	/^bson_iter_overwrite_decimal128 (bson_iter_t *iter,        \/* IN *\/$/;"	f
+bson_iter_overwrite_double	src/bson/bson-iter.c	/^bson_iter_overwrite_double (bson_iter_t *iter, \/* IN *\/$/;"	f
+bson_iter_overwrite_int32	src/bson/bson-iter.c	/^bson_iter_overwrite_int32 (bson_iter_t *iter, \/* IN *\/$/;"	f
+bson_iter_overwrite_int64	src/bson/bson-iter.c	/^bson_iter_overwrite_int64 (bson_iter_t *iter, \/* IN *\/$/;"	f
+bson_iter_recurse	src/bson/bson-iter.c	/^bson_iter_recurse (const bson_iter_t *iter, \/* IN *\/$/;"	f
+bson_iter_regex	src/bson/bson-iter.c	/^bson_iter_regex (const bson_iter_t *iter, \/* IN *\/$/;"	f
+bson_iter_symbol	src/bson/bson-iter.c	/^bson_iter_symbol (const bson_iter_t *iter, \/* IN *\/$/;"	f
+bson_iter_time_t	src/bson/bson-iter.c	/^bson_iter_time_t (const bson_iter_t *iter) \/* IN *\/$/;"	f
+bson_iter_time_t_unsafe	src/bson/bson-iter.h	/^bson_iter_time_t_unsafe (const bson_iter_t *iter)$/;"	f
+bson_iter_timestamp	src/bson/bson-iter.c	/^bson_iter_timestamp (const bson_iter_t *iter, \/* IN *\/$/;"	f
+bson_iter_timeval	src/bson/bson-iter.c	/^bson_iter_timeval (const bson_iter_t *iter, \/* IN *\/$/;"	f
+bson_iter_timeval_unsafe	src/bson/bson-iter.h	/^bson_iter_timeval_unsafe (const bson_iter_t *iter, struct timeval *tv)$/;"	f
+bson_iter_type	src/bson/bson-iter.c	/^bson_iter_type (const bson_iter_t *iter) \/* IN *\/$/;"	f
+bson_iter_type_unsafe	src/bson/bson-iter.h	/^bson_iter_type_unsafe (const bson_iter_t *iter)$/;"	f
+bson_iter_utf8	src/bson/bson-iter.c	/^bson_iter_utf8 (const bson_iter_t *iter, \/* IN *\/$/;"	f
+bson_iter_utf8_len_unsafe	src/bson/bson-iter.h	/^bson_iter_utf8_len_unsafe (const bson_iter_t *iter)$/;"	f
+bson_iter_utf8_unsafe	src/bson/bson-iter.h	/^bson_iter_utf8_unsafe (const bson_iter_t *iter, size_t *length)$/;"	f
+bson_iter_value	src/bson/bson-iter.c	/^bson_iter_value (bson_iter_t *iter) \/* IN *\/$/;"	f
+bson_iter_visit_all	src/bson/bson-iter.c	/^bson_iter_visit_all (bson_iter_t *iter,             \/* INOUT *\/$/;"	f
+bson_json_bson_data_t	src/bson/bson-json.c	/^} bson_json_bson_data_t;$/;"	t	typeref:union:__anon11	file:
+bson_json_buf_t	src/bson/bson-json.c	/^} bson_json_buf_t;$/;"	t	typeref:struct:__anon8	file:
+bson_json_code_t	src/bson/bson-json.c	/^} bson_json_code_t;$/;"	t	typeref:struct:__anon24	file:
+bson_json_data_reader_ingest	src/bson/bson-json.c	/^bson_json_data_reader_ingest (bson_json_reader_t *reader, \/* IN *\/$/;"	f
+bson_json_data_reader_new	src/bson/bson-json.c	/^bson_json_data_reader_new (bool allow_multiple, \/* IN *\/$/;"	f
+bson_json_data_reader_t	src/bson/bson-json.c	/^} bson_json_data_reader_t;$/;"	t	typeref:struct:__anon28	file:
+bson_json_destroy_cb	src/bson/bson-json.h	/^typedef void (*bson_json_destroy_cb) (void *handle);$/;"	t
+bson_json_error_code_t	src/bson/bson-json.h	/^} bson_json_error_code_t;$/;"	t	typeref:enum:__anon3
+bson_json_frame_type_t	src/bson/bson-json.c	/^} bson_json_frame_type_t;$/;"	t	typeref:enum:__anon9	file:
+bson_json_mode_t	src/bson/bson.c	/^} bson_json_mode_t;$/;"	t	typeref:enum:__anon30	file:
+bson_json_read_bson_state_t	src/bson/bson-json.c	/^} bson_json_read_bson_state_t;$/;"	t	typeref:enum:__anon7	file:
+bson_json_read_state_t	src/bson/bson-json.c	/^typedef enum { FOREACH_READ_STATE (READ_STATE_ENUM) } bson_json_read_state_t;$/;"	t	typeref:enum:__anon6	file:
+bson_json_reader_bson_t	src/bson/bson-json.c	/^} bson_json_reader_bson_t;$/;"	t	typeref:struct:__anon25	file:
+bson_json_reader_cb	src/bson/bson-json.h	/^typedef ssize_t (*bson_json_reader_cb) (void *handle,$/;"	t
+bson_json_reader_destroy	src/bson/bson-json.c	/^bson_json_reader_destroy (bson_json_reader_t *reader) \/* IN *\/$/;"	f
+bson_json_reader_handle_fd_t	src/bson/bson-json.c	/^} bson_json_reader_handle_fd_t;$/;"	t	typeref:struct:__anon27	file:
+bson_json_reader_new	src/bson/bson-json.c	/^bson_json_reader_new (void *data,               \/* IN *\/$/;"	f
+bson_json_reader_new_from_fd	src/bson/bson-json.c	/^bson_json_reader_new_from_fd (int fd,                \/* IN *\/$/;"	f
+bson_json_reader_new_from_file	src/bson/bson-json.c	/^bson_json_reader_new_from_file (const char *path,    \/* IN *\/$/;"	f
+bson_json_reader_producer_t	src/bson/bson-json.c	/^} bson_json_reader_producer_t;$/;"	t	typeref:struct:__anon26	file:
+bson_json_reader_read	src/bson/bson-json.c	/^bson_json_reader_read (bson_json_reader_t *reader, \/* IN *\/$/;"	f
+bson_json_reader_t	src/bson/bson-json.h	/^typedef struct _bson_json_reader_t bson_json_reader_t;$/;"	t	typeref:struct:_bson_json_reader_t
+bson_json_stack_frame_t	src/bson/bson-json.c	/^} bson_json_stack_frame_t;$/;"	t	typeref:struct:__anon10	file:
+bson_json_state_t	src/bson/bson.c	/^} bson_json_state_t;$/;"	t	typeref:struct:__anon32	file:
+bson_len	tests/corpus-test.h	/^   uint32_t bson_len;$/;"	m	struct:_test_bson_decode_error_type_t
+bson_malloc	src/bson/bson-memory.c	/^bson_malloc (size_t num_bytes) \/* IN *\/$/;"	f
+bson_malloc0	src/bson/bson-memory.c	/^bson_malloc0 (size_t num_bytes) \/* IN *\/$/;"	f
+bson_md5_append	src/bson/bson-md5.c	/^bson_md5_append (bson_md5_t *pms, const uint8_t *data, uint32_t nbytes)$/;"	f
+bson_md5_finish	src/bson/bson-md5.c	/^bson_md5_finish (bson_md5_t *pms, uint8_t digest[16])$/;"	f
+bson_md5_init	src/bson/bson-md5.c	/^bson_md5_init (bson_md5_t *pms)$/;"	f
+bson_md5_process	src/bson/bson-md5.c	/^bson_md5_process (bson_md5_t *md5, const uint8_t *data)$/;"	f	file:
+bson_md5_t	src/bson/bson-md5.h	/^} bson_md5_t;$/;"	t	typeref:struct:__anon67
+bson_mem_restore_vtable	src/bson/bson-memory.c	/^bson_mem_restore_vtable (void)$/;"	f
+bson_mem_set_vtable	src/bson/bson-memory.c	/^bson_mem_set_vtable (const bson_mem_vtable_t *vtable)$/;"	f
+bson_mem_vtable_t	src/bson/bson-memory.h	/^} bson_mem_vtable_t;$/;"	t	typeref:struct:_bson_mem_vtable_t
+bson_memory_barrier	src/bson/bson-atomic.c	/^bson_memory_barrier (void)$/;"	f
+bson_memory_barrier	src/bson/bson-atomic.h	79;"	d
+bson_memory_barrier	src/bson/bson-atomic.h	82;"	d
+bson_memory_barrier	src/bson/bson-atomic.h	85;"	d
+bson_memory_barrier	src/bson/bson-atomic.h	89;"	d
+bson_memory_barrier	src/bson/bson-atomic.h	91;"	d
+bson_metrics	examples/bson-metrics.c	/^bson_metrics (const bson_t *bson, size_t *length, void *data)$/;"	f	file:
+bson_metrics_state_t	examples/bson-metrics.c	/^} bson_metrics_state_t;$/;"	t	typeref:struct:__anon2	file:
+bson_metrics_visit_array	examples/bson-metrics.c	/^bson_metrics_visit_array (const bson_iter_t *iter,$/;"	f	file:
+bson_metrics_visit_before	examples/bson-metrics.c	/^bson_metrics_visit_before (const bson_iter_t *iter, const char *key, void *data)$/;"	f	file:
+bson_metrics_visit_document	examples/bson-metrics.c	/^bson_metrics_visit_document (const bson_iter_t *iter,$/;"	f	file:
+bson_metrics_visit_utf8	examples/bson-metrics.c	/^bson_metrics_visit_utf8 (const bson_iter_t *iter,$/;"	f	file:
+bson_metrics_visitors	examples/bson-metrics.c	/^static const bson_visitor_t bson_metrics_visitors = {$/;"	v	file:
+bson_mutex_destroy	src/bson/bson-thread-private.h	41;"	d
+bson_mutex_init	src/bson/bson-thread-private.h	38;"	d
+bson_mutex_lock	src/bson/bson-thread-private.h	39;"	d
+bson_mutex_t	src/bson/bson-thread-private.h	37;"	d
+bson_mutex_unlock	src/bson/bson-thread-private.h	40;"	d
+bson_new	src/bson/bson.c	/^bson_new (void)$/;"	f
+bson_new_from_buffer	src/bson/bson.c	/^bson_new_from_buffer (uint8_t **buf,$/;"	f
+bson_new_from_data	src/bson/bson.c	/^bson_new_from_data (const uint8_t *data, size_t length)$/;"	f
+bson_new_from_json	src/bson/bson-json.c	/^bson_new_from_json (const uint8_t *data, \/* IN *\/$/;"	f
+bson_next_power_of_two	src/bson/bson-types.h	/^bson_next_power_of_two (size_t v)$/;"	f
+bson_oid_compare	src/bson/bson-oid.c	/^bson_oid_compare (const bson_oid_t *oid1, \/* IN *\/$/;"	f
+bson_oid_compare_unsafe	src/bson/bson-oid.h	/^bson_oid_compare_unsafe (const bson_oid_t *oid1, const bson_oid_t *oid2)$/;"	f
+bson_oid_copy	src/bson/bson-oid.c	/^bson_oid_copy (const bson_oid_t *src, \/* IN *\/$/;"	f
+bson_oid_copy_unsafe	src/bson/bson-oid.h	/^bson_oid_copy_unsafe (const bson_oid_t *src, bson_oid_t *dst)$/;"	f
+bson_oid_equal	src/bson/bson-oid.c	/^bson_oid_equal (const bson_oid_t *oid1, \/* IN *\/$/;"	f
+bson_oid_equal_unsafe	src/bson/bson-oid.h	/^bson_oid_equal_unsafe (const bson_oid_t *oid1, const bson_oid_t *oid2)$/;"	f
+bson_oid_get_time_t	src/bson/bson-oid.c	/^bson_oid_get_time_t (const bson_oid_t *oid) \/* IN *\/$/;"	f
+bson_oid_get_time_t_unsafe	src/bson/bson-oid.h	/^bson_oid_get_time_t_unsafe (const bson_oid_t *oid)$/;"	f
+bson_oid_hash	src/bson/bson-oid.c	/^bson_oid_hash (const bson_oid_t *oid) \/* IN *\/$/;"	f
+bson_oid_hash_unsafe	src/bson/bson-oid.h	/^bson_oid_hash_unsafe (const bson_oid_t *oid)$/;"	f
+bson_oid_init	src/bson/bson-oid.c	/^bson_oid_init (bson_oid_t *oid,         \/* OUT *\/$/;"	f
+bson_oid_init_from_data	src/bson/bson-oid.c	/^bson_oid_init_from_data (bson_oid_t *oid,     \/* OUT *\/$/;"	f
+bson_oid_init_from_string	src/bson/bson-oid.c	/^bson_oid_init_from_string (bson_oid_t *oid, \/* OUT *\/$/;"	f
+bson_oid_init_from_string_unsafe	src/bson/bson-oid.h	/^bson_oid_init_from_string_unsafe (bson_oid_t *oid, const char *str)$/;"	f
+bson_oid_init_sequence	src/bson/bson-oid.c	/^bson_oid_init_sequence (bson_oid_t *oid,         \/* OUT *\/$/;"	f
+bson_oid_is_valid	src/bson/bson-oid.c	/^bson_oid_is_valid (const char *str, \/* IN *\/$/;"	f
+bson_oid_parse_hex_char	src/bson/bson-oid.h	/^bson_oid_parse_hex_char (char hex)$/;"	f
+bson_oid_t	src/bson/bson-types.h	/^} bson_oid_t;$/;"	t	typeref:struct:__anon47
+bson_oid_to_string	src/bson/bson-oid.c	/^bson_oid_to_string (const bson_oid_t *oid,                       \/* IN *\/$/;"	f
+bson_once	src/bson/bson-thread-private.h	46;"	d
+bson_once_t	src/bson/bson-thread-private.h	45;"	d
+bson_open	tests/bson-tests.h	/^bson_open (const char *filename, int flags, ...)$/;"	f
+bson_read	tests/bson-tests.h	71;"	d
+bson_reader_data_t	src/bson/bson-reader.c	/^} bson_reader_data_t;$/;"	t	typeref:struct:__anon71	file:
+bson_reader_destroy	src/bson/bson-reader.c	/^bson_reader_destroy (bson_reader_t *reader) \/* IN *\/$/;"	f
+bson_reader_destroy_func_t	src/bson/bson-reader.h	/^typedef void (*bson_reader_destroy_func_t) (void *handle); \/* IN *\/$/;"	t
+bson_reader_handle_fd_t	src/bson/bson-reader.c	/^} bson_reader_handle_fd_t;$/;"	t	typeref:struct:__anon70	file:
+bson_reader_handle_t	src/bson/bson-reader.c	/^} bson_reader_handle_t;$/;"	t	typeref:struct:__anon69	file:
+bson_reader_new_from_data	src/bson/bson-reader.c	/^bson_reader_new_from_data (const uint8_t *data, \/* IN *\/$/;"	f
+bson_reader_new_from_fd	src/bson/bson-reader.c	/^bson_reader_new_from_fd (int fd,                \/* IN *\/$/;"	f
+bson_reader_new_from_file	src/bson/bson-reader.c	/^bson_reader_new_from_file (const char *path,    \/* IN *\/$/;"	f
+bson_reader_new_from_handle	src/bson/bson-reader.c	/^bson_reader_new_from_handle (void *handle,$/;"	f
+bson_reader_read	src/bson/bson-reader.c	/^bson_reader_read (bson_reader_t *reader, \/* IN *\/$/;"	f
+bson_reader_read_func_t	src/bson/bson-reader.h	/^typedef ssize_t (*bson_reader_read_func_t) (void *handle,  \/* IN *\/$/;"	t
+bson_reader_reset	src/bson/bson-reader.c	/^bson_reader_reset (bson_reader_t *reader)$/;"	f
+bson_reader_set_destroy_func	src/bson/bson-reader.c	/^bson_reader_set_destroy_func (bson_reader_t *reader,           \/* IN *\/$/;"	f
+bson_reader_set_read_func	src/bson/bson-reader.c	/^bson_reader_set_read_func (bson_reader_t *reader,        \/* IN *\/$/;"	f
+bson_reader_tell	src/bson/bson-reader.c	/^bson_reader_tell (bson_reader_t *reader) \/* IN *\/$/;"	f
+bson_reader_type_t	src/bson/bson-reader.c	/^} bson_reader_type_t;$/;"	t	typeref:enum:__anon68	file:
+bson_realloc	src/bson/bson-memory.c	/^bson_realloc (void *mem,        \/* IN *\/$/;"	f
+bson_realloc_ctx	src/bson/bson-memory.c	/^bson_realloc_ctx (void *mem,        \/* IN *\/$/;"	f
+bson_realloc_func	src/bson/bson-memory.h	/^typedef void *(*bson_realloc_func) (void *mem, size_t num_bytes, void *ctx);$/;"	t
+bson_reinit	src/bson/bson.c	/^bson_reinit (bson_t *bson)$/;"	f
+bson_reserve_buffer	src/bson/bson.c	/^bson_reserve_buffer (bson_t *bson, uint32_t size)$/;"	f
+bson_set_error	src/bson/bson-error.c	/^bson_set_error (bson_error_t *error, \/* OUT *\/$/;"	f
+bson_sized_new	src/bson/bson.c	/^bson_sized_new (size_t size)$/;"	f
+bson_snprintf	src/bson/bson-string.c	/^bson_snprintf (char *str,          \/* IN *\/$/;"	f
+bson_state	src/bson/bson-json.c	/^   bson_json_read_bson_state_t bson_state;$/;"	m	struct:__anon25	file:
+bson_state_names	src/bson/bson-json.c	/^static const char *bson_state_names[] = {FOREACH_BSON_STATE (GENERATE_STRING)};$/;"	v	file:
+bson_steal	src/bson/bson.c	/^bson_steal (bson_t *dst, bson_t *src)$/;"	f
+bson_str_empty	src/bson/bson-macros.h	178;"	d
+bson_str_empty0	src/bson/bson-macros.h	179;"	d
+bson_strcasecmp	src/bson/bson-string.c	/^bson_strcasecmp (const char *s1, const char *s2)$/;"	f
+bson_strdup	src/bson/bson-string.c	/^bson_strdup (const char *str) \/* IN *\/$/;"	f
+bson_strdup_printf	src/bson/bson-string.c	/^bson_strdup_printf (const char *format, \/* IN *\/$/;"	f
+bson_strdupv_printf	src/bson/bson-string.c	/^bson_strdupv_printf (const char *format, \/* IN *\/$/;"	f
+bson_streaming_remote_open	examples/bson-streaming-reader.c	/^bson_streaming_remote_open (const char *hostname, const char *port)$/;"	f
+bson_strerror_r	src/bson/bson-error.c	/^bson_strerror_r (int err_code,  \/* IN *\/$/;"	f
+bson_strfreev	src/bson/bson-string.c	/^bson_strfreev (char **str) \/* IN *\/$/;"	f
+bson_string_append	src/bson/bson-string.c	/^bson_string_append (bson_string_t *string, \/* IN *\/$/;"	f
+bson_string_append_c	src/bson/bson-string.c	/^bson_string_append_c (bson_string_t *string, \/* IN *\/$/;"	f
+bson_string_append_printf	src/bson/bson-string.c	/^bson_string_append_printf (bson_string_t *string, const char *format, ...)$/;"	f
+bson_string_append_unichar	src/bson/bson-string.c	/^bson_string_append_unichar (bson_string_t *string,  \/* IN *\/$/;"	f
+bson_string_free	src/bson/bson-string.c	/^bson_string_free (bson_string_t *string, \/* IN *\/$/;"	f
+bson_string_new	src/bson/bson-string.c	/^bson_string_new (const char *str) \/* IN *\/$/;"	f
+bson_string_t	src/bson/bson-string.h	/^} bson_string_t;$/;"	t	typeref:struct:__anon5
+bson_string_truncate	src/bson/bson-string.c	/^bson_string_truncate (bson_string_t *string, \/* IN *\/$/;"	f
+bson_strncpy	src/bson/bson-string.c	/^bson_strncpy (char *dst,       \/* IN *\/$/;"	f
+bson_strndup	src/bson/bson-string.c	/^bson_strndup (const char *str, \/* IN *\/$/;"	f
+bson_strnlen	src/bson/bson-string.c	/^bson_strnlen (const char *s, \/* IN *\/$/;"	f
+bson_subtype_t	src/bson/bson-types.h	/^} bson_subtype_t;$/;"	t	typeref:enum:__anon51
+bson_sync_synchronize	src/bson/bson-compat.h	157;"	d
+bson_sync_synchronize	src/bson/bson-compat.h	160;"	d
+bson_sync_synchronize	src/bson/bson-compat.h	162;"	d
+bson_sync_synchronize	src/bson/bson-compat.h	165;"	d
+bson_thread_create	src/bson/bson-thread-private.h	43;"	d
+bson_thread_join	src/bson/bson-thread-private.h	44;"	d
+bson_thread_t	src/bson/bson-thread-private.h	42;"	d
+bson_tm	src/bson/bson-timegm-private.h	/^struct bson_tm {$/;"	s
+bson_type	src/bson/bson-json.c	/^   bson_type_t bson_type;$/;"	m	struct:__anon25	file:
+bson_type	tests/corpus-test.h	/^   bson_type_t bson_type;$/;"	m	struct:_test_bson_decode_error_type_t
+bson_type	tests/corpus-test.h	/^   bson_type_t bson_type;$/;"	m	struct:_test_bson_parse_error_type_t
+bson_type	tests/corpus-test.h	/^   bson_type_t bson_type;$/;"	m	struct:_test_bson_valid_type_t
+bson_type_buf	src/bson/bson-json.c	/^   bson_json_buf_t bson_type_buf[3];$/;"	m	struct:__anon25	file:
+bson_type_data	src/bson/bson-json.c	/^   bson_json_bson_data_t bson_type_data;$/;"	m	struct:__anon25	file:
+bson_type_metrics	examples/bson-metrics.c	/^   bson_type_metrics_t bson_type_metrics[256];$/;"	m	struct:__anon2	file:
+bson_type_metrics_t	examples/bson-metrics.c	/^} bson_type_metrics_t;$/;"	t	typeref:struct:__anon1	file:
+bson_type_t	src/bson/bson-types.h	/^} bson_type_t;$/;"	t	typeref:enum:__anon50
+bson_uint32_to_string	src/bson/bson-keys.c	/^bson_uint32_to_string (uint32_t value,      \/* IN *\/$/;"	f
+bson_unichar_t	src/bson/bson-types.h	/^typedef uint32_t bson_unichar_t;$/;"	t
+bson_utf8_escape_for_json	src/bson/bson-utf8.c	/^bson_utf8_escape_for_json (const char *utf8, \/* IN *\/$/;"	f
+bson_utf8_from_unichar	src/bson/bson-utf8.c	/^bson_utf8_from_unichar (bson_unichar_t unichar,                      \/* IN *\/$/;"	f
+bson_utf8_get_char	src/bson/bson-utf8.c	/^bson_utf8_get_char (const char *utf8) \/* IN *\/$/;"	f
+bson_utf8_next_char	src/bson/bson-utf8.c	/^bson_utf8_next_char (const char *utf8) \/* IN *\/$/;"	f
+bson_utf8_validate	src/bson/bson-utf8.c	/^bson_utf8_validate (const char *utf8, \/* IN *\/$/;"	f
+bson_validate	src/bson/bson.c	/^bson_validate (const bson_t *bson, bson_validate_flags_t flags, size_t *offset)$/;"	f
+bson_validate_flags_t	src/bson/bson-types.h	/^} bson_validate_flags_t;$/;"	t	typeref:enum:__anon49
+bson_validate_funcs	src/bson/bson.c	/^static const bson_visitor_t bson_validate_funcs = {$/;"	v	file:
+bson_validate_phase_t	src/bson/bson.c	/^} bson_validate_phase_t;$/;"	t	typeref:enum:__anon29	file:
+bson_validate_state_t	src/bson/bson.c	/^} bson_validate_state_t;$/;"	t	typeref:struct:__anon31	file:
+bson_validate_with_error	src/bson/bson.c	/^bson_validate_with_error (const bson_t *bson,$/;"	f
+bson_value_copy	src/bson/bson-value.c	/^bson_value_copy (const bson_value_t *src, \/* IN *\/$/;"	f
+bson_value_destroy	src/bson/bson-value.c	/^bson_value_destroy (bson_value_t *value) \/* IN *\/$/;"	f
+bson_vsnprintf	src/bson/bson-string.c	/^bson_vsnprintf (char *str,          \/* IN *\/$/;"	f
+bson_write	tests/bson-tests.h	72;"	d
+bson_writer_begin	src/bson/bson-writer.c	/^bson_writer_begin (bson_writer_t *writer, \/* IN *\/$/;"	f
+bson_writer_destroy	src/bson/bson-writer.c	/^bson_writer_destroy (bson_writer_t *writer) \/* IN *\/$/;"	f
+bson_writer_end	src/bson/bson-writer.c	/^bson_writer_end (bson_writer_t *writer) \/* IN *\/$/;"	f
+bson_writer_get_length	src/bson/bson-writer.c	/^bson_writer_get_length (bson_writer_t *writer) \/* IN *\/$/;"	f
+bson_writer_new	src/bson/bson-writer.c	/^bson_writer_new (uint8_t **buf,                  \/* IN *\/$/;"	f
+bson_writer_rollback	src/bson/bson-writer.c	/^bson_writer_rollback (bson_writer_t *writer) \/* IN *\/$/;"	f
+bson_writer_t	src/bson/bson-writer.h	/^typedef struct _bson_writer_t bson_writer_t;$/;"	t	typeref:struct:_bson_writer_t
+bson_zero_free	src/bson/bson-memory.c	/^bson_zero_free (void *mem,   \/* IN *\/$/;"	f
+buf	src/bson/bson-json.c	/^   uint8_t *buf;$/;"	m	struct:__anon26	file:
+buf	src/bson/bson-json.c	/^   uint8_t *buf;$/;"	m	struct:__anon8	file:
+buf	src/bson/bson-md5.h	/^   uint8_t buf[64];   \/* accumulate block *\/$/;"	m	struct:__anon67
+buf	src/bson/bson-private.h	/^   uint8_t **buf;             \/* pointer to buffer pointer *\/$/;"	m	struct:__anon35
+buf	src/bson/bson-writer.c	/^   uint8_t **buf;$/;"	m	struct:_bson_writer_t	file:
+buf_size	src/bson/bson-json.c	/^   size_t buf_size;$/;"	m	struct:__anon26	file:
+buflen	src/bson/bson-private.h	/^   size_t *buflen;            \/* pointer to buffer length *\/$/;"	m	struct:__anon35
+buflen	src/bson/bson-writer.c	/^   size_t *buflen;$/;"	m	struct:_bson_writer_t	file:
+bytes	src/bson/bson-types.h	/^   uint8_t bytes[12];$/;"	m	struct:__anon47
+bytes_parsed	src/bson/bson-json.c	/^   size_t bytes_parsed;$/;"	m	struct:__anon26	file:
+bytes_parsed	src/bson/bson-json.c	/^   size_t bytes_parsed;$/;"	m	struct:__anon28	file:
+bytes_read	src/bson/bson-json.c	/^   size_t bytes_read;$/;"	m	struct:__anon26	file:
+bytes_read	src/bson/bson-reader.c	/^   size_t bytes_read;$/;"	m	struct:__anon69	file:
+cB	tests/corpus-test.h	/^   uint8_t *cB;         \/* "canonical_bson" *\/$/;"	m	struct:_test_bson_valid_type_t
+cB_len	tests/corpus-test.h	/^   uint32_t cB_len;$/;"	m	struct:_test_bson_valid_type_t
+cE	tests/corpus-test.h	/^   const char *cE;      \/* "canonical_extjson" *\/$/;"	m	struct:_test_bson_valid_type_t
+call_HKEY	src/jsonsl/jsonsl.h	/^    int call_HKEY;$/;"	m	struct:jsonsl_st
+call_LIST	src/jsonsl/jsonsl.h	/^    int call_LIST;$/;"	m	struct:jsonsl_st
+call_OBJECT	src/jsonsl/jsonsl.h	/^    int call_OBJECT;$/;"	m	struct:jsonsl_st
+call_SPECIAL	src/jsonsl/jsonsl.h	/^    int call_SPECIAL;$/;"	m	struct:jsonsl_st
+call_STRING	src/jsonsl/jsonsl.h	/^    int call_STRING;$/;"	m	struct:jsonsl_st
+call_UESCAPE	src/jsonsl/jsonsl.h	/^    int call_UESCAPE;$/;"	m	struct:jsonsl_st
+calloc	src/bson/bson-memory.h	/^   void *(*calloc) (size_t n_members, size_t num_bytes);$/;"	m	struct:_bson_mem_vtable_t
+can_insert	src/jsonsl/jsonsl.h	/^    int can_insert;$/;"	m	struct:jsonsl_st
+cb	src/bson/bson-json.c	/^   bson_json_reader_cb cb;$/;"	m	struct:__anon26	file:
+charcnt	src/bson/bson-timegm.c	/^   int charcnt;$/;"	m	struct:state	file:
+chars	src/bson/bson-timegm.c	/^   char chars[BIGGEST (TZ_MAX_CHARS + 1, (2 * (MY_TZNAME_MAX + 1)))];$/;"	m	struct:state	file:
+checks	tests/TestSuite.h	/^   CheckFunc checks[MAX_TEST_CHECK_FUNCS];$/;"	m	struct:_Test
+code	src/bson/bson-types.h	/^         char *code;$/;"	m	struct:_bson_value_t::__anon52::__anon59
+code	src/bson/bson-types.h	/^         char *code;$/;"	m	struct:_bson_value_t::__anon52::__anon60
+code	src/bson/bson-types.h	/^   uint32_t code;$/;"	m	struct:_bson_error_t
+code_buf	src/bson/bson-json.c	/^   bson_json_buf_t code_buf;$/;"	m	struct:__anon24	file:
+code_data	src/bson/bson-json.c	/^   bson_json_code_t code_data;$/;"	m	struct:__anon25	file:
+code_len	src/bson/bson-types.h	/^         uint32_t code_len;$/;"	m	struct:_bson_value_t::__anon52::__anon59
+code_len	src/bson/bson-types.h	/^         uint32_t code_len;$/;"	m	struct:_bson_value_t::__anon52::__anon60
+col_view_create	examples/bcon-col-view.c	/^col_view_create (const char *stub, ...)$/;"	f
+collect_tests_from_dir	tests/json-test.c	/^collect_tests_from_dir (char (*paths)[MAX_TEST_NAME_LENGTH] \/* OUT *\/,$/;"	f
+collection	src/bson/bcon.c	/^      char *collection;$/;"	m	struct:bcon_append::__anon38	file:
+collection	src/bson/bcon.c	/^      const char **collection;$/;"	m	struct:bcon_extract::__anon43	file:
+collection	src/bson/bson-types.h	/^         char *collection;$/;"	m	struct:_bson_value_t::__anon52::__anon58
+collection_len	src/bson/bson-types.h	/^         uint32_t collection_len;$/;"	m	struct:_bson_value_t::__anon52::__anon58
+compar_bson_type_metrics	examples/bson-metrics.c	/^compar_bson_type_metrics (const void *a, const void *b)$/;"	f	file:
+compare_data	tests/test-bson-corpus.c	/^compare_data (const uint8_t *a,$/;"	f	file:
+components	src/jsonsl/jsonsl.h	/^    struct jsonsl_jpr_component_st *components;$/;"	m	struct:jsonsl_jpr_st	typeref:struct:jsonsl_jpr_st::jsonsl_jpr_component_st
+context	src/bson/bson-context.h	/^bson_context_destroy (bson_context_t *context);$/;"	v
+copyright	doc/conf.py	/^copyright = '2017, MongoDB, Inc'$/;"	v
+corpus_test	tests/corpus-test.c	/^corpus_test (bson_t *scenario,$/;"	f
+corpus_test_print_description	tests/corpus-test.c	/^corpus_test_print_description (const char *description)$/;"	f
+corpus_test_unhexlify	tests/corpus-test.c	/^corpus_test_unhexlify (bson_iter_t *iter, uint32_t *bson_str_len)$/;"	f
+count	examples/bson-metrics.c	/^   uint64_t count;$/;"	m	struct:__anon1	file:
+count	src/bson/bson-md5.h	/^   uint32_t count[2]; \/* message length in bits, lsw first *\/$/;"	m	struct:__anon67
+count	src/bson/bson.c	/^   uint32_t count;$/;"	m	struct:__anon32	file:
+count	tests/TestSuite.c	/^   int *count;$/;"	m	struct:__anon80	file:
+create_nojekyll	doc/conf.py	/^def create_nojekyll(app, env):$/;"	f
+ctx	src/bson/bcon.h	/^bcon_append_ctx_init (bcon_append_ctx_t *ctx);$/;"	v
+ctx	src/bson/bcon.h	/^bcon_extract_ctx_init (bcon_extract_ctx_t *ctx);$/;"	v
+ctx	tests/TestSuite.h	/^   void *ctx;$/;"	m	struct:_Test
+d1	src/bson/bson-types.h	/^   uint32_t d1;        \/* The offset of the first data byte. *\/$/;"	m	struct:__anon62
+d2	src/bson/bson-types.h	/^   uint32_t d2;        \/* The offset of the second data byte. *\/$/;"	m	struct:__anon62
+d3	src/bson/bson-types.h	/^   uint32_t d3;        \/* The offset of the third data byte. *\/$/;"	m	struct:__anon62
+d4	src/bson/bson-types.h	/^   uint32_t d4;        \/* The offset of the fourth data byte. *\/$/;"	m	struct:__anon62
+dB	tests/corpus-test.h	/^   uint8_t *dB;         \/* "degenerate_bson" *\/$/;"	m	struct:_test_bson_valid_type_t
+dB_len	tests/corpus-test.h	/^   uint32_t dB_len;$/;"	m	struct:_test_bson_valid_type_t
+dE	tests/corpus-test.h	/^   const char *dE;      \/* "degenerate_extjson" *\/$/;"	m	struct:_test_bson_valid_type_t
+data	src/bson/bson-json.c	/^   const uint8_t *data;$/;"	m	struct:__anon28	file:
+data	src/bson/bson-json.c	/^   void *data;$/;"	m	struct:__anon26	file:
+data	src/bson/bson-private.h	/^   uint8_t data[BSON_INLINE_DATA_SIZE];$/;"	m	struct:__anon34
+data	src/bson/bson-reader.c	/^   const uint8_t *data;$/;"	m	struct:__anon71	file:
+data	src/bson/bson-reader.c	/^   uint8_t *data;$/;"	m	struct:__anon69	file:
+data	src/bson/bson-types.h	/^         uint8_t *data;$/;"	m	struct:_bson_value_t::__anon52::__anon55
+data	src/bson/bson-types.h	/^         uint8_t *data;$/;"	m	struct:_bson_value_t::__anon52::__anon56
+data	src/jsonsl/jsonsl.h	/^    void *data;$/;"	m	struct:jsonsl_st
+data_len	src/bson/bson-types.h	/^         uint32_t data_len;$/;"	m	struct:_bson_value_t::__anon52::__anon55
+data_len	src/bson/bson-types.h	/^         uint32_t data_len;$/;"	m	struct:_bson_value_t::__anon52::__anon56
+date	src/bson/bson-json.c	/^      int64_t date;$/;"	m	struct:__anon11::__anon15	file:
+date	src/bson/bson-json.c	/^   } date;$/;"	m	union:__anon11	typeref:struct:__anon11::__anon15	file:
+dbpointer_key	src/bson/bson-json.c	/^   bson_json_buf_t dbpointer_key;$/;"	m	struct:__anon25	file:
+dcb	src/bson/bson-json.c	/^   bson_json_destroy_cb dcb;$/;"	m	struct:__anon26	file:
+decimal128_equal	tests/test-decimal128.c	/^decimal128_equal (bson_decimal128_t *dec, uint64_t high, uint64_t low)$/;"	f	file:
+defaulttype	src/bson/bson-timegm.c	/^   int defaulttype; \/* for early times or if no transitions *\/$/;"	m	struct:state	file:
+depart_tag_node	doc/taglist.py	/^def depart_tag_node(self, node):$/;"	f
+depth	examples/bson-metrics.c	/^   uint32_t depth;$/;"	m	struct:__anon2	file:
+depth	src/bson/bson-private.h	/^   uint32_t depth;            \/* Subdocument depth. *\/$/;"	m	struct:__anon35
+depth	src/bson/bson.c	/^   uint32_t depth;$/;"	m	struct:__anon32	file:
+description	examples/bson-metrics.c	/^   char *description;$/;"	m	struct:__anon1	file:
+destroy_func	src/bson/bson-reader.c	/^   bson_reader_destroy_func_t destroy_func;$/;"	m	struct:__anon69	file:
+digits_only	src/bson/bson-iso8601.c	/^digits_only (const char *str, int32_t len)$/;"	f	file:
+do_close	src/bson/bson-json.c	/^   bool do_close;$/;"	m	struct:__anon27	file:
+do_close	src/bson/bson-reader.c	/^   bool do_close;$/;"	m	struct:__anon70	file:
+doc_count	examples/bson-metrics.c	/^   uint64_t doc_count;$/;"	m	struct:__anon2	file:
+doc_size_max	examples/bson-metrics.c	/^   uint64_t doc_size_max;$/;"	m	struct:__anon2	file:
+domain	src/bson/bson-types.h	/^   uint32_t domain;$/;"	m	struct:_bson_error_t
+done	src/bson/bson-reader.c	/^   bool done : 1;$/;"	m	struct:__anon69	file:
+dtimeofday	examples/bson-metrics.c	/^dtimeofday (void)$/;"	f	file:
+dtor	tests/TestSuite.h	/^   TestFuncDtor dtor;$/;"	m	struct:_Test
+ele	examples/bcon-col-view.c	/^typedef enum ele {$/;"	g	file:
+ele_t	examples/bcon-col-view.c	/^} ele_t;$/;"	t	typeref:enum:ele	file:
+element_count	examples/bson-metrics.c	/^   uint64_t element_count;$/;"	m	struct:__anon2	file:
+end	src/bson/bson-reader.c	/^   size_t end;$/;"	m	struct:__anon69	file:
+err_off	src/bson/bson-types.h	/^   uint32_t err_off;   \/* The offset of the error. *\/$/;"	m	struct:__anon62
+err_offset	src/bson/bson.c	/^   ssize_t *err_offset;$/;"	m	struct:__anon32	file:
+err_offset	src/bson/bson.c	/^   ssize_t err_offset;$/;"	m	struct:__anon31	file:
+error	src/bson/bson-json.c	/^   bson_error_t *error;$/;"	m	struct:_bson_json_reader_t	file:
+error	src/bson/bson.c	/^   bson_error_t error;$/;"	m	struct:__anon31	file:
+error_callback	src/jsonsl/jsonsl.h	/^    jsonsl_error_callback error_callback;$/;"	m	struct:jsonsl_st
+exclude_patterns	doc/conf.py	/^exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']$/;"	v
+exit_code	tests/TestSuite.h	/^   int exit_code;$/;"	m	struct:_Test
+expecting	src/jsonsl/jsonsl.h	/^    char expecting;$/;"	m	struct:jsonsl_st
+extensions	doc/conf.py	/^extensions = [$/;"	v
+extlinks	doc/conf.py	/^extlinks = {'release': (release_download+'%s', '')}$/;"	v
+extract_special	src/jsonsl/jsonsl.c	/^static unsigned extract_special(unsigned c) {$/;"	f	file:
+failed	src/bson/bson-reader.c	/^   bool failed : 1;$/;"	m	struct:__anon69	file:
+false	src/bson/bson-compat.h	148;"	d
+fd	src/bson/bson-json.c	/^   int fd;$/;"	m	struct:__anon27	file:
+fd	src/bson/bson-reader.c	/^   int fd;$/;"	m	struct:__anon70	file:
+find_node	doc/conf.py	/^def find_node(doctree, klass):$/;"	f
+flags	src/bson/bcon.c	/^      char *flags;$/;"	m	struct:bcon_append::__anon37	file:
+flags	src/bson/bcon.c	/^      const char **flags;$/;"	m	struct:bcon_extract::__anon42	file:
+flags	src/bson/bson-context-private.h	/^   int flags : 7;$/;"	m	struct:_bson_context_t
+flags	src/bson/bson-context.h	/^bson_context_new (bson_context_flags_t flags);$/;"	v
+flags	src/bson/bson-private.h	/^   bson_flags_t flags;        \/* flags describing the bson_t *\/$/;"	m	struct:__anon35
+flags	src/bson/bson-private.h	/^   bson_flags_t flags;$/;"	m	struct:__anon34
+flags	src/bson/bson-types.h	/^   uint32_t flags;       \/* Internal flags for the bson_t. *\/$/;"	m	struct:_bson_t
+flags	src/bson/bson.c	/^   bson_validate_flags_t flags;$/;"	m	struct:__anon31	file:
+flags	tests/TestSuite.h	/^   int flags;$/;"	m	struct:_TestSuite
+free	src/bson/bson-memory.h	/^   void (*free) (void *mem);$/;"	m	struct:_bson_mem_vtable_t
+func	tests/TestSuite.h	/^   TestFuncWC func;$/;"	m	struct:_Test
+gBarrier	src/bson/bson-atomic.c	/^static pthread_mutex_t gBarrier = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+gBconMagic	src/bson/bcon.c	/^static const char *gBconMagic = "BCON_MAGIC";$/;"	v	file:
+gBconeMagic	src/bson/bcon.c	/^static const char *gBconeMagic = "BCONE_MAGIC";$/;"	v	file:
+gContextDefault	src/bson/bson-context.c	/^static bson_context_t gContextDefault;$/;"	v	file:
+gHexCharPairs	src/bson/bson-oid.c	/^static const uint16_t gHexCharPairs[] = {$/;"	v	file:
+gMemVtable	src/bson/bson-memory.c	/^static bson_mem_vtable_t gMemVtable = {$/;"	v	file:
+gSync32	src/bson/bson-atomic.c	/^static pthread_mutex_t gSync32 = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+gSync64	src/bson/bson-atomic.c	/^static pthread_mutex_t gSync64 = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+gTestOids	tests/test-oid.c	/^static const char *gTestOids[] = {"000000000000000000000000",$/;"	v	file:
+gTestOidsCase	tests/test-oid.c	/^static const char *gTestOidsCase[] = {"0123456789ABCDEFAFCDEF03",$/;"	v	file:
+gTestOidsFail	tests/test-oid.c	/^static const char *gTestOidsFail[] = {"                        ",$/;"	v	file:
+gUint32Strs	src/bson/bson-keys.c	/^static const char *gUint32Strs[] = {$/;"	v	file:
+gZero	src/bson/bson.c	/^static const uint8_t gZero;$/;"	v	file:
+get_bson	tests/test-bson.c	/^get_bson (const char *filename)$/;"	f	file:
+get_bson	tests/test-iter.c	/^get_bson (const char *filename)$/;"	f	file:
+get_bson_from_json_file	tests/json-test.c	/^get_bson_from_json_file (char *filename)$/;"	f
+get_escape_equiv	src/jsonsl/jsonsl.c	/^static char get_escape_equiv(unsigned c) {$/;"	f	file:
+get_tags	doc/taglist.py	/^def get_tags(s):$/;"	f
+get_tok	src/bson/bson-iso8601.c	/^get_tok (const char *terminals,$/;"	f	file:
+gettestpid	tests/TestSuite.h	260;"	d
+gettestpid	tests/TestSuite.h	262;"	d
+gmt	src/bson/bson-timegm.c	/^static const char gmt[] = "GMT";$/;"	v	file:
+gmt_is_set	src/bson/bson-timegm.c	/^static int gmt_is_set;$/;"	v	file:
+gmtload	src/bson/bson-timegm.c	/^gmtload (struct state *const sp)$/;"	f	file:
+gmtmem	src/bson/bson-timegm.c	/^static struct state gmtmem;$/;"	v	typeref:struct:state	file:
+gmtptr	src/bson/bson-timegm.c	266;"	d	file:
+gmtsub	src/bson/bson-timegm.c	/^gmtsub (const int64_t *const timep,$/;"	f	file:
+goahead	src/bson/bson-timegm.c	/^   int goahead;$/;"	m	struct:state	file:
+goback	src/bson/bson-timegm.c	/^   int goback;$/;"	m	struct:state	file:
+googleanalytics_id	doc/conf.py	/^googleanalytics_id = 'UA-92642455-1'$/;"	v
+handle	src/bson/bson-reader.c	/^   void *handle;$/;"	m	struct:__anon69	file:
+has_binary	src/bson/bson-json.c	/^      bool has_binary;$/;"	m	struct:__anon11::__anon14	file:
+has_code	src/bson/bson-json.c	/^   bool has_code;$/;"	m	struct:__anon24	file:
+has_content	doc/taglist.py	/^    has_content = True$/;"	v	class:TaglistDirective
+has_date	src/bson/bson-json.c	/^      bool has_date;$/;"	m	struct:__anon11::__anon15	file:
+has_i	src/bson/bson-json.c	/^      bool has_i;$/;"	m	struct:__anon11::__anon16	file:
+has_id	src/bson/bson-json.c	/^   bool has_id;$/;"	m	struct:__anon10	file:
+has_maxkey	src/bson/bson-json.c	/^      bool has_maxkey;$/;"	m	struct:__anon11::__anon19	file:
+has_minkey	src/bson/bson-json.c	/^      bool has_minkey;$/;"	m	struct:__anon11::__anon18	file:
+has_oid	src/bson/bson-json.c	/^      bool has_oid;$/;"	m	struct:__anon11::__anon13	file:
+has_options	src/bson/bson-json.c	/^      bool has_options;$/;"	m	struct:__anon11::__anon12	file:
+has_pattern	src/bson/bson-json.c	/^      bool has_pattern;$/;"	m	struct:__anon11::__anon12	file:
+has_ref	src/bson/bson-json.c	/^   bool has_ref;$/;"	m	struct:__anon10	file:
+has_scope	src/bson/bson-json.c	/^   bool has_scope;$/;"	m	struct:__anon24	file:
+has_subtype	src/bson/bson-json.c	/^      bool has_subtype;$/;"	m	struct:__anon11::__anon14	file:
+has_t	src/bson/bson-json.c	/^      bool has_t;$/;"	m	struct:__anon11::__anon16	file:
+has_undefined	src/bson/bson-json.c	/^      bool has_undefined;$/;"	m	struct:__anon11::__anon17	file:
+high	src/bson/bson-decimal128.c	/^   uint64_t high, low;$/;"	m	struct:__anon66	file:
+high	src/bson/bson-types.h	/^   uint64_t high;$/;"	m	struct:__anon48
+html_copy_source	doc/conf.py	/^html_copy_source = False$/;"	v
+html_show_sourcelink	doc/conf.py	/^html_show_sourcelink = False$/;"	v
+html_sidebars	doc/conf.py	/^html_sidebars = {$/;"	v
+html_theme	doc/conf.py	/^html_theme = 'mongoc-theme'$/;"	v
+html_theme_path	doc/conf.py	/^html_theme_path = ['.']$/;"	v
+html_use_smartypants	doc/conf.py	/^    html_use_smartypants = False$/;"	v
+i	src/bson/bcon.h	/^   int i;$/;"	m	struct:bcon_append_ctx_frame
+i	src/bson/bcon.h	/^   int i;$/;"	m	struct:bcon_extract_ctx_frame
+i	src/bson/bson-json.c	/^      uint32_t i;$/;"	m	struct:__anon11::__anon16	file:
+i	src/bson/bson-json.c	/^   int i;$/;"	m	struct:__anon10	file:
+idx	src/jsonsl/jsonsl.h	/^    unsigned long idx;$/;"	m	struct:jsonsl_jpr_component_st
+ignore_callback	src/jsonsl/jsonsl.h	/^    int ignore_callback;$/;"	m	struct:jsonsl_state_st
+in_escape	src/jsonsl/jsonsl.h	/^    int in_escape;$/;"	m	struct:jsonsl_st
+in_scope	src/bson/bson-json.c	/^   bool in_scope;$/;"	m	struct:__anon24	file:
+increment	src/bson/bcon.c	/^      uint32_t *increment;$/;"	m	struct:bcon_extract::__anon45	file:
+increment	src/bson/bcon.c	/^      uint32_t increment;$/;"	m	struct:bcon_append::__anon40	file:
+increment	src/bson/bson-types.h	/^         uint32_t increment;$/;"	m	struct:_bson_value_t::__anon52::__anon53
+increment_overflow	src/bson/bson-timegm.c	/^increment_overflow (int64_t *const ip, int64_t j)$/;"	f	file:
+increment_overflow32	src/bson/bson-timegm.c	/^increment_overflow32 (int_fast32_t *const lp, int64_t const m)$/;"	f	file:
+initial_state	examples/bson-metrics.c	/^static bson_metrics_state_t initial_state = {$/;"	v	file:
+inline_bson	src/bson/bson-reader.c	/^   bson_t inline_bson;$/;"	m	struct:__anon69	file:
+inline_bson	src/bson/bson-reader.c	/^   bson_t inline_bson;$/;"	m	struct:__anon71	file:
+install_json_test_suite	tests/json-test.c	/^install_json_test_suite (TestSuite *suite,$/;"	f
+int16_t	src/bson/bson-stdint-win32.h	/^typedef signed __int16 int16_t;$/;"	t
+int16_t	src/bson/bson-stdint-win32.h	/^typedef signed short int16_t;$/;"	t
+int16_t	src/jsonsl/jsonsl.h	/^typedef __int16 int16_t;$/;"	t
+int32_t	src/bson/bson-stdint-win32.h	/^typedef signed __int32 int32_t;$/;"	t
+int32_t	src/bson/bson-stdint-win32.h	/^typedef signed int int32_t;$/;"	t
+int32_t	src/jsonsl/jsonsl.h	/^typedef __int32 int32_t;$/;"	t
+int64_t	src/bson/bson-stdint-win32.h	/^typedef signed __int64 int64_t;$/;"	t
+int64_t	src/jsonsl/jsonsl.h	/^typedef __int64 int64_t;$/;"	t
+int8_t	src/bson/bson-stdint-win32.h	/^typedef signed __int8 int8_t;$/;"	t
+int8_t	src/bson/bson-stdint-win32.h	/^typedef signed char int8_t;$/;"	t
+int8_t	src/jsonsl/jsonsl.h	/^typedef __int8 int8_t;$/;"	t
+int_fast16_t	src/bson/bson-stdint-win32.h	/^typedef int16_t int_fast16_t;$/;"	t
+int_fast32_t	src/bson/bson-stdint-win32.h	/^typedef int32_t int_fast32_t;$/;"	t
+int_fast64_t	src/bson/bson-stdint-win32.h	/^typedef int64_t int_fast64_t;$/;"	t
+int_fast8_t	src/bson/bson-stdint-win32.h	/^typedef int8_t int_fast8_t;$/;"	t
+int_least16_t	src/bson/bson-stdint-win32.h	/^typedef int16_t int_least16_t;$/;"	t
+int_least32_t	src/bson/bson-stdint-win32.h	/^typedef int32_t int_least32_t;$/;"	t
+int_least64_t	src/bson/bson-stdint-win32.h	/^typedef int64_t int_least64_t;$/;"	t
+int_least8_t	src/bson/bson-stdint-win32.h	/^typedef int8_t int_least8_t;$/;"	t
+intmax_t	src/bson/bson-stdint-win32.h	/^typedef int64_t intmax_t;$/;"	t
+intptr_t	src/bson/bson-stdint-win32.h	/^typedef _W64 signed int intptr_t;$/;"	t
+intptr_t	src/bson/bson-stdint-win32.h	/^typedef signed __int64 intptr_t;$/;"	t
+is_allowed_escape	src/jsonsl/jsonsl.c	/^static int is_allowed_escape(unsigned c) {$/;"	f	file:
+is_allowed_whitespace	src/jsonsl/jsonsl.c	/^static int is_allowed_whitespace(unsigned c) {$/;"	f	file:
+is_array	src/bson/bcon.h	/^   bool is_array;$/;"	m	struct:bcon_append_ctx_frame
+is_array	src/bson/bcon.h	/^   bool is_array;$/;"	m	struct:bcon_extract_ctx_frame
+is_arridx	src/jsonsl/jsonsl.h	/^    short is_arridx;$/;"	m	struct:jsonsl_jpr_component_st
+is_digit	src/bson/bson-timegm.c	22;"	d	file:
+is_legacy	src/bson/bson-json.c	/^      bool is_legacy;$/;"	m	struct:__anon11::__anon12	file:
+is_legacy	src/bson/bson-json.c	/^      bool is_legacy;$/;"	m	struct:__anon11::__anon14	file:
+is_simple_char	src/jsonsl/jsonsl.c	/^static int is_simple_char(unsigned c) {$/;"	f	file:
+is_special_end	src/jsonsl/jsonsl.c	/^static int is_special_end(unsigned c) {$/;"	f	file:
+is_test_skipped	tests/test-bson-corpus.c	/^is_test_skipped (const char *scenario, const char *description)$/;"	f	file:
+isleap	src/bson/bson-timegm.c	118;"	d	file:
+isleap_sum	src/bson/bson-timegm.c	132;"	d	file:
+iter	src/bson/bcon.h	/^   bson_iter_t iter;$/;"	m	struct:bcon_extract_ctx_frame
+iter	src/bson/bson-iter.h	/^bson_iter_as_bool (const bson_iter_t *iter);$/;"	v
+iter	src/bson/bson-iter.h	/^bson_iter_as_double (const bson_iter_t *iter);$/;"	v
+iter	src/bson/bson-iter.h	/^bson_iter_as_int64 (const bson_iter_t *iter);$/;"	v
+iter	src/bson/bson-iter.h	/^bson_iter_bool (const bson_iter_t *iter);$/;"	v
+iter	src/bson/bson-iter.h	/^bson_iter_date_time (const bson_iter_t *iter);$/;"	v
+iter	src/bson/bson-iter.h	/^bson_iter_double (const bson_iter_t *iter);$/;"	v
+iter	src/bson/bson-iter.h	/^bson_iter_int32 (const bson_iter_t *iter);$/;"	v
+iter	src/bson/bson-iter.h	/^bson_iter_int64 (const bson_iter_t *iter);$/;"	v
+iter	src/bson/bson-iter.h	/^bson_iter_key (const bson_iter_t *iter);$/;"	v
+iter	src/bson/bson-iter.h	/^bson_iter_next (bson_iter_t *iter);$/;"	v
+iter	src/bson/bson-iter.h	/^bson_iter_oid (const bson_iter_t *iter);$/;"	v
+iter	src/bson/bson-iter.h	/^bson_iter_time_t (const bson_iter_t *iter);$/;"	v
+iter	src/bson/bson-iter.h	/^bson_iter_type (const bson_iter_t *iter);$/;"	v
+iter	src/bson/bson-iter.h	/^bson_iter_value (bson_iter_t *iter);$/;"	v
+jpr_count	src/jsonsl/jsonsl.h	/^    size_t jpr_count;$/;"	m	struct:jsonsl_st
+jpr_root	src/jsonsl/jsonsl.h	/^    size_t *jpr_root;$/;"	m	struct:jsonsl_st
+jprs	src/jsonsl/jsonsl.h	/^    jsonsl_jpr_t *jprs;$/;"	m	struct:jsonsl_st
+js	src/bson/bcon.c	/^      const char **js;$/;"	m	struct:bcon_extract::__anon44	file:
+js	src/bson/bcon.c	/^      const char *js;$/;"	m	struct:bcon_append::__anon39	file:
+json	src/bson/bson-json.c	/^   jsonsl_t json;$/;"	m	struct:_bson_json_reader_t	file:
+json_text_pos	src/bson/bson-json.c	/^   ssize_t json_text_pos;$/;"	m	struct:_bson_json_reader_t	file:
+jsonsl__digit2int	src/jsonsl/jsonsl.c	/^jsonsl__digit2int(char ch) {$/;"	f	file:
+jsonsl__get_uescape_16	src/jsonsl/jsonsl.c	/^jsonsl__get_uescape_16(const char *s)$/;"	f	file:
+jsonsl__match_continue	src/jsonsl/jsonsl.c	/^jsonsl__match_continue(jsonsl_jpr_t jpr,$/;"	f	file:
+jsonsl__num_fastparse	src/jsonsl/jsonsl.c	/^jsonsl__num_fastparse(jsonsl_t jsn,$/;"	f	file:
+jsonsl__str_fastparse	src/jsonsl/jsonsl.c	/^jsonsl__str_fastparse(jsonsl_t jsn,$/;"	f	file:
+jsonsl__writeutf8	src/jsonsl/jsonsl.c	/^jsonsl__writeutf8(uint32_t pt, char *out)$/;"	f	file:
+jsonsl_action_t	src/jsonsl/jsonsl.h	/^} jsonsl_action_t;$/;"	t	typeref:enum:__anon74
+jsonsl_char_t	src/jsonsl/jsonsl.h	/^typedef char jsonsl_char_t;$/;"	t
+jsonsl_destroy	src/jsonsl/jsonsl.c	/^void jsonsl_destroy(jsonsl_t jsn)$/;"	f
+jsonsl_dump_global_metrics	src/jsonsl/jsonsl.c	/^void jsonsl_dump_global_metrics(void) { }$/;"	f
+jsonsl_dump_global_metrics	src/jsonsl/jsonsl.c	/^void jsonsl_dump_global_metrics(void)$/;"	f
+jsonsl_enable_all_callbacks	src/jsonsl/jsonsl.h	/^void jsonsl_enable_all_callbacks(jsonsl_t jsn)$/;"	f
+jsonsl_error_callback	src/jsonsl/jsonsl.h	/^typedef int (*jsonsl_error_callback)($/;"	t
+jsonsl_error_t	src/jsonsl/jsonsl.h	/^} jsonsl_error_t;$/;"	t	typeref:enum:__anon75
+jsonsl_feed	src/jsonsl/jsonsl.c	/^jsonsl_feed(jsonsl_t jsn, const jsonsl_char_t *bytes, size_t nbytes)$/;"	f
+jsonsl_jpr_component_st	src/jsonsl/jsonsl.h	/^struct jsonsl_jpr_component_st {$/;"	s
+jsonsl_jpr_destroy	src/jsonsl/jsonsl.c	/^void jsonsl_jpr_destroy(jsonsl_jpr_t jpr)$/;"	f
+jsonsl_jpr_match	src/jsonsl/jsonsl.c	/^jsonsl_jpr_match(jsonsl_jpr_t jpr,$/;"	f
+jsonsl_jpr_match_state	src/jsonsl/jsonsl.c	/^jsonsl_jpr_t jsonsl_jpr_match_state(jsonsl_t jsn,$/;"	f
+jsonsl_jpr_match_state_cleanup	src/jsonsl/jsonsl.c	/^void jsonsl_jpr_match_state_cleanup(jsonsl_t jsn)$/;"	f
+jsonsl_jpr_match_state_init	src/jsonsl/jsonsl.c	/^void jsonsl_jpr_match_state_init(jsonsl_t jsn,$/;"	f
+jsonsl_jpr_match_t	src/jsonsl/jsonsl.h	/^} jsonsl_jpr_match_t;$/;"	t	typeref:enum:__anon77
+jsonsl_jpr_new	src/jsonsl/jsonsl.c	/^jsonsl_jpr_new(const char *path, jsonsl_error_t *errp)$/;"	f
+jsonsl_jpr_st	src/jsonsl/jsonsl.h	/^struct jsonsl_jpr_st {$/;"	s
+jsonsl_jpr_t	src/jsonsl/jsonsl.h	/^typedef struct jsonsl_jpr_st* jsonsl_jpr_t;$/;"	t	typeref:struct:jsonsl_jpr_st
+jsonsl_jpr_type_t	src/jsonsl/jsonsl.h	/^} jsonsl_jpr_type_t;$/;"	t	typeref:enum:__anon78
+jsonsl_last_child	src/jsonsl/jsonsl.h	/^struct jsonsl_state_st *jsonsl_last_child(const jsonsl_t jsn,$/;"	f
+jsonsl_last_state	src/jsonsl/jsonsl.h	/^struct jsonsl_state_st *jsonsl_last_state(const jsonsl_t jsn,$/;"	f
+jsonsl_metrics_st	src/jsonsl/jsonsl.c	/^struct jsonsl_metrics_st {$/;"	s	file:
+jsonsl_new	src/jsonsl/jsonsl.c	/^jsonsl_t jsonsl_new(int nlevels)$/;"	f
+jsonsl_path_match	src/jsonsl/jsonsl.c	/^jsonsl_path_match(jsonsl_jpr_t jpr,$/;"	f
+jsonsl_reset	src/jsonsl/jsonsl.c	/^void jsonsl_reset(jsonsl_t jsn)$/;"	f
+jsonsl_special_t	src/jsonsl/jsonsl.h	/^} jsonsl_special_t;$/;"	t	typeref:enum:__anon73
+jsonsl_st	src/jsonsl/jsonsl.h	/^struct jsonsl_st {$/;"	s
+jsonsl_stack_callback	src/jsonsl/jsonsl.h	/^typedef void (*jsonsl_stack_callback)($/;"	t
+jsonsl_state_st	src/jsonsl/jsonsl.h	/^struct jsonsl_state_st {$/;"	s
+jsonsl_stop	src/jsonsl/jsonsl.h	/^void jsonsl_stop(jsonsl_t jsn)$/;"	f
+jsonsl_strerror	src/jsonsl/jsonsl.c	/^const char* jsonsl_strerror(jsonsl_error_t err)$/;"	f
+jsonsl_strmatchtype	src/jsonsl/jsonsl.c	/^const char *jsonsl_strmatchtype(jsonsl_jpr_match_t match)$/;"	f
+jsonsl_strtype	src/jsonsl/jsonsl.c	/^const char *jsonsl_strtype(jsonsl_type_t type)$/;"	f
+jsonsl_t	src/jsonsl/jsonsl.h	/^typedef struct jsonsl_st *jsonsl_t;$/;"	t	typeref:struct:jsonsl_st
+jsonsl_type_t	src/jsonsl/jsonsl.h	/^} jsonsl_type_t;$/;"	t	typeref:enum:__anon72
+jsonsl_uchar_t	src/jsonsl/jsonsl.h	/^typedef unsigned char jsonsl_uchar_t;$/;"	t
+jsonsl_util_unescape	src/jsonsl/jsonsl.h	995;"	d
+jsonsl_util_unescape_ex	src/jsonsl/jsonsl.c	/^size_t jsonsl_util_unescape_ex(const char *in,$/;"	f
+key	src/bson/bcon.c	/^   const char *key;$/;"	m	union:bcon_extract	file:
+key	src/bson/bson-json.c	/^   const char *key;$/;"	m	struct:__anon25	file:
+key	src/bson/bson-types.h	/^   uint32_t key;       \/* The offset of the key byte. *\/$/;"	m	struct:__anon62
+key	tests/test-bson.c	/^   const char *key;$/;"	m	struct:__anon82	file:
+key_buf	src/bson/bson-json.c	/^   bson_json_buf_t key_buf;$/;"	m	struct:__anon24	file:
+key_buf	src/bson/bson-json.c	/^   bson_json_buf_t key_buf;$/;"	m	struct:__anon25	file:
+key_size_tally	examples/bson-metrics.c	/^   uint64_t key_size_tally;$/;"	m	struct:__anon2	file:
+keys	src/bson/bson.c	/^   bool keys;$/;"	m	struct:__anon32	file:
+language	doc/conf.py	/^language = 'en'$/;"	v
+leapcnt	src/bson/bson-timegm.c	/^   int leapcnt;$/;"	m	struct:state	file:
+leaps_thru_end_of	src/bson/bson-timegm.c	/^leaps_thru_end_of (register const int64_t y)$/;"	f	file:
+len	src/bson/bson-json.c	/^   size_t len;$/;"	m	struct:__anon28	file:
+len	src/bson/bson-json.c	/^   size_t len;$/;"	m	struct:__anon8	file:
+len	src/bson/bson-private.h	/^   uint32_t len;              \/* length of bson document in bytes *\/$/;"	m	struct:__anon35
+len	src/bson/bson-private.h	/^   uint32_t len;$/;"	m	struct:__anon34
+len	src/bson/bson-reader.c	/^   size_t len;$/;"	m	struct:__anon69	file:
+len	src/bson/bson-string.h	/^   uint32_t len;$/;"	m	struct:__anon5
+len	src/bson/bson-types.h	/^         uint32_t len;$/;"	m	struct:_bson_value_t::__anon52::__anon54
+len	src/bson/bson-types.h	/^         uint32_t len;$/;"	m	struct:_bson_value_t::__anon52::__anon61
+len	src/bson/bson-types.h	/^   uint32_t len;         \/* Length of BSON data. *\/$/;"	m	struct:_bson_t
+len	src/bson/bson-types.h	/^   uint32_t len;       \/* The length of raw. *\/$/;"	m	struct:__anon62
+len	src/jsonsl/jsonsl.h	/^    size_t len;$/;"	m	struct:jsonsl_jpr_component_st
+length	src/bson/bcon.c	/^      uint32_t *length;$/;"	m	struct:bcon_extract::__anon41	file:
+length	src/bson/bcon.c	/^      uint32_t length;$/;"	m	struct:bcon_append::__anon36	file:
+length	src/bson/bson-reader.c	/^   size_t length;$/;"	m	struct:__anon71	file:
+level	src/jsonsl/jsonsl.h	/^    unsigned int level;$/;"	m	struct:jsonsl_st
+level	src/jsonsl/jsonsl.h	/^    unsigned int level;$/;"	m	struct:jsonsl_state_st
+levels_max	src/jsonsl/jsonsl.h	/^    unsigned int levels_max;$/;"	m	struct:jsonsl_st
+literal	doc/mongoc/__init__.py	/^from docutils.nodes import literal, Text$/;"	i
+lossy	tests/corpus-test.h	/^   bool lossy;$/;"	m	struct:_test_bson_valid_type_t
+low	src/bson/bson-decimal128.c	/^   uint64_t high, low;$/;"	m	struct:__anon66	file:
+low	src/bson/bson-types.h	/^   uint64_t low;$/;"	m	struct:__anon48
+ls_corr	src/bson/bson-timegm.c	/^   int_fast64_t ls_corr; \/* correction to apply *\/$/;"	m	struct:lsinfo	file:
+ls_trans	src/bson/bson-timegm.c	/^   int64_t ls_trans;      \/* transition time *\/$/;"	m	struct:lsinfo	file:
+lsinfo	src/bson/bson-timegm.c	/^struct lsinfo {          \/* leap second information *\/$/;"	s	file:
+lsis	src/bson/bson-timegm.c	/^   struct lsinfo lsis[TZ_MAX_LEAPS];$/;"	m	struct:state	typeref:struct:state::lsinfo	file:
+main	examples/bcon-col-view.c	/^main (int argc, char *argv[])$/;"	f
+main	examples/bcon-speed.c	/^main (int argc, char *argv[])$/;"	f
+main	examples/bson-metrics.c	/^main (int argc, char *argv[])$/;"	f
+main	examples/bson-streaming-reader.c	/^main (int argc, char *argv[])$/;"	f
+main	examples/bson-to-json.c	/^main (int argc, char *argv[])$/;"	f
+main	examples/bson-validate.c	/^main (int argc, char *argv[])$/;"	f
+main	examples/hello_bson.c	/^main (int argc, const char **argv)$/;"	f
+main	examples/json-to-bson.c	/^main (int argc, char *argv[])$/;"	f
+main	tests/test-libbson.c	/^main (int argc, char *argv[])$/;"	f
+malloc	src/bson/bson-memory.h	/^   void *(*malloc) (size_t num_bytes);$/;"	m	struct:_bson_mem_vtable_t
+man_pages	doc/conf.py	/^man_pages = [True]$/;"	v
+master_doc	doc/conf.py	/^master_doc = 'index'$/;"	v
+match_type	src/jsonsl/jsonsl.h	/^    unsigned match_type;$/;"	m	struct:jsonsl_jpr_st
+max_callback_level	src/jsonsl/jsonsl.h	/^    unsigned int max_callback_level;$/;"	m	struct:jsonsl_st
+maxkey	src/bson/bson-json.c	/^   } maxkey;$/;"	m	union:__anon11	typeref:struct:__anon11::__anon19	file:
+md5	src/bson/bson-context-private.h	/^   uint8_t md5[3];$/;"	m	struct:_bson_context_t
+message	src/bson/bson-types.h	/^   char message[BSON_ERROR_BUFFER_SIZE];$/;"	m	struct:_bson_error_t
+minkey	src/bson/bson-json.c	/^   } minkey;$/;"	m	union:__anon11	typeref:struct:__anon11::__anon18	file:
+mode	src/bson/bson.c	/^   bson_json_mode_t mode;$/;"	m	struct:__anon32	file:
+mon_lengths	src/bson/bson-timegm.c	/^static const int mon_lengths[2][MONSPERYEAR] = {$/;"	v	file:
+mutex	tests/TestSuite.c	/^   Mutex *mutex;$/;"	m	struct:__anon80	file:
+n	src/bson/bcon.h	/^   int n;$/;"	m	struct:_bcon_append_ctx_t
+n	src/bson/bcon.h	/^   int n;$/;"	m	struct:_bcon_extract_ctx_t
+n	src/bson/bson-json.c	/^   int n;$/;"	m	struct:__anon25	file:
+n_bytes	src/bson/bson-json.c	/^   size_t n_bytes;$/;"	m	struct:__anon8	file:
+n_tests	tests/TestSuite.c	/^   int n_tests;$/;"	m	struct:__anon80	file:
+name	tests/TestSuite.h	/^   char *name;$/;"	m	struct:_Test
+name	tests/TestSuite.h	/^   char *name;$/;"	m	struct:_TestSuite
+ncomponents	src/jsonsl/jsonsl.h	/^    size_t ncomponents;$/;"	m	struct:jsonsl_jpr_st
+nelem	src/jsonsl/jsonsl.h	/^    uint64_t nelem;$/;"	m	struct:jsonsl_state_st
+nescapes	src/jsonsl/jsonsl.h	/^    unsigned int nescapes;$/;"	m	struct:jsonsl_state_st
+next	tests/TestSuite.h	/^   Test *next;$/;"	m	struct:_Test
+next_off	src/bson/bson-types.h	/^   uint32_t next_off;  \/* The offset of the next field. *\/$/;"	m	struct:__anon62
+nodes	doc/taglist.py	/^from docutils import nodes, utils$/;"	i
+norig	src/jsonsl/jsonsl.h	/^    size_t norig;$/;"	m	struct:jsonsl_jpr_st
+normalize_overflow	src/bson/bson-timegm.c	/^normalize_overflow (int64_t *const tensptr, int64_t *const unitsptr, const int64_t base)$/;"	f	file:
+normalize_overflow32	src/bson/bson-timegm.c	/^normalize_overflow32 (int_fast32_t *const tensptr,$/;"	f	file:
+num_bytes	src/bson/bson-memory.h	/^bson_malloc (size_t num_bytes);$/;"	v
+num_bytes	src/bson/bson-memory.h	/^bson_malloc0 (size_t num_bytes);$/;"	v
+num_checks	tests/TestSuite.h	/^   size_t num_checks;$/;"	m	struct:_Test
+off	src/bson/bson-types.h	/^   uint32_t off;       \/* The offset within the buffer. *\/$/;"	m	struct:__anon62
+offset	src/bson/bson-private.h	/^   size_t offset;             \/* our offset inside *buf  *\/$/;"	m	struct:__anon35
+offset	src/bson/bson-reader.c	/^   size_t offset;$/;"	m	struct:__anon69	file:
+offset	src/bson/bson-reader.c	/^   size_t offset;$/;"	m	struct:__anon71	file:
+offset	src/bson/bson-writer.c	/^   size_t offset;$/;"	m	struct:_bson_writer_t	file:
+oid	src/bson/bcon.c	/^      bson_oid_t *oid;$/;"	m	struct:bcon_append::__anon38	file:
+oid	src/bson/bcon.c	/^      const bson_oid_t **oid;$/;"	m	struct:bcon_extract::__anon43	file:
+oid	src/bson/bson-json.c	/^      bson_oid_t oid;$/;"	m	struct:__anon11::__anon13	file:
+oid	src/bson/bson-json.c	/^   } oid;$/;"	m	union:__anon11	typeref:struct:__anon11::__anon13	file:
+oid	src/bson/bson-oid.h	/^bson_oid_get_time_t (const bson_oid_t *oid);$/;"	v
+oid	src/bson/bson-oid.h	/^bson_oid_hash (const bson_oid_t *oid);$/;"	v
+oid	src/bson/bson-types.h	/^         bson_oid_t oid;$/;"	m	struct:_bson_value_t::__anon52::__anon58
+oid_get_host	src/bson/bson-context-private.h	/^   void (*oid_get_host) (bson_context_t *context, bson_oid_t *oid);$/;"	m	struct:_bson_context_t
+oid_get_pid	src/bson/bson-context-private.h	/^   void (*oid_get_pid) (bson_context_t *context, bson_oid_t *oid);$/;"	m	struct:_bson_context_t
+oid_get_seq32	src/bson/bson-context-private.h	/^   void (*oid_get_seq32) (bson_context_t *context, bson_oid_t *oid);$/;"	m	struct:_bson_context_t
+oid_get_seq64	src/bson/bson-context-private.h	/^   void (*oid_get_seq64) (bson_context_t *context, bson_oid_t *oid);$/;"	m	struct:_bson_context_t
+oid_worker	tests/test-oid.c	/^oid_worker (void *data)$/;"	f	file:
+oid_zero	tests/test-json.c	/^oid_zero (void)$/;"	f	file:
+option_spec	doc/taglist.py	/^    option_spec = {$/;"	v	class:TaglistDirective
+options	src/bson/bson-types.h	/^         char *options;$/;"	m	struct:_bson_value_t::__anon52::__anon57
+options	src/jsonsl/jsonsl.h	/^    } options;$/;"	m	struct:jsonsl_st	typeref:struct:jsonsl_st::__anon76
+orig	src/jsonsl/jsonsl.h	/^    char *orig;$/;"	m	struct:jsonsl_jpr_st
+os	doc/conf.py	/^import os.path$/;"	i
+outfile	tests/TestSuite.h	/^   FILE *outfile;$/;"	m	struct:_TestSuite
+padding	src/bson/bson-memory.h	/^   void *padding[4];$/;"	m	struct:_bson_mem_vtable_t
+padding	src/bson/bson-types.h	/^   int32_t padding;$/;"	m	struct:_bson_value_t
+padding	src/bson/bson-types.h	/^   uint8_t padding[120]; \/* Padding for stack allocation. *\/$/;"	m	struct:_bson_t
+padding	src/bson/bson-types.h	/^   void *padding[7];$/;"	m	struct:__anon64
+parent	src/bson/bson-private.h	/^   bson_t *parent;            \/* parent bson if a child *\/$/;"	m	struct:__anon35
+parse_num	src/bson/bson-iso8601.c	/^parse_num (const char *str,$/;"	f	file:
+parts	src/bson/bson-decimal128.c	/^   uint32_t parts[4]; \/* 32-bit words stored high to low. *\/$/;"	m	struct:__anon65	file:
+path	doc/conf.py	/^import os.path$/;"	i
+phase	src/bson/bson.c	/^   bson_validate_phase_t phase;$/;"	m	struct:__anon31	file:
+pidbe	src/bson/bson-context-private.h	/^   uint8_t pidbe[2];$/;"	m	struct:_bson_context_t
+pidbe_once	src/bson/bson-context-private.h	/^   bool pidbe_once : 1;$/;"	m	struct:_bson_context_t
+pms	src/bson/bson-md5.h	/^bson_md5_init (bson_md5_t *pms);$/;"	v
+populate_component	src/jsonsl/jsonsl.c	/^populate_component(char *in,$/;"	f	file:
+pos	src/jsonsl/jsonsl.h	/^    size_t pos;$/;"	m	struct:jsonsl_st
+pos_begin	src/jsonsl/jsonsl.h	/^    size_t pos_begin;$/;"	m	struct:jsonsl_state_st
+pos_cur	src/jsonsl/jsonsl.h	/^    size_t pos_cur;$/;"	m	struct:jsonsl_state_st
+prgname	tests/TestSuite.h	/^   char *prgname;$/;"	m	struct:_TestSuite
+process_nodes	doc/conf.py	/^def process_nodes(app, doctree):$/;"	f
+process_taglist_nodes	doc/taglist.py	/^def process_taglist_nodes(app, doctree, fromdocname):$/;"	f
+process_tags	doc/taglist.py	/^def process_tags(app, doctree):$/;"	f
+producer	src/bson/bson-json.c	/^   bson_json_reader_producer_t producer;$/;"	m	struct:_bson_json_reader_t	file:
+project	doc/conf.py	/^project = 'Libbson'$/;"	v
+pstr	src/jsonsl/jsonsl.h	/^    char *pstr;$/;"	m	struct:jsonsl_jpr_component_st
+ptype	src/jsonsl/jsonsl.h	/^    jsonsl_jpr_type_t ptype;$/;"	m	struct:jsonsl_jpr_component_st
+purge_tags	doc/taglist.py	/^def purge_tags(app, env, docname):$/;"	f
+rE	tests/corpus-test.h	/^   const char *rE;      \/* "relaxed_extjson" *\/$/;"	m	struct:_test_bson_valid_type_t
+r_day	src/bson/bson-timegm.c	/^   int r_day;           \/* day number of rule *\/$/;"	m	struct:rule	file:
+r_mon	src/bson/bson-timegm.c	/^   int r_mon;           \/* month number of rule *\/$/;"	m	struct:rule	file:
+r_time	src/bson/bson-timegm.c	/^   int_fast32_t r_time; \/* transition time of rule *\/$/;"	m	struct:rule	file:
+r_type	src/bson/bson-timegm.c	/^   int r_type;          \/* type of rule--see below *\/$/;"	m	struct:rule	file:
+r_week	src/bson/bson-timegm.c	/^   int r_week;          \/* week number of rule *\/$/;"	m	struct:rule	file:
+rand_r	tests/test-json.c	/^rand_r (unsigned int *seed)$/;"	f	file:
+rand_str	tests/test-json.c	/^rand_str (size_t maxlen,$/;"	f	file:
+raw	src/bson/bson-types.h	/^   const uint8_t *raw; \/* The raw buffer being iterated. *\/$/;"	m	struct:__anon62
+read_func	src/bson/bson-reader.c	/^   bson_reader_read_func_t read_func;$/;"	m	struct:__anon69	file:
+read_state	src/bson/bson-json.c	/^   bson_json_read_state_t read_state;$/;"	m	struct:__anon25	file:
+read_state_names	src/bson/bson-json.c	/^static const char *read_state_names[] = {FOREACH_READ_STATE (GENERATE_STRING)};$/;"	v	file:
+reader	src/bson/bson-json.h	/^bson_json_reader_destroy (bson_json_reader_t *reader);$/;"	v
+reader	src/bson/bson-reader.h	/^bson_reader_destroy (bson_reader_t *reader);$/;"	v
+reader	src/bson/bson-reader.h	/^bson_reader_reset (bson_reader_t *reader);$/;"	v
+reader	src/bson/bson-reader.h	/^bson_reader_tell (bson_reader_t *reader);$/;"	v
+ready	src/bson/bson-writer.c	/^   bool ready;$/;"	m	struct:_bson_writer_t	file:
+realloc	src/bson/bson-memory.h	/^   void *(*realloc) (void *mem, size_t num_bytes);$/;"	m	struct:_bson_mem_vtable_t
+realloc	src/bson/bson-private.h	/^   bson_realloc_func realloc; \/* our realloc implementation *\/$/;"	m	struct:__anon35
+realloc_func	src/bson/bson-writer.c	/^   bson_realloc_func realloc_func;$/;"	m	struct:_bson_writer_t	file:
+realloc_func_ctx	src/bson/bson-private.h	/^   void *realloc_func_ctx;    \/* context for our realloc func *\/$/;"	m	struct:__anon35
+realloc_func_ctx	src/bson/bson-writer.c	/^   void *realloc_func_ctx;$/;"	m	struct:_bson_writer_t	file:
+regex	src/bson/bcon.c	/^      char *regex;$/;"	m	struct:bcon_append::__anon37	file:
+regex	src/bson/bcon.c	/^      const char **regex;$/;"	m	struct:bcon_extract::__anon42	file:
+regex	src/bson/bson-json.c	/^   } regex;$/;"	m	union:__anon11	typeref:struct:__anon11::__anon12	file:
+regex	src/bson/bson-types.h	/^         char *regex;$/;"	m	struct:_bson_value_t::__anon52::__anon57
+release	doc/conf.py	/^release = open(release_path).read().strip()$/;"	v
+release_download	doc/conf.py	/^release_download = 'https:\/\/github.com\/mongodb\/libbson\/releases\/download\/{0}\/libbson-{0}.tar.gz'.format(release)$/;"	v
+release_path	doc/conf.py	/^release_path = os.path.join(os.path.dirname(__file__), '..', 'VERSION_RELEASED')$/;"	v
+remaining	tests/test-string.c	/^   const char *remaining;$/;"	m	struct:__anon81	file:
+restrict	src/bson/bson-timegm.c	45;"	d	file:
+return_UESCAPE	src/jsonsl/jsonsl.h	/^    int return_UESCAPE;$/;"	m	struct:jsonsl_st
+roles	doc/mongoc/__init__.py	/^from docutils.parsers.rst import roles$/;"	i
+rule	src/bson/bson-timegm.c	/^struct rule {$/;"	s	file:
+run	doc/taglist.py	/^    def run(self):$/;"	m	class:TaglistDirective
+run_test	tests/bson-tests.h	/^run_test (const char *name, void (*func) (void))$/;"	f
+rv	tests/test-string.c	/^   int64_t rv;$/;"	m	struct:__anon81	file:
+scenario	tests/test-bson-corpus.c	/^   const char *scenario;$/;"	m	struct:__anon79	file:
+scenario_description	tests/corpus-test.h	/^   const char *scenario_description;$/;"	m	struct:_test_bson_decode_error_type_t
+scenario_description	tests/corpus-test.h	/^   const char *scenario_description;$/;"	m	struct:_test_bson_parse_error_type_t
+scenario_description	tests/corpus-test.h	/^   const char *scenario_description;$/;"	m	struct:_test_bson_valid_type_t
+scope	src/bson/bcon.c	/^      bson_t *scope;$/;"	m	struct:bcon_append::__anon39	file:
+scope	src/bson/bcon.c	/^      bson_t *scope;$/;"	m	struct:bcon_extract::__anon44	file:
+scope_data	src/bson/bson-types.h	/^         uint8_t *scope_data;$/;"	m	struct:_bson_value_t::__anon52::__anon60
+scope_len	src/bson/bson-types.h	/^         uint32_t scope_len;$/;"	m	struct:_bson_value_t::__anon52::__anon60
+seed	tests/TestSuite.h	/^   unsigned seed;$/;"	m	struct:_Test
+seq32	src/bson/bson-context-private.h	/^   int32_t seq32;$/;"	m	struct:_bson_context_t
+seq64	src/bson/bson-context-private.h	/^   int64_t seq64;$/;"	m	struct:_bson_context_t
+setup	doc/conf.py	/^def setup(app):$/;"	f
+setup	doc/mongoc/__init__.py	/^def setup(app):$/;"	f
+setup	doc/taglist.py	/^def setup(app):$/;"	f
+should_ignore	src/bson/bson.c	/^should_ignore (const char *first_exclude, va_list args, const char *name)$/;"	f	file:
+should_reset	src/bson/bson-json.c	/^   bool should_reset;$/;"	m	struct:_bson_json_reader_t	file:
+size	src/bson/bson.h	/^bson_sized_new (size_t size);$/;"	v
+size_t	src/bson/bson-compat.h	/^typedef SIZE_T size_t;$/;"	t
+size_t	src/jsonsl/jsonsl.h	/^typedef unsigned int size_t;$/;"	t
+skipped_corpus_test_t	tests/test-bson-corpus.c	/^} skipped_corpus_test_t;$/;"	t	typeref:struct:__anon79	file:
+smart_quotes	doc/conf.py	/^    smart_quotes = False$/;"	v
+snprintf	tests/TestSuite.c	/^snprintf (char *str, size_t size, const char *format, ...)$/;"	f	file:
+special_flags	src/jsonsl/jsonsl.h	/^    unsigned special_flags;$/;"	m	struct:jsonsl_state_st
+sphinx_version_info	doc/conf.py	/^from sphinx import version_info as sphinx_version_info$/;"	i
+sphinx_version_info	doc/mongoc/__init__.py	/^from sphinx import version_info as sphinx_version_info$/;"	i
+ssize_t	src/bson/bson-compat.h	/^typedef SSIZE_T ssize_t;$/;"	t
+ssize_t	src/jsonsl/jsonsl.h	/^typedef int ssize_t;$/;"	t
+stack	src/bson/bcon.h	/^   bcon_append_ctx_frame_t stack[BCON_STACK_MAX];$/;"	m	struct:_bcon_append_ctx_t
+stack	src/bson/bcon.h	/^   bcon_extract_ctx_frame_t stack[BCON_STACK_MAX];$/;"	m	struct:_bcon_extract_ctx_t
+stack	src/bson/bson-json.c	/^   bson_json_stack_frame_t stack[STACK_MAX];$/;"	m	struct:__anon25	file:
+stack	src/jsonsl/jsonsl.h	/^    struct jsonsl_state_st stack[1];$/;"	m	struct:jsonsl_st	typeref:struct:jsonsl_st::jsonsl_state_st
+state	examples/bson-metrics.c	/^static bson_metrics_state_t state;$/;"	v	file:
+state	src/bson/bson-timegm.c	/^struct state {$/;"	s	file:
+stopfl	src/jsonsl/jsonsl.h	/^    unsigned int stopfl;$/;"	m	struct:jsonsl_st
+str	src/bson/bson-string.h	/^   char *str;$/;"	m	struct:__anon5
+str	src/bson/bson-types.h	/^         char *str;$/;"	m	struct:_bson_value_t::__anon52::__anon54
+str	src/bson/bson.c	/^   bson_string_t *str;$/;"	m	struct:__anon32	file:
+str	tests/corpus-test.h	/^   const char *str;$/;"	m	struct:_test_bson_parse_error_type_t
+str	tests/test-string.c	/^   const char *str;$/;"	m	struct:__anon81	file:
+str_len	tests/corpus-test.h	/^   uint32_t str_len;$/;"	m	struct:_test_bson_parse_error_type_t
+strdup	tests/TestSuite.c	82;"	d	file:
+strtoll_test	tests/test-string.c	/^} strtoll_test;$/;"	t	typeref:struct:__anon81	file:
+subtype	src/bson/bcon.c	/^      bson_subtype_t *subtype;$/;"	m	struct:bcon_extract::__anon41	file:
+subtype	src/bson/bcon.c	/^      bson_subtype_t subtype;$/;"	m	struct:bcon_append::__anon36	file:
+subtype	src/bson/bson-types.h	/^         bson_subtype_t subtype;$/;"	m	struct:_bson_value_t::__anon52::__anon56
+suite	tests/TestSuite.c	/^   TestSuite *suite;$/;"	m	struct:__anon80	file:
+symbol	src/bson/bson-types.h	/^         char *symbol;$/;"	m	struct:_bson_value_t::__anon52::__anon61
+sys	doc/conf.py	/^import sys$/;"	i
+t	src/bson/bson-json.c	/^      uint32_t t;$/;"	m	struct:__anon11::__anon16	file:
+tag_role	doc/taglist.py	/^def tag_role(name, rawtext, text, lineno, inliner, options=None, content=[]):$/;"	f
+taglist	doc/taglist.py	/^class taglist(nodes.General, nodes.Element):$/;"	c
+test	tests/TestSuite.c	/^   Test *test;$/;"	m	struct:__anon80	file:
+test	tests/test-bson-corpus.c	/^   const char *test;$/;"	m	struct:__anon79	file:
+test1	tests/test-atomic.c	/^test1 (void)$/;"	f	file:
+test2	tests/test-atomic.c	/^test2 (void)$/;"	f	file:
+test3	tests/test-atomic.c	/^test3 (void)$/;"	f	file:
+test_append_ctx	tests/test-bcon-basic.c	/^test_append_ctx (void)$/;"	f	file:
+test_append_ctx_helper	tests/test-bcon-basic.c	/^test_append_ctx_helper (bson_t *bson, ...)$/;"	f	file:
+test_atomic_install	tests/test-atomic.c	/^test_atomic_install (TestSuite *suite)$/;"	f
+test_bcon_basic_install	tests/test-bcon-basic.c	/^test_bcon_basic_install (TestSuite *suite)$/;"	f
+test_bcon_extract_install	tests/test-bcon-extract.c	/^test_bcon_extract_install (TestSuite *suite)$/;"	f
+test_bcon_new	tests/test-bcon-basic.c	/^test_bcon_new (void)$/;"	f	file:
+test_binary	tests/test-bcon-basic.c	/^test_binary (void)$/;"	f	file:
+test_binary	tests/test-bcon-extract.c	/^test_binary (void)$/;"	f	file:
+test_bool	tests/test-bcon-basic.c	/^test_bool (void)$/;"	f	file:
+test_bool	tests/test-bcon-extract.c	/^test_bool (void)$/;"	f	file:
+test_bson_alloc	tests/test-bson.c	/^test_bson_alloc (void)$/;"	f	file:
+test_bson_append_array	tests/test-bson.c	/^test_bson_append_array (void)$/;"	f	file:
+test_bson_append_binary	tests/test-bson.c	/^test_bson_append_binary (void)$/;"	f	file:
+test_bson_append_binary_deprecated	tests/test-bson.c	/^test_bson_append_binary_deprecated (void)$/;"	f	file:
+test_bson_append_bool	tests/test-bson.c	/^test_bson_append_bool (void)$/;"	f	file:
+test_bson_append_code	tests/test-bson.c	/^test_bson_append_code (void)$/;"	f	file:
+test_bson_append_code_with_scope	tests/test-bson.c	/^test_bson_append_code_with_scope (void)$/;"	f	file:
+test_bson_append_dbpointer	tests/test-bson.c	/^test_bson_append_dbpointer (void)$/;"	f	file:
+test_bson_append_decimal128	tests/test-bson.c	/^test_bson_append_decimal128 (void)$/;"	f	file:
+test_bson_append_deep	tests/test-bson.c	/^test_bson_append_deep (void)$/;"	f	file:
+test_bson_append_document	tests/test-bson.c	/^test_bson_append_document (void)$/;"	f	file:
+test_bson_append_double	tests/test-bson.c	/^test_bson_append_double (void)$/;"	f	file:
+test_bson_append_general	tests/test-bson.c	/^test_bson_append_general (void)$/;"	f	file:
+test_bson_append_int32	tests/test-bson.c	/^test_bson_append_int32 (void)$/;"	f	file:
+test_bson_append_int64	tests/test-bson.c	/^test_bson_append_int64 (void)$/;"	f	file:
+test_bson_append_iter	tests/test-bson.c	/^test_bson_append_iter (void)$/;"	f	file:
+test_bson_append_maxkey	tests/test-bson.c	/^test_bson_append_maxkey (void)$/;"	f	file:
+test_bson_append_minkey	tests/test-bson.c	/^test_bson_append_minkey (void)$/;"	f	file:
+test_bson_append_null	tests/test-bson.c	/^test_bson_append_null (void)$/;"	f	file:
+test_bson_append_oid	tests/test-bson.c	/^test_bson_append_oid (void)$/;"	f	file:
+test_bson_append_overflow	tests/test-bson.c	/^test_bson_append_overflow (void)$/;"	f	file:
+test_bson_append_regex	tests/test-bson.c	/^test_bson_append_regex (void)$/;"	f	file:
+test_bson_append_symbol	tests/test-bson.c	/^test_bson_append_symbol (void)$/;"	f	file:
+test_bson_append_time_t	tests/test-bson.c	/^test_bson_append_time_t (void)$/;"	f	file:
+test_bson_append_timestamp	tests/test-bson.c	/^test_bson_append_timestamp (void)$/;"	f	file:
+test_bson_append_timeval	tests/test-bson.c	/^test_bson_append_timeval (void)$/;"	f	file:
+test_bson_append_undefined	tests/test-bson.c	/^test_bson_append_undefined (void)$/;"	f	file:
+test_bson_append_utf8	tests/test-bson.c	/^test_bson_append_utf8 (void)$/;"	f	file:
+test_bson_array	tests/test-bcon-basic.c	/^test_bson_array (void)$/;"	f	file:
+test_bson_array	tests/test-bcon-extract.c	/^test_bson_array (void)$/;"	f	file:
+test_bson_array_as_json	tests/test-json.c	/^test_bson_array_as_json (void)$/;"	f	file:
+test_bson_as_canonical_extended_json_dbpointer	tests/test-json.c	/^test_bson_as_canonical_extended_json_dbpointer (void)$/;"	f	file:
+test_bson_as_json_code	tests/test-json.c	/^test_bson_as_json_code (void)$/;"	f	file:
+test_bson_as_json_date_time	tests/test-json.c	/^test_bson_as_json_date_time (void)$/;"	f	file:
+test_bson_as_json_dbpointer	tests/test-json.c	/^test_bson_as_json_dbpointer (void)$/;"	f	file:
+test_bson_as_json_decimal128	tests/test-json.c	/^test_bson_as_json_decimal128 (void)$/;"	f	file:
+test_bson_as_json_double	tests/test-json.c	/^test_bson_as_json_double (void)$/;"	f	file:
+test_bson_as_json_double_nonfinite	tests/test-json.c	/^test_bson_as_json_double_nonfinite (void)$/;"	f	file:
+test_bson_as_json_int32	tests/test-json.c	/^test_bson_as_json_int32 (void)$/;"	f	file:
+test_bson_as_json_int64	tests/test-json.c	/^test_bson_as_json_int64 (void)$/;"	f	file:
+test_bson_as_json_multi	tests/test-json.c	/^test_bson_as_json_multi (void)$/;"	f	file:
+test_bson_as_json_multi_object	tests/test-json.c	/^test_bson_as_json_multi_object (void)$/;"	f	file:
+test_bson_as_json_regex	tests/test-json.c	/^test_bson_as_json_regex (void)$/;"	f	file:
+test_bson_as_json_spacing	tests/test-json.c	/^test_bson_as_json_spacing (void)$/;"	f	file:
+test_bson_as_json_stack_overflow	tests/test-json.c	/^test_bson_as_json_stack_overflow (void)$/;"	f	file:
+test_bson_as_json_string	tests/test-json.c	/^test_bson_as_json_string (void)$/;"	f	file:
+test_bson_as_json_symbol	tests/test-json.c	/^test_bson_as_json_symbol (void)$/;"	f	file:
+test_bson_as_json_utf8	tests/test-json.c	/^test_bson_as_json_utf8 (void)$/;"	f	file:
+test_bson_as_json_x1000	tests/test-json.c	/^test_bson_as_json_x1000 (void)$/;"	f	file:
+test_bson_ascii_strtoll	tests/test-string.c	/^test_bson_ascii_strtoll (void)$/;"	f	file:
+test_bson_build_child	tests/test-bson.c	/^test_bson_build_child (void)$/;"	f	file:
+test_bson_build_child_array	tests/test-bson.c	/^test_bson_build_child_array (void)$/;"	f	file:
+test_bson_build_child_deep	tests/test-bson.c	/^test_bson_build_child_deep (void)$/;"	f	file:
+test_bson_build_child_deep_1	tests/test-bson.c	/^test_bson_build_child_deep_1 (bson_t *b, int *count)$/;"	f	file:
+test_bson_build_child_deep_no_begin_end	tests/test-bson.c	/^test_bson_build_child_deep_no_begin_end (void)$/;"	f	file:
+test_bson_build_child_deep_no_begin_end_1	tests/test-bson.c	/^test_bson_build_child_deep_no_begin_end_1 (bson_t *b, int *count)$/;"	f	file:
+test_bson_clear	tests/test-bson.c	/^test_bson_clear (void)$/;"	f	file:
+test_bson_concat	tests/test-bson.c	/^test_bson_concat (void)$/;"	f	file:
+test_bson_copy	tests/test-bson.c	/^test_bson_copy (void)$/;"	f	file:
+test_bson_copy_to	tests/test-bson.c	/^test_bson_copy_to (void)$/;"	f	file:
+test_bson_copy_to_excluding_noinit	tests/test-bson.c	/^test_bson_copy_to_excluding_noinit (void)$/;"	f	file:
+test_bson_corpus_cb	tests/test-bson-corpus.c	/^test_bson_corpus_cb (bson_t *scenario)$/;"	f	file:
+test_bson_corpus_decode_error	tests/test-bson-corpus.c	/^test_bson_corpus_decode_error (test_bson_decode_error_type_t *test)$/;"	f	file:
+test_bson_corpus_install	tests/test-bson-corpus.c	/^test_bson_corpus_install (TestSuite *suite)$/;"	f
+test_bson_corpus_parse_error	tests/test-bson-corpus.c	/^test_bson_corpus_parse_error (test_bson_parse_error_type_t *test)$/;"	f	file:
+test_bson_corpus_valid	tests/test-bson-corpus.c	/^test_bson_corpus_valid (test_bson_valid_type_t *test)$/;"	f	file:
+test_bson_corrupt	tests/test-json.c	/^test_bson_corrupt (void)$/;"	f	file:
+test_bson_corrupt_binary	tests/test-json.c	/^test_bson_corrupt_binary (void)$/;"	f	file:
+test_bson_corrupt_utf8	tests/test-json.c	/^test_bson_corrupt_utf8 (void)$/;"	f	file:
+test_bson_count_keys	tests/test-bson.c	/^test_bson_count_keys (void)$/;"	f	file:
+test_bson_decode_error_cb	tests/corpus-test.h	/^typedef void (*test_bson_decode_error_cb) (test_bson_decode_error_type_t *test);$/;"	t
+test_bson_decode_error_type_t	tests/corpus-test.h	/^} test_bson_decode_error_type_t;$/;"	t	typeref:struct:_test_bson_decode_error_type_t
+test_bson_destroy_with_steal	tests/test-bson.c	/^test_bson_destroy_with_steal (void)$/;"	f	file:
+test_bson_document	tests/test-bcon-basic.c	/^test_bson_document (void)$/;"	f	file:
+test_bson_document	tests/test-bcon-extract.c	/^test_bson_document (void)$/;"	f	file:
+test_bson_error_basic	tests/test-error.c	/^test_bson_error_basic (void)$/;"	f	file:
+test_bson_has_field	tests/test-bson.c	/^test_bson_has_field (void)$/;"	f	file:
+test_bson_init	tests/test-bson.c	/^test_bson_init (void)$/;"	f	file:
+test_bson_init_1mm	tests/test-bson.c	/^test_bson_init_1mm (void)$/;"	f	file:
+test_bson_init_static	tests/test-bson.c	/^test_bson_init_static (void)$/;"	f	file:
+test_bson_initializer	tests/test-bson.c	/^test_bson_initializer (void)$/;"	f	file:
+test_bson_install	tests/test-bson.c	/^test_bson_install (TestSuite *suite)$/;"	f
+test_bson_integer_width	tests/test-json.c	/^test_bson_integer_width (void)$/;"	f	file:
+test_bson_iso8601_invalid	tests/test-iso8601.c	/^test_bson_iso8601_invalid (void)$/;"	f	file:
+test_bson_iso8601_leap_year	tests/test-iso8601.c	/^test_bson_iso8601_leap_year (void)$/;"	f	file:
+test_bson_iso8601_local	tests/test-iso8601.c	/^test_bson_iso8601_local (void)$/;"	f	file:
+test_bson_iso8601_utc	tests/test-iso8601.c	/^test_bson_iso8601_utc (void)$/;"	f	file:
+test_bson_iter_as_bool	tests/test-iter.c	/^test_bson_iter_as_bool (void)$/;"	f	file:
+test_bson_iter_as_double	tests/test-iter.c	/^test_bson_iter_as_double (void)$/;"	f	file:
+test_bson_iter_binary_deprecated	tests/test-iter.c	/^test_bson_iter_binary_deprecated (void)$/;"	f	file:
+test_bson_iter_find_case	tests/test-iter.c	/^test_bson_iter_find_case (void)$/;"	f	file:
+test_bson_iter_find_descendant	tests/test-iter.c	/^test_bson_iter_find_descendant (void)$/;"	f	file:
+test_bson_iter_from_data	tests/test-iter.c	/^test_bson_iter_from_data (void)$/;"	f	file:
+test_bson_iter_fuzz	tests/test-iter.c	/^test_bson_iter_fuzz (void)$/;"	f	file:
+test_bson_iter_init_find_case	tests/test-iter.c	/^test_bson_iter_init_find_case (void)$/;"	f	file:
+test_bson_iter_mixed	tests/test-iter.c	/^test_bson_iter_mixed (void)$/;"	f	file:
+test_bson_iter_next_after_finish	tests/test-iter.c	/^test_bson_iter_next_after_finish (void)$/;"	f	file:
+test_bson_iter_overflow	tests/test-iter.c	/^test_bson_iter_overflow (void)$/;"	f	file:
+test_bson_iter_overwrite_bool	tests/test-iter.c	/^test_bson_iter_overwrite_bool (void)$/;"	f	file:
+test_bson_iter_overwrite_decimal128	tests/test-iter.c	/^test_bson_iter_overwrite_decimal128 (void)$/;"	f	file:
+test_bson_iter_overwrite_double	tests/test-iter.c	/^test_bson_iter_overwrite_double (void)$/;"	f	file:
+test_bson_iter_overwrite_int32	tests/test-iter.c	/^test_bson_iter_overwrite_int32 (void)$/;"	f	file:
+test_bson_iter_overwrite_int64	tests/test-iter.c	/^test_bson_iter_overwrite_int64 (void)$/;"	f	file:
+test_bson_iter_recurse	tests/test-iter.c	/^test_bson_iter_recurse (void)$/;"	f	file:
+test_bson_iter_regex	tests/test-iter.c	/^test_bson_iter_regex (void)$/;"	f	file:
+test_bson_iter_timeval	tests/test-iter.c	/^test_bson_iter_timeval (void)$/;"	f	file:
+test_bson_iter_trailing_null	tests/test-iter.c	/^test_bson_iter_trailing_null (void)$/;"	f	file:
+test_bson_iter_utf8	tests/test-iter.c	/^test_bson_iter_utf8 (void)$/;"	f	file:
+test_bson_json_allow_multiple	tests/test-json.c	/^test_bson_json_allow_multiple (void)$/;"	f	file:
+test_bson_json_array	tests/test-json.c	/^test_bson_json_array (void)$/;"	f	file:
+test_bson_json_array_int64	tests/test-json.c	/^test_bson_json_array_int64 (void)$/;"	f	file:
+test_bson_json_array_single	tests/test-json.c	/^test_bson_json_array_single (void)$/;"	f	file:
+test_bson_json_array_subdoc	tests/test-json.c	/^test_bson_json_array_subdoc (void)$/;"	f	file:
+test_bson_json_code	tests/test-json.c	/^test_bson_json_code (void)$/;"	f	file:
+test_bson_json_code_errors	tests/test-json.c	/^test_bson_json_code_errors (void)$/;"	f	file:
+test_bson_json_date	tests/test-json.c	/^test_bson_json_date (void)$/;"	f	file:
+test_bson_json_date_check	tests/test-json.c	/^test_bson_json_date_check (const char *json, int64_t value)$/;"	f	file:
+test_bson_json_date_error	tests/test-json.c	/^test_bson_json_date_error (const char *json, const char *msg)$/;"	f	file:
+test_bson_json_date_legacy	tests/test-json.c	/^test_bson_json_date_legacy (void)$/;"	f	file:
+test_bson_json_date_numberlong	tests/test-json.c	/^test_bson_json_date_numberlong (void)$/;"	f	file:
+test_bson_json_dbref	tests/test-json.c	/^test_bson_json_dbref (void)$/;"	f	file:
+test_bson_json_double	tests/test-json.c	/^test_bson_json_double (void)$/;"	f	file:
+test_bson_json_double_overflow	tests/test-json.c	/^test_bson_json_double_overflow (void)$/;"	f	file:
+test_bson_json_empty_final_object	tests/test-json.c	/^test_bson_json_empty_final_object (void)$/;"	f	file:
+test_bson_json_error	tests/test-json.c	/^test_bson_json_error (const char *json, int domain, bson_json_error_code_t code)$/;"	f	file:
+test_bson_json_errors	tests/test-json.c	/^test_bson_json_errors (void)$/;"	f	file:
+test_bson_json_inc	tests/test-json.c	/^test_bson_json_inc (void)$/;"	f	file:
+test_bson_json_infinity	tests/test-json.c	/^test_bson_json_infinity (void)$/;"	f	file:
+test_bson_json_int32	tests/test-json.c	/^test_bson_json_int32 (void)$/;"	f	file:
+test_bson_json_int64	tests/test-json.c	/^test_bson_json_int64 (void)$/;"	f	file:
+test_bson_json_nan	tests/test-json.c	/^test_bson_json_nan (void)$/;"	f	file:
+test_bson_json_null	tests/test-json.c	/^test_bson_json_null (void)$/;"	f	file:
+test_bson_json_null_in_str	tests/test-json.c	/^test_bson_json_null_in_str (void)$/;"	f	file:
+test_bson_json_number_decimal	tests/test-json.c	/^test_bson_json_number_decimal (void)$/;"	f	file:
+test_bson_json_number_long	tests/test-json.c	/^test_bson_json_number_long (void)$/;"	f	file:
+test_bson_json_number_long_zero	tests/test-json.c	/^test_bson_json_number_long_zero (void)$/;"	f	file:
+test_bson_json_read	tests/test-json.c	/^test_bson_json_read (void)$/;"	f	file:
+test_bson_json_read_bad_cb	tests/test-json.c	/^test_bson_json_read_bad_cb (void)$/;"	f	file:
+test_bson_json_read_bad_cb_helper	tests/test-json.c	/^test_bson_json_read_bad_cb_helper (void *_ctx, uint8_t *buf, size_t len)$/;"	f	file:
+test_bson_json_read_binary	tests/test-json.c	/^test_bson_json_read_binary (void)$/;"	f	file:
+test_bson_json_read_buffering	tests/test-json.c	/^test_bson_json_read_buffering (void)$/;"	f	file:
+test_bson_json_read_cb_helper	tests/test-json.c	/^test_bson_json_read_cb_helper (void *string, uint8_t *buf, size_t len)$/;"	f	file:
+test_bson_json_read_corrupt_utf8	tests/test-json.c	/^test_bson_json_read_corrupt_utf8 (void)$/;"	f	file:
+test_bson_json_read_dbpointer	tests/test-json.c	/^test_bson_json_read_dbpointer (void)$/;"	f	file:
+test_bson_json_read_decimal128	tests/test-json.c	/^test_bson_json_read_decimal128 (void)$/;"	f	file:
+test_bson_json_read_empty	tests/test-json.c	/^test_bson_json_read_empty (void)$/;"	f	file:
+test_bson_json_read_invalid	tests/test-json.c	/^test_bson_json_read_invalid (void)$/;"	f	file:
+test_bson_json_read_invalid_binary	tests/test-json.c	/^test_bson_json_read_invalid_binary (void)$/;"	f	file:
+test_bson_json_read_invalid_helper	tests/test-json.c	/^test_bson_json_read_invalid_helper (void *ctx, uint8_t *buf, size_t len)$/;"	f	file:
+test_bson_json_read_invalid_json	tests/test-json.c	/^test_bson_json_read_invalid_json (void)$/;"	f	file:
+test_bson_json_read_legacy_binary	tests/test-json.c	/^test_bson_json_read_legacy_binary (void)$/;"	f	file:
+test_bson_json_read_legacy_regex	tests/test-json.c	/^test_bson_json_read_legacy_regex (void)$/;"	f	file:
+test_bson_json_read_missing_complex	tests/test-json.c	/^test_bson_json_read_missing_complex (void)$/;"	f	file:
+test_bson_json_read_raw_utf8	tests/test-json.c	/^test_bson_json_read_raw_utf8 (void)$/;"	f	file:
+test_bson_json_read_regex_options_order	tests/test-json.c	/^test_bson_json_read_regex_options_order (void)$/;"	f	file:
+test_bson_json_timestamp	tests/test-json.c	/^test_bson_json_timestamp (void)$/;"	f	file:
+test_bson_json_uescape	tests/test-json.c	/^test_bson_json_uescape (void)$/;"	f	file:
+test_bson_json_uescape_bad	tests/test-json.c	/^test_bson_json_uescape_bad (void)$/;"	f	file:
+test_bson_json_uescape_key	tests/test-json.c	/^test_bson_json_uescape_key (void)$/;"	f	file:
+test_bson_macros	tests/test-bson.c	/^test_bson_macros (void)$/;"	f	file:
+test_bson_new	tests/test-bson.c	/^test_bson_new (void)$/;"	f	file:
+test_bson_new_1mm	tests/test-bson.c	/^test_bson_new_1mm (void)$/;"	f	file:
+test_bson_new_from_buffer	tests/test-bson.c	/^test_bson_new_from_buffer (void)$/;"	f	file:
+test_bson_oid_compare	tests/test-oid.c	/^test_bson_oid_compare (void)$/;"	f	file:
+test_bson_oid_copy	tests/test-oid.c	/^test_bson_oid_copy (void)$/;"	f	file:
+test_bson_oid_get_time_t	tests/test-oid.c	/^test_bson_oid_get_time_t (void)$/;"	f	file:
+test_bson_oid_hash	tests/test-oid.c	/^test_bson_oid_hash (void)$/;"	f	file:
+test_bson_oid_init	tests/test-oid.c	/^test_bson_oid_init (void)$/;"	f	file:
+test_bson_oid_init_from_string	tests/test-oid.c	/^test_bson_oid_init_from_string (void)$/;"	f	file:
+test_bson_oid_init_sequence	tests/test-oid.c	/^test_bson_oid_init_sequence (void)$/;"	f	file:
+test_bson_oid_init_sequence_thread_safe	tests/test-oid.c	/^test_bson_oid_init_sequence_thread_safe (void)$/;"	f	file:
+test_bson_oid_init_sequence_with_tid	tests/test-oid.c	/^test_bson_oid_init_sequence_with_tid (void)$/;"	f	file:
+test_bson_oid_init_with_threads	tests/test-oid.c	/^test_bson_oid_init_with_threads (void)$/;"	f	file:
+test_bson_parse_error_cb	tests/corpus-test.h	/^typedef void (*test_bson_parse_error_cb) (test_bson_parse_error_type_t *test);$/;"	t
+test_bson_parse_error_type_t	tests/corpus-test.h	/^} test_bson_parse_error_type_t;$/;"	t	typeref:struct:_test_bson_parse_error_type_t
+test_bson_regex_lengths	tests/test-bson.c	/^test_bson_regex_lengths (void)$/;"	f
+test_bson_reinit	tests/test-bson.c	/^test_bson_reinit (void)$/;"	f	file:
+test_bson_reserve_buffer	tests/test-bson.c	/^test_bson_reserve_buffer (void)$/;"	f	file:
+test_bson_reserve_buffer_errors	tests/test-bson.c	/^test_bson_reserve_buffer_errors (void)$/;"	f	file:
+test_bson_steal	tests/test-bson.c	/^test_bson_steal (void)$/;"	f	file:
+test_bson_strcasecmp	tests/test-string.c	/^test_bson_strcasecmp (void)$/;"	f	file:
+test_bson_strdup	tests/test-string.c	/^test_bson_strdup (void)$/;"	f	file:
+test_bson_strdup_printf	tests/test-string.c	/^test_bson_strdup_printf (void)$/;"	f	file:
+test_bson_string_append	tests/test-string.c	/^test_bson_string_append (void)$/;"	f	file:
+test_bson_string_append_c	tests/test-string.c	/^test_bson_string_append_c (void)$/;"	f	file:
+test_bson_string_append_printf	tests/test-string.c	/^test_bson_string_append_printf (void)$/;"	f	file:
+test_bson_string_append_unichar	tests/test-string.c	/^test_bson_string_append_unichar (void)$/;"	f	file:
+test_bson_string_new	tests/test-string.c	/^test_bson_string_new (void)$/;"	f	file:
+test_bson_strncpy	tests/test-string.c	/^test_bson_strncpy (void)$/;"	f	file:
+test_bson_strndup	tests/test-string.c	/^test_bson_strndup (void)$/;"	f	file:
+test_bson_strnlen	tests/test-string.c	/^test_bson_strnlen (void)$/;"	f	file:
+test_bson_subtype_2	tests/test-bson.c	/^test_bson_subtype_2 (void)$/;"	f	file:
+test_bson_utf8_escape_for_json	tests/test-utf8.c	/^test_bson_utf8_escape_for_json (void)$/;"	f	file:
+test_bson_utf8_from_unichar	tests/test-utf8.c	/^test_bson_utf8_from_unichar (void)$/;"	f	file:
+test_bson_utf8_get_char	tests/test-utf8.c	/^test_bson_utf8_get_char (void)$/;"	f	file:
+test_bson_utf8_invalid	tests/test-utf8.c	/^test_bson_utf8_invalid (void)$/;"	f	file:
+test_bson_utf8_key	tests/test-bson.c	/^test_bson_utf8_key (void)$/;"	f	file:
+test_bson_utf8_nil	tests/test-utf8.c	/^test_bson_utf8_nil (void)$/;"	f	file:
+test_bson_utf8_non_shortest	tests/test-utf8.c	/^test_bson_utf8_non_shortest (void)$/;"	f	file:
+test_bson_utf8_validate	tests/test-utf8.c	/^test_bson_utf8_validate (void)$/;"	f	file:
+test_bson_valid_cb	tests/corpus-test.h	/^typedef void (*test_bson_valid_cb) (test_bson_valid_type_t *test);$/;"	t
+test_bson_valid_type_t	tests/corpus-test.h	/^} test_bson_valid_type_t;$/;"	t	typeref:struct:_test_bson_valid_type_t
+test_bson_validate	tests/test-bson.c	/^test_bson_validate (void)$/;"	f	file:
+test_bson_validate_bool	tests/test-bson.c	/^test_bson_validate_bool (void)$/;"	f	file:
+test_bson_validate_dbpointer	tests/test-bson.c	/^test_bson_validate_dbpointer (void)$/;"	f	file:
+test_bson_validate_dbref	tests/test-bson.c	/^test_bson_validate_dbref (void)$/;"	f	file:
+test_bson_version	tests/test-version.c	/^test_bson_version (void)$/;"	f	file:
+test_bson_visit_invalid_field	tests/test-bson.c	/^test_bson_visit_invalid_field (void)$/;"	f	file:
+test_bson_visit_unsupported_type	tests/test-bson.c	/^test_bson_visit_unsupported_type (void)$/;"	f	file:
+test_bson_visit_unsupported_type_bad_key	tests/test-bson.c	/^test_bson_visit_unsupported_type_bad_key (void)$/;"	f	file:
+test_bson_visit_unsupported_type_empty_key	tests/test-bson.c	/^test_bson_visit_unsupported_type_empty_key (void)$/;"	f	file:
+test_bson_writer_custom_realloc	tests/test-writer.c	/^test_bson_writer_custom_realloc (void)$/;"	f	file:
+test_bson_writer_custom_realloc_helper	tests/test-writer.c	/^test_bson_writer_custom_realloc_helper (void *mem, size_t num_bytes, void *ctx)$/;"	f	file:
+test_bson_writer_empty_sequence	tests/test-writer.c	/^test_bson_writer_empty_sequence (void)$/;"	f	file:
+test_bson_writer_null_realloc	tests/test-writer.c	/^test_bson_writer_null_realloc (void)$/;"	f	file:
+test_bson_writer_null_realloc_2	tests/test-writer.c	/^test_bson_writer_null_realloc_2 (void)$/;"	f	file:
+test_bson_writer_shared_buffer	tests/test-writer.c	/^test_bson_writer_shared_buffer (void)$/;"	f	file:
+test_clock_install	tests/test-clock.c	/^test_clock_install (TestSuite *suite)$/;"	f
+test_code	tests/test-bcon-basic.c	/^test_code (void)$/;"	f	file:
+test_code	tests/test-bcon-extract.c	/^test_code (void)$/;"	f	file:
+test_codewscope	tests/test-bcon-basic.c	/^test_codewscope (void)$/;"	f	file:
+test_codewscope	tests/test-bcon-extract.c	/^test_codewscope (void)$/;"	f	file:
+test_concat	tests/test-bcon-basic.c	/^test_concat (void)$/;"	f	file:
+test_date	tests/test-iso8601.c	/^test_date (const char *str, int64_t millis)$/;"	f	file:
+test_date_io	tests/test-iso8601.c	/^test_date_io (const char *str_in, const char *str_out, int64_t millis)$/;"	f	file:
+test_date_rt	tests/test-iso8601.c	/^test_date_rt (const char *str, int64_t millis)$/;"	f	file:
+test_date_should_fail	tests/test-iso8601.c	/^test_date_should_fail (const char *str)$/;"	f	file:
+test_date_time	tests/test-bcon-basic.c	/^test_date_time (void)$/;"	f	file:
+test_date_time	tests/test-bcon-extract.c	/^test_date_time (void)$/;"	f	file:
+test_dbpointer	tests/test-bcon-basic.c	/^test_dbpointer (void)$/;"	f	file:
+test_dbpointer	tests/test-bcon-extract.c	/^test_dbpointer (void)$/;"	f	file:
+test_decimal128	tests/test-bcon-basic.c	/^test_decimal128 (void)$/;"	f	file:
+test_decimal128	tests/test-bcon-extract.c	/^test_decimal128 (void)$/;"	f	file:
+test_decimal128_from_string__exponent_normalization	tests/test-decimal128.c	/^test_decimal128_from_string__exponent_normalization (void)$/;"	f	file:
+test_decimal128_from_string__infinity	tests/test-decimal128.c	/^test_decimal128_from_string__infinity (void)$/;"	f	file:
+test_decimal128_from_string__invalid_inputs	tests/test-decimal128.c	/^test_decimal128_from_string__invalid_inputs (void)$/;"	f	file:
+test_decimal128_from_string__large	tests/test-decimal128.c	/^test_decimal128_from_string__large (void)$/;"	f	file:
+test_decimal128_from_string__nan	tests/test-decimal128.c	/^test_decimal128_from_string__nan (void)$/;"	f	file:
+test_decimal128_from_string__scientific	tests/test-decimal128.c	/^test_decimal128_from_string__scientific (void)$/;"	f	file:
+test_decimal128_from_string__simple	tests/test-decimal128.c	/^test_decimal128_from_string__simple (void)$/;"	f	file:
+test_decimal128_from_string__zeros	tests/test-decimal128.c	/^test_decimal128_from_string__zeros (void)$/;"	f	file:
+test_decimal128_install	tests/test-decimal128.c	/^test_decimal128_install (TestSuite *suite)$/;"	f
+test_decimal128_to_string__infinity	tests/test-decimal128.c	/^test_decimal128_to_string__infinity (void)$/;"	f	file:
+test_decimal128_to_string__nan	tests/test-decimal128.c	/^test_decimal128_to_string__nan (void)$/;"	f	file:
+test_decimal128_to_string__regular	tests/test-decimal128.c	/^test_decimal128_to_string__regular (void)$/;"	f	file:
+test_decimal128_to_string__scientific	tests/test-decimal128.c	/^test_decimal128_to_string__scientific (void)$/;"	f	file:
+test_decimal128_to_string__zeros	tests/test-decimal128.c	/^test_decimal128_to_string__zeros (void)$/;"	f	file:
+test_description	tests/corpus-test.h	/^   const char *test_description;$/;"	m	struct:_test_bson_decode_error_type_t
+test_description	tests/corpus-test.h	/^   const char *test_description;$/;"	m	struct:_test_bson_parse_error_type_t
+test_description	tests/corpus-test.h	/^   const char *test_description;$/;"	m	struct:_test_bson_valid_type_t
+test_double	tests/test-bcon-basic.c	/^test_double (void)$/;"	f	file:
+test_double	tests/test-bcon-extract.c	/^test_double (void)$/;"	f	file:
+test_endian_install	tests/test-endian.c	/^test_endian_install (TestSuite *suite)$/;"	f
+test_error_install	tests/test-error.c	/^test_error_install (TestSuite *suite)$/;"	f
+test_extract_ctx	tests/test-bcon-extract.c	/^test_extract_ctx (void)$/;"	f	file:
+test_extract_ctx_helper	tests/test-bcon-extract.c	/^test_extract_ctx_helper (bson_t *bson, ...)$/;"	f	file:
+test_flags	tests/TestSuite.c	/^static int test_flags;$/;"	v	file:
+test_get_monotonic_time	tests/test-clock.c	/^test_get_monotonic_time (void)$/;"	f	file:
+test_hook	tests/json-test.h	/^typedef void (*test_hook) (bson_t *test);$/;"	t
+test_inline_array	tests/test-bcon-basic.c	/^test_inline_array (void)$/;"	f	file:
+test_inline_array	tests/test-bcon-extract.c	/^test_inline_array (void)$/;"	f	file:
+test_inline_doc	tests/test-bcon-basic.c	/^test_inline_doc (void)$/;"	f	file:
+test_inline_doc	tests/test-bcon-extract.c	/^test_inline_doc (void)$/;"	f	file:
+test_inline_nested	tests/test-bcon-basic.c	/^test_inline_nested (void)$/;"	f	file:
+test_int32	tests/test-bcon-basic.c	/^test_int32 (void)$/;"	f	file:
+test_int32	tests/test-bcon-extract.c	/^test_int32 (void)$/;"	f	file:
+test_int64	tests/test-bcon-basic.c	/^test_int64 (void)$/;"	f	file:
+test_int64	tests/test-bcon-extract.c	/^test_int64 (void)$/;"	f	file:
+test_iso8601_install	tests/test-iso8601.c	/^test_iso8601_install (TestSuite *suite)$/;"	f
+test_iter	tests/test-bcon-basic.c	/^test_iter (void)$/;"	f	file:
+test_iter	tests/test-bcon-extract.c	/^test_iter (void)$/;"	f	file:
+test_iter_install	tests/test-iter.c	/^test_iter_install (TestSuite *suite)$/;"	f
+test_json_install	tests/test-json.c	/^test_json_install (TestSuite *suite)$/;"	f
+test_json_reader_new_from_bad_path	tests/test-json.c	/^test_json_reader_new_from_bad_path (void)$/;"	f	file:
+test_json_reader_new_from_file	tests/test-json.c	/^test_json_reader_new_from_file (void)$/;"	f	file:
+test_maxkey	tests/test-bcon-basic.c	/^test_maxkey (void)$/;"	f	file:
+test_maxkey	tests/test-bcon-extract.c	/^test_maxkey (void)$/;"	f	file:
+test_minkey	tests/test-bcon-basic.c	/^test_minkey (void)$/;"	f	file:
+test_minkey	tests/test-bcon-extract.c	/^test_minkey (void)$/;"	f	file:
+test_nested	tests/test-bcon-extract.c	/^test_nested (void)$/;"	f	file:
+test_next_power_of_two	tests/test-bson.c	/^test_next_power_of_two (void)$/;"	f	file:
+test_null	tests/test-bcon-basic.c	/^test_null (void)$/;"	f	file:
+test_null	tests/test-bcon-extract.c	/^test_null (void)$/;"	f	file:
+test_oid	tests/test-bcon-basic.c	/^test_oid (void)$/;"	f	file:
+test_oid	tests/test-bcon-extract.c	/^test_oid (void)$/;"	f	file:
+test_oid_install	tests/test-oid.c	/^test_oid_install (TestSuite *suite)$/;"	f
+test_reader_from_data	tests/test-reader.c	/^test_reader_from_data (void)$/;"	f	file:
+test_reader_from_data_document_length_too_large	tests/test-reader.c	/^test_reader_from_data_document_length_too_large (void)$/;"	f	file:
+test_reader_from_data_document_length_too_small	tests/test-reader.c	/^test_reader_from_data_document_length_too_small (void)$/;"	f	file:
+test_reader_from_data_overflow	tests/test-reader.c	/^test_reader_from_data_overflow (void)$/;"	f	file:
+test_reader_from_handle	tests/test-reader.c	/^test_reader_from_handle (void)$/;"	f	file:
+test_reader_from_handle_corrupt	tests/test-reader.c	/^test_reader_from_handle_corrupt (void)$/;"	f	file:
+test_reader_from_handle_destroy	tests/test-reader.c	/^test_reader_from_handle_destroy (void *handle)$/;"	f	file:
+test_reader_from_handle_read	tests/test-reader.c	/^test_reader_from_handle_read (void *handle, void *buf, size_t len)$/;"	f	file:
+test_reader_grow_buffer	tests/test-reader.c	/^test_reader_grow_buffer (void)$/;"	f	file:
+test_reader_install	tests/test-reader.c	/^test_reader_install (TestSuite *suite)$/;"	f
+test_reader_reset	tests/test-reader.c	/^test_reader_reset (void)$/;"	f	file:
+test_reader_tell	tests/test-reader.c	/^test_reader_tell (void)$/;"	f	file:
+test_regex	tests/test-bcon-basic.c	/^test_regex (void)$/;"	f	file:
+test_regex	tests/test-bcon-extract.c	/^test_regex (void)$/;"	f	file:
+test_skip	tests/test-bcon-extract.c	/^test_skip (void)$/;"	f	file:
+test_string_install	tests/test-string.c	/^test_string_install (TestSuite *suite)$/;"	f
+test_suite_debug_output	tests/TestSuite.c	/^test_suite_debug_output (void)$/;"	f
+test_suite_valgrind	tests/TestSuite.c	/^test_suite_valgrind (void)$/;"	f
+test_swap16	tests/test-endian.c	/^test_swap16 (void)$/;"	f	file:
+test_swap32	tests/test-endian.c	/^test_swap32 (void)$/;"	f	file:
+test_swap64	tests/test-endian.c	/^test_swap64 (void)$/;"	f	file:
+test_symbol	tests/test-bcon-basic.c	/^test_symbol (void)$/;"	f	file:
+test_symbol	tests/test-bcon-extract.c	/^test_symbol (void)$/;"	f	file:
+test_timestamp	tests/test-bcon-basic.c	/^test_timestamp (void)$/;"	f	file:
+test_timestamp	tests/test-bcon-extract.c	/^test_timestamp (void)$/;"	f	file:
+test_undefined	tests/test-bcon-basic.c	/^test_undefined (void)$/;"	f	file:
+test_undefined	tests/test-bcon-extract.c	/^test_undefined (void)$/;"	f	file:
+test_utf8	tests/test-bcon-basic.c	/^test_utf8 (void)$/;"	f	file:
+test_utf8	tests/test-bcon-extract.c	/^test_utf8 (void)$/;"	f	file:
+test_utf8_install	tests/test-utf8.c	/^test_utf8_install (TestSuite *suite)$/;"	f
+test_value_basic	tests/test-value.c	/^test_value_basic (void)$/;"	f	file:
+test_value_decimal128	tests/test-value.c	/^test_value_decimal128 (void)$/;"	f	file:
+test_value_install	tests/test-value.c	/^test_value_install (TestSuite *suite)$/;"	f
+test_version_install	tests/test-version.c	/^test_version_install (TestSuite *suite)$/;"	f
+test_writer_install	tests/test-writer.c	/^test_writer_install (TestSuite *suite)$/;"	f
+testname	tests/TestSuite.h	/^   char *testname;$/;"	m	struct:_TestSuite
+tests	tests/TestSuite.h	/^   Test *tests;$/;"	m	struct:_TestSuite
+time1	src/bson/bson-timegm.c	/^time1 (struct bson_tm *const tmp,$/;"	f	file:
+time2	src/bson/bson-timegm.c	/^time2 (struct bson_tm *const tmp,$/;"	f	file:
+time2sub	src/bson/bson-timegm.c	/^time2sub (struct bson_tm *const tmp,$/;"	f	file:
+time_t_max	src/bson/bson-timegm.c	/^static int64_t const time_t_max = INT64_MAX;$/;"	v	file:
+time_t_min	src/bson/bson-timegm.c	/^static int64_t const time_t_min = INT64_MIN;$/;"	v	file:
+timecnt	src/bson/bson-timegm.c	/^   int timecnt;$/;"	m	struct:state	file:
+timespec	tests/TestSuite.c	/^struct timespec {$/;"	s	file:
+timestamp	src/bson/bcon.c	/^      uint32_t *timestamp;$/;"	m	struct:bcon_extract::__anon45	file:
+timestamp	src/bson/bcon.c	/^      uint32_t timestamp;$/;"	m	struct:bcon_append::__anon40	file:
+timestamp	src/bson/bson-json.c	/^   } timestamp;$/;"	m	union:__anon11	typeref:struct:__anon11::__anon16	file:
+timestamp	src/bson/bson-types.h	/^         uint32_t timestamp;$/;"	m	struct:_bson_value_t::__anon52::__anon53
+timesub	src/bson/bson-timegm.c	/^timesub (const int64_t *const timep,$/;"	f	file:
+title	doc/conf.py	/^from docutils.nodes import title$/;"	i
+tm_gmtoff	src/bson/bson-timegm-private.h	/^   int64_t tm_gmtoff; \/* offset from CUT in seconds *\/$/;"	m	struct:bson_tm
+tm_hour	src/bson/bson-timegm-private.h	/^   int64_t tm_hour;   \/* hours since midnight [0-23] *\/$/;"	m	struct:bson_tm
+tm_isdst	src/bson/bson-timegm-private.h	/^   int64_t tm_isdst;  \/* Daylight Savings Time flag *\/$/;"	m	struct:bson_tm
+tm_mday	src/bson/bson-timegm-private.h	/^   int64_t tm_mday;   \/* day of the month [1-31] *\/$/;"	m	struct:bson_tm
+tm_min	src/bson/bson-timegm-private.h	/^   int64_t tm_min;    \/* minutes after the hour [0-59] *\/$/;"	m	struct:bson_tm
+tm_mon	src/bson/bson-timegm-private.h	/^   int64_t tm_mon;    \/* months since January [0-11] *\/$/;"	m	struct:bson_tm
+tm_sec	src/bson/bson-timegm-private.h	/^   int64_t tm_sec;    \/* seconds after the minute [0-60] *\/$/;"	m	struct:bson_tm
+tm_wday	src/bson/bson-timegm-private.h	/^   int64_t tm_wday;   \/* days since Sunday [0-6] *\/$/;"	m	struct:bson_tm
+tm_yday	src/bson/bson-timegm-private.h	/^   int64_t tm_yday;   \/* days since January 1 [0-365] *\/$/;"	m	struct:bson_tm
+tm_year	src/bson/bson-timegm-private.h	/^   int64_t tm_year;   \/* years since 1900 *\/$/;"	m	struct:bson_tm
+tm_zone	src/bson/bson-timegm-private.h	/^   char *tm_zone;     \/* timezone abbreviation *\/$/;"	m	struct:bson_tm
+tmcomp	src/bson/bson-timegm.c	/^tmcomp (register const struct bson_tm *const atmp,$/;"	f	file:
+tok_accumulator	src/bson/bson-json.c	/^   bson_json_buf_t tok_accumulator;$/;"	m	struct:_bson_json_reader_t	file:
+tok_last	src/jsonsl/jsonsl.h	/^    char tok_last;$/;"	m	struct:jsonsl_st
+true	src/bson/bson-compat.h	149;"	d
+tt_abbrind	src/bson/bson-timegm.c	/^   int tt_abbrind;         \/* abbreviation list index *\/$/;"	m	struct:ttinfo	file:
+tt_gmtoff	src/bson/bson-timegm.c	/^   int_fast32_t tt_gmtoff; \/* UT offset in seconds *\/$/;"	m	struct:ttinfo	file:
+tt_isdst	src/bson/bson-timegm.c	/^   int tt_isdst;           \/* used to set tm_isdst *\/$/;"	m	struct:ttinfo	file:
+tt_ttisgmt	src/bson/bson-timegm.c	/^   int tt_ttisgmt;         \/* true if transition is UT *\/$/;"	m	struct:ttinfo	file:
+tt_ttisstd	src/bson/bson-timegm.c	/^   int tt_ttisstd;         \/* true if transition is std time *\/$/;"	m	struct:ttinfo	file:
+ttinfo	src/bson/bson-timegm.c	/^struct ttinfo {            \/* time type information *\/$/;"	s	file:
+ttis	src/bson/bson-timegm.c	/^   struct ttinfo ttis[TZ_MAX_TYPES];$/;"	m	struct:state	typeref:struct:state::ttinfo	file:
+tv_nsec	tests/TestSuite.c	/^   long tv_nsec;$/;"	m	struct:timespec	file:
+tv_sec	tests/TestSuite.c	/^   time_t tv_sec;$/;"	m	struct:timespec	file:
+type	src/bson/bson-json.c	/^      bson_subtype_t type;$/;"	m	struct:__anon11::__anon14	file:
+type	src/bson/bson-json.c	/^   bson_json_frame_type_t type;$/;"	m	struct:__anon10	file:
+type	src/bson/bson-reader.c	/^   bson_reader_type_t type;$/;"	m	struct:__anon69	file:
+type	src/bson/bson-reader.c	/^   bson_reader_type_t type;$/;"	m	struct:__anon71	file:
+type	src/bson/bson-types.h	/^   uint32_t type;      \/* The offset of the type byte. *\/$/;"	m	struct:__anon62
+type	src/bson/bson-types.h	/^   uint32_t type;$/;"	m	struct:__anon63
+type	src/jsonsl/jsonsl.h	/^    unsigned type;$/;"	m	struct:jsonsl_state_st
+type_code	tests/test-bson.c	/^   uint32_t type_code;$/;"	m	struct:__anon82	file:
+typecnt	src/bson/bson-timegm.c	/^   int typecnt;$/;"	m	struct:state	file:
+types	src/bson/bson-timegm.c	/^   unsigned char types[TZ_MAX_TIMES];$/;"	m	struct:state	file:
+uint16_t	src/bson/bson-stdint-win32.h	/^typedef unsigned __int16 uint16_t;$/;"	t
+uint16_t	src/bson/bson-stdint-win32.h	/^typedef unsigned short uint16_t;$/;"	t
+uint16_t	src/jsonsl/jsonsl.h	/^typedef unsigned __int16 uint16_t;$/;"	t
+uint32_t	src/bson/bson-stdint-win32.h	/^typedef unsigned __int32 uint32_t;$/;"	t
+uint32_t	src/bson/bson-stdint-win32.h	/^typedef unsigned int uint32_t;$/;"	t
+uint32_t	src/jsonsl/jsonsl.h	/^typedef unsigned __int32 uint32_t;$/;"	t
+uint64_t	src/bson/bson-stdint-win32.h	/^typedef unsigned __int64 uint64_t;$/;"	t
+uint64_t	src/jsonsl/jsonsl.h	/^typedef unsigned __int64 uint64_t;$/;"	t
+uint8_t	src/bson/bson-stdint-win32.h	/^typedef unsigned __int8 uint8_t;$/;"	t
+uint8_t	src/bson/bson-stdint-win32.h	/^typedef unsigned char uint8_t;$/;"	t
+uint8_t	src/jsonsl/jsonsl.h	/^typedef unsigned __int8 uint8_t;$/;"	t
+uint_fast16_t	src/bson/bson-stdint-win32.h	/^typedef uint16_t uint_fast16_t;$/;"	t
+uint_fast32_t	src/bson/bson-stdint-win32.h	/^typedef uint32_t uint_fast32_t;$/;"	t
+uint_fast64_t	src/bson/bson-stdint-win32.h	/^typedef uint64_t uint_fast64_t;$/;"	t
+uint_fast8_t	src/bson/bson-stdint-win32.h	/^typedef uint8_t uint_fast8_t;$/;"	t
+uint_least16_t	src/bson/bson-stdint-win32.h	/^typedef uint16_t uint_least16_t;$/;"	t
+uint_least32_t	src/bson/bson-stdint-win32.h	/^typedef uint32_t uint_least32_t;$/;"	t
+uint_least64_t	src/bson/bson-stdint-win32.h	/^typedef uint64_t uint_least64_t;$/;"	t
+uint_least8_t	src/bson/bson-stdint-win32.h	/^typedef uint8_t uint_least8_t;$/;"	t
+uintmax_t	src/bson/bson-stdint-win32.h	/^typedef uint64_t uintmax_t;$/;"	t
+uintptr_t	src/bson/bson-stdint-win32.h	/^typedef _W64 unsigned int uintptr_t;$/;"	t
+uintptr_t	src/bson/bson-stdint-win32.h	/^typedef unsigned __int64 uintptr_t;$/;"	t
+undefined	src/bson/bson-json.c	/^   } undefined;$/;"	m	union:__anon11	typeref:struct:__anon11::__anon17	file:
+unescaped	src/bson/bson-json.c	/^   bson_json_buf_t unescaped;$/;"	m	struct:__anon25	file:
+unsupported_type_test_data_t	tests/test-bson.c	/^} unsupported_type_test_data_t;$/;"	t	typeref:struct:__anon82	file:
+utf8_size_tally	examples/bson-metrics.c	/^   uint64_t utf8_size_tally;$/;"	m	struct:__anon2	file:
+utils	doc/taglist.py	/^from docutils import nodes, utils$/;"	i
+v_binary	src/bson/bson-types.h	/^      } v_binary;$/;"	m	union:_bson_value_t::__anon52	typeref:struct:_bson_value_t::__anon52::__anon56
+v_bool	src/bson/bson-types.h	/^      bool v_bool;$/;"	m	union:_bson_value_t::__anon52
+v_code	src/bson/bson-types.h	/^      } v_code;$/;"	m	union:_bson_value_t::__anon52	typeref:struct:_bson_value_t::__anon52::__anon59
+v_codewscope	src/bson/bson-types.h	/^      } v_codewscope;$/;"	m	union:_bson_value_t::__anon52	typeref:struct:_bson_value_t::__anon52::__anon60
+v_datetime	src/bson/bson-types.h	/^      int64_t v_datetime;$/;"	m	union:_bson_value_t::__anon52
+v_dbpointer	src/bson/bson-types.h	/^      } v_dbpointer;$/;"	m	union:_bson_value_t::__anon52	typeref:struct:_bson_value_t::__anon52::__anon58
+v_decimal128	src/bson/bson-json.c	/^   } v_decimal128;$/;"	m	union:__anon11	typeref:struct:__anon11::__anon23	file:
+v_decimal128	src/bson/bson-types.h	/^      bson_decimal128_t v_decimal128;$/;"	m	union:_bson_value_t::__anon52
+v_doc	src/bson/bson-types.h	/^      } v_doc;$/;"	m	union:_bson_value_t::__anon52	typeref:struct:_bson_value_t::__anon52::__anon55
+v_double	src/bson/bson-json.c	/^   } v_double;$/;"	m	union:__anon11	typeref:struct:__anon11::__anon22	file:
+v_double	src/bson/bson-types.h	/^      double v_double;$/;"	m	union:_bson_value_t::__anon52
+v_int32	src/bson/bson-json.c	/^   } v_int32;$/;"	m	union:__anon11	typeref:struct:__anon11::__anon20	file:
+v_int32	src/bson/bson-types.h	/^      int32_t v_int32;$/;"	m	union:_bson_value_t::__anon52
+v_int64	src/bson/bson-json.c	/^   } v_int64;$/;"	m	union:__anon11	typeref:struct:__anon11::__anon21	file:
+v_int64	src/bson/bson-types.h	/^      int64_t v_int64;$/;"	m	union:_bson_value_t::__anon52
+v_int8	src/bson/bson-types.h	/^      int8_t v_int8;$/;"	m	union:_bson_value_t::__anon52
+v_oid	src/bson/bson-types.h	/^      bson_oid_t v_oid;$/;"	m	union:_bson_value_t::__anon52
+v_regex	src/bson/bson-types.h	/^      } v_regex;$/;"	m	union:_bson_value_t::__anon52	typeref:struct:_bson_value_t::__anon52::__anon57
+v_symbol	src/bson/bson-types.h	/^      } v_symbol;$/;"	m	union:_bson_value_t::__anon52	typeref:struct:_bson_value_t::__anon52::__anon61
+v_timestamp	src/bson/bson-types.h	/^      } v_timestamp;$/;"	m	union:_bson_value_t::__anon52	typeref:struct:_bson_value_t::__anon52::__anon53
+v_utf8	src/bson/bson-types.h	/^      } v_utf8;$/;"	m	union:_bson_value_t::__anon52	typeref:struct:_bson_value_t::__anon52::__anon54
+va_copy	src/bson/bson-compat.h	170;"	d
+va_copy	src/bson/bson-compat.h	175;"	d
+value	src/bson/bson-json.c	/^      bson_decimal128_t value;$/;"	m	struct:__anon11::__anon23	file:
+value	src/bson/bson-json.c	/^      double value;$/;"	m	struct:__anon11::__anon22	file:
+value	src/bson/bson-json.c	/^      int32_t value;$/;"	m	struct:__anon11::__anon20	file:
+value	src/bson/bson-json.c	/^      int64_t value;$/;"	m	struct:__anon11::__anon21	file:
+value	src/bson/bson-types.h	/^   bson_value_t value; \/* Internal value for various state. *\/$/;"	m	struct:__anon62
+value	src/bson/bson-types.h	/^   } value;$/;"	m	struct:_bson_value_t	typeref:union:_bson_value_t::__anon52
+value	src/bson/bson-value.h	/^bson_value_destroy (bson_value_t *value);$/;"	v
+value_type	src/bson/bson-types.h	/^   bson_type_t value_type;$/;"	m	struct:_bson_value_t
+version	doc/conf.py	/^version = open(version_path).read().strip()$/;"	v
+version_path	doc/conf.py	/^version_path = os.path.join(os.path.dirname(__file__), '..', 'VERSION_CURRENT')$/;"	v
+visit_after	src/bson/bson-types.h	/^   bool (*visit_after) (const bson_iter_t *iter, const char *key, void *data);$/;"	m	struct:__anon64
+visit_array	src/bson/bson-types.h	/^   bool (*visit_array) (const bson_iter_t *iter,$/;"	m	struct:__anon64
+visit_before	src/bson/bson-types.h	/^   bool (*visit_before) (const bson_iter_t *iter, const char *key, void *data);$/;"	m	struct:__anon64
+visit_binary	src/bson/bson-types.h	/^   bool (*visit_binary) (const bson_iter_t *iter,$/;"	m	struct:__anon64
+visit_bool	src/bson/bson-types.h	/^   bool (*visit_bool) (const bson_iter_t *iter,$/;"	m	struct:__anon64
+visit_code	src/bson/bson-types.h	/^   bool (*visit_code) (const bson_iter_t *iter,$/;"	m	struct:__anon64
+visit_codewscope	src/bson/bson-types.h	/^   bool (*visit_codewscope) (const bson_iter_t *iter,$/;"	m	struct:__anon64
+visit_corrupt	src/bson/bson-types.h	/^   void (*visit_corrupt) (const bson_iter_t *iter, void *data);$/;"	m	struct:__anon64
+visit_corrupt	tests/test-bson.c	/^visit_corrupt (const bson_iter_t *iter, void *data)$/;"	f
+visit_date_time	src/bson/bson-types.h	/^   bool (*visit_date_time) (const bson_iter_t *iter,$/;"	m	struct:__anon64
+visit_dbpointer	src/bson/bson-types.h	/^   bool (*visit_dbpointer) (const bson_iter_t *iter,$/;"	m	struct:__anon64
+visit_decimal128	src/bson/bson-types.h	/^   bool (*visit_decimal128) (const bson_iter_t *iter,$/;"	m	struct:__anon64
+visit_document	src/bson/bson-types.h	/^   bool (*visit_document) (const bson_iter_t *iter,$/;"	m	struct:__anon64
+visit_double	src/bson/bson-types.h	/^   bool (*visit_double) (const bson_iter_t *iter,$/;"	m	struct:__anon64
+visit_int32	src/bson/bson-types.h	/^   bool (*visit_int32) (const bson_iter_t *iter,$/;"	m	struct:__anon64
+visit_int64	src/bson/bson-types.h	/^   bool (*visit_int64) (const bson_iter_t *iter,$/;"	m	struct:__anon64
+visit_maxkey	src/bson/bson-types.h	/^   bool (*visit_maxkey) (const bson_iter_t *iter, const char *key, void *data);$/;"	m	struct:__anon64
+visit_minkey	src/bson/bson-types.h	/^   bool (*visit_minkey) (const bson_iter_t *iter, const char *key, void *data);$/;"	m	struct:__anon64
+visit_null	src/bson/bson-types.h	/^   bool (*visit_null) (const bson_iter_t *iter, const char *key, void *data);$/;"	m	struct:__anon64
+visit_oid	src/bson/bson-types.h	/^   bool (*visit_oid) (const bson_iter_t *iter,$/;"	m	struct:__anon64
+visit_regex	src/bson/bson-types.h	/^   bool (*visit_regex) (const bson_iter_t *iter,$/;"	m	struct:__anon64
+visit_symbol	src/bson/bson-types.h	/^   bool (*visit_symbol) (const bson_iter_t *iter,$/;"	m	struct:__anon64
+visit_tag_node	doc/taglist.py	/^def visit_tag_node(self, node):$/;"	f
+visit_timestamp	src/bson/bson-types.h	/^   bool (*visit_timestamp) (const bson_iter_t *iter,$/;"	m	struct:__anon64
+visit_undefined	src/bson/bson-types.h	/^   bool (*visit_undefined) (const bson_iter_t *iter,$/;"	m	struct:__anon64
+visit_unsupported_type	src/bson/bson-types.h	/^   void (*visit_unsupported_type) (const bson_iter_t *iter,$/;"	m	struct:__anon64
+visit_unsupported_type	tests/test-bson.c	/^visit_unsupported_type (const bson_iter_t *iter,$/;"	f
+visit_utf8	src/bson/bson-types.h	/^   bool (*visit_utf8) (const bson_iter_t *iter,$/;"	m	struct:__anon64
+visited	tests/test-bson.c	/^   bool visited;$/;"	m	struct:__anon82	file:
+vtable	src/bson/bson-memory.h	/^bson_mem_set_vtable (const bson_mem_vtable_t *vtable);$/;"	v
+wildabbr	src/bson/bson-timegm.c	/^static const char wildabbr[] = WILDABBR;$/;"	v	file:
+writer	src/bson/bson-writer.h	/^bson_writer_destroy (bson_writer_t *writer);$/;"	v
+writer	src/bson/bson-writer.h	/^bson_writer_end (bson_writer_t *writer);$/;"	v
+writer	src/bson/bson-writer.h	/^bson_writer_get_length (bson_writer_t *writer);$/;"	v
+writer	src/bson/bson-writer.h	/^bson_writer_rollback (bson_writer_t *writer);$/;"	v
+year_lengths	src/bson/bson-timegm.c	/^static const int year_lengths[2] = {DAYSPERNYEAR, DAYSPERLYEAR};$/;"	v	file:
