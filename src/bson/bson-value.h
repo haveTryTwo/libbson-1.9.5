@@ -14,25 +14,19 @@
  * limitations under the License.
  */
 
-
 #ifndef BSON_VALUE_H
 #define BSON_VALUE_H
-
 
 #include "bson-macros.h"
 #include "bson-types.h"
 
-
 BSON_BEGIN_DECLS
 
-
-BSON_EXPORT (void)
-bson_value_copy (const bson_value_t *src, bson_value_t *dst);
-BSON_EXPORT (void)
-bson_value_destroy (bson_value_t *value);
-
+BSON_EXPORT(void)
+bson_value_copy(const bson_value_t *src, bson_value_t *dst);
+BSON_EXPORT(void)
+bson_value_destroy(bson_value_t *value);
 
 BSON_END_DECLS
-
 
 #endif /* BSON_VALUE_H */

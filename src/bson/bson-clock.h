@@ -14,31 +14,24 @@
  * limitations under the License.
  */
 
-
 #ifndef BSON_CLOCK_H
 #define BSON_CLOCK_H
-
 
 #if !defined(BSON_INSIDE) && !defined(BSON_COMPILATION)
 #error "Only <bson.h> can be included directly."
 #endif
 
-
 #include "bson-compat.h"
 #include "bson-macros.h"
 #include "bson-types.h"
 
-
 BSON_BEGIN_DECLS
 
-
-BSON_EXPORT (int64_t)
-bson_get_monotonic_time (void);
-BSON_EXPORT (int)
-bson_gettimeofday (struct timeval *tv);
-
+BSON_EXPORT(int64_t)
+bson_get_monotonic_time(void);
+BSON_EXPORT(int)
+bson_gettimeofday(struct timeval *tv);
 
 BSON_END_DECLS
-
 
 #endif /* BSON_CLOCK_H */

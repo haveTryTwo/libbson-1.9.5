@@ -14,10 +14,8 @@
  * limitations under the License.
  */
 
-
 #ifndef BSON_DECIMAL128_H
 #define BSON_DECIMAL128_H
-
 
 #if !defined(BSON_INSIDE) && !defined(BSON_COMPILATION)
 #error "Only <bson.h> can be included directly."
@@ -25,10 +23,9 @@
 
 #include <string.h>
 
-#include "bson-macros.h"
 #include "bson-config.h"
+#include "bson-macros.h"
 #include "bson-types.h"
-
 
 /**
  * BSON_DECIMAL128_STRING:
@@ -44,19 +41,15 @@
 #define BSON_DECIMAL128_INF "Infinity"
 #define BSON_DECIMAL128_NAN "NaN"
 
-
 BSON_BEGIN_DECLS
 
-BSON_EXPORT (void)
-bson_decimal128_to_string (const bson_decimal128_t *dec, char *str);
-
+BSON_EXPORT(void)
+bson_decimal128_to_string(const bson_decimal128_t *dec, char *str);
 
 /* Note: @string must be ASCII characters only! */
-BSON_EXPORT (bool)
-bson_decimal128_from_string (const char *string, bson_decimal128_t *dec);
-
+BSON_EXPORT(bool)
+bson_decimal128_from_string(const char *string, bson_decimal128_t *dec);
 
 BSON_END_DECLS
-
 
 #endif /* BSON_DECIMAL128_H */

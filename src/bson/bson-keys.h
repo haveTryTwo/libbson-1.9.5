@@ -14,26 +14,17 @@
  * limitations under the License.
  */
 
-
 #ifndef BSON_KEYS_H
 #define BSON_KEYS_H
-
 
 #include "bson-macros.h"
 #include "bson-types.h"
 
-
 BSON_BEGIN_DECLS
 
-
-BSON_EXPORT (size_t)
-bson_uint32_to_string (uint32_t value,
-                       const char **strptr,
-                       char *str,
-                       size_t size);
-
+BSON_EXPORT(size_t)
+bson_uint32_to_string(uint32_t value, const char **strptr, char *str, size_t size);
 
 BSON_END_DECLS
-
 
 #endif /* BSON_KEYS_H */

@@ -14,15 +14,12 @@
  * limitations under the License.
  */
 
-
 #ifndef BSON_COMPAT_H
 #define BSON_COMPAT_H
-
 
 #if !defined(BSON_INSIDE) && !defined(BSON_COMPILATION)
 #error "Only <bson.h> can be included directly."
 #endif
-
 
 #if defined(__MINGW32__)
 #if defined(__USE_MINGW_ANSI_STDIO)
@@ -36,7 +33,6 @@
 
 #include "bson-config.h"
 #include "bson-macros.h"
-
 
 #ifdef BSON_OS_WIN32
 #if defined(_WIN32_WINNT) && (_WIN32_WINNT < 0x0600)
@@ -60,30 +56,25 @@
 #include <io.h>
 #endif
 
-
 #ifdef BSON_OS_UNIX
-#include <unistd.h>
 #include <sys/time.h>
+#include <unistd.h>
 #endif
-
 
 #include "bson-macros.h"
 
-
-#include <errno.h>
 #include <ctype.h>
-#include <limits.h>
+#include <errno.h>
 #include <fcntl.h>
-#include <sys/stat.h>
+#include <limits.h>
 #include <stdarg.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <sys/stat.h>
 #include <time.h>
 
-
 BSON_BEGIN_DECLS
-
 
 #ifdef _MSC_VER
 #include <time.h>
@@ -131,8 +122,8 @@ typedef SSIZE_T ssize_t;
 #define PRIu64 "I64u"
 #endif
 #else
-#include "bson-stdint.h"
 #include <inttypes.h>
+#include "bson-stdint.h"
 #endif
 
 #if defined(__MINGW32__) && !defined(INIT_ONCE_STATIC_INIT)
@@ -151,32 +142,27 @@ typedef signed char bool;
 #define __bool_true_false_are_defined 1
 #endif
 
-
 #if defined(__GNUC__)
 #if (__GNUC__ > 4) || (__GNUC__ == 4 && __GNUC_MINOR__ >= 1)
-#define bson_sync_synchronize() __sync_synchronize ()
-#elif defined(__i386__) || defined(__i486__) || defined(__i586__) || \
-   defined(__i686__) || defined(__x86_64__)
+#define bson_sync_synchronize() __sync_synchronize()
+#elif defined(__i386__) || defined(__i486__) || defined(__i586__) || defined(__i686__) || \
+    defined(__x86_64__)
 #define bson_sync_synchronize() asm volatile("mfence" ::: "memory")
 #else
 #define bson_sync_synchronize() asm volatile("sync" ::: "memory")
 #endif
 #elif defined(_MSC_VER)
-#define bson_sync_synchronize() MemoryBarrier ()
+#define bson_sync_synchronize() MemoryBarrier()
 #endif
-
 
 #if !defined(va_copy) && defined(__va_copy)
-#define va_copy(dst, src) __va_copy (dst, src)
+#define va_copy(dst, src) __va_copy(dst, src)
 #endif
-
 
 #if !defined(va_copy)
 #define va_copy(dst, src) ((dst) = (src))
 #endif
 
-
 BSON_END_DECLS
-
 
 #endif /* BSON_COMPAT_H */

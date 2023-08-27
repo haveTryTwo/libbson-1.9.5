@@ -14,7 +14,6 @@
  * limitations under the License.
  */
 
-
 #include <stdlib.h>
 #include <string.h>
 
@@ -22,18 +21,16 @@
 #include "bson-config.h"
 #include "bson-memory.h"
 
-
 static bson_mem_vtable_t gMemVtable = {
-   malloc,
-   calloc,
+    malloc,
+    calloc,
 #ifdef BSON_HAVE_REALLOCF
-   reallocf,
+    reallocf,
 #else
-   realloc,
+    realloc,
 #endif
-   free,
+    free,
 };
-
 
 /*
  *--------------------------------------------------------------------------
@@ -59,20 +56,18 @@ static bson_mem_vtable_t gMemVtable = {
  *--------------------------------------------------------------------------
  */
 
-void *
-bson_malloc (size_t num_bytes) /* IN */
+void *bson_malloc(size_t num_bytes) /* IN */
 {
-   void *mem = NULL;
+  void *mem = NULL;
 
-   if (BSON_LIKELY (num_bytes)) {
-      if (BSON_UNLIKELY (!(mem = gMemVtable.malloc (num_bytes)))) {
-         abort ();
-      }
-   }
+  if (BSON_LIKELY(num_bytes)) {
+    if (BSON_UNLIKELY(!(mem = gMemVtable.malloc(num_bytes)))) {
+      abort();
+    }
+  }
 
-   return mem;
+  return mem;
 }
-
 
 /*
  *--------------------------------------------------------------------------
@@ -96,20 +91,18 @@ bson_malloc (size_t num_bytes) /* IN */
  *--------------------------------------------------------------------------
  */
 
-void *
-bson_malloc0 (size_t num_bytes) /* IN */
+void *bson_malloc0(size_t num_bytes) /* IN */
 {
-   void *mem = NULL;
+  void *mem = NULL;
 
-   if (BSON_LIKELY (num_bytes)) {
-      if (BSON_UNLIKELY (!(mem = gMemVtable.calloc (1, num_bytes)))) {
-         abort ();
-      }
-   }
+  if (BSON_LIKELY(num_bytes)) {
+    if (BSON_UNLIKELY(!(mem = gMemVtable.calloc(1, num_bytes)))) {
+      abort();
+    }
+  }
 
-   return mem;
+  return mem;
 }
-
 
 /*
  *--------------------------------------------------------------------------
@@ -133,29 +126,27 @@ bson_malloc0 (size_t num_bytes) /* IN */
  *--------------------------------------------------------------------------
  */
 
-void *
-bson_realloc (void *mem,        /* IN */
-              size_t num_bytes) /* IN */
+void *bson_realloc(void *mem,        /* IN */
+                   size_t num_bytes) /* IN */
 {
-   /*
-    * Not all platforms are guaranteed to free() the memory if a call to
-    * realloc() with a size of zero occurs. Windows, Linux, and FreeBSD do,
-    * however, OS X does not.
-    */
-   if (BSON_UNLIKELY (num_bytes == 0)) {
-      gMemVtable.free (mem);
-      return NULL;
-   }
+  /*
+   * Not all platforms are guaranteed to free() the memory if a call to
+   * realloc() with a size of zero occurs. Windows, Linux, and FreeBSD do,
+   * however, OS X does not.
+   */
+  if (BSON_UNLIKELY(num_bytes == 0)) {
+    gMemVtable.free(mem);
+    return NULL;
+  }
 
-   mem = gMemVtable.realloc (mem, num_bytes);
+  mem = gMemVtable.realloc(mem, num_bytes);
 
-   if (BSON_UNLIKELY (!mem)) {
-      abort ();
-   }
+  if (BSON_UNLIKELY(!mem)) {
+    abort();
+  }
 
-   return mem;
+  return mem;
 }
-
 
 /*
  *--------------------------------------------------------------------------
@@ -180,15 +171,12 @@ bson_realloc (void *mem,        /* IN */
  *--------------------------------------------------------------------------
  */
 
-
-void *
-bson_realloc_ctx (void *mem,        /* IN */
-                  size_t num_bytes, /* IN */
-                  void *ctx)        /* IN */
+void *bson_realloc_ctx(void *mem,        /* IN */
+                       size_t num_bytes, /* IN */
+                       void *ctx)        /* IN */
 {
-   return bson_realloc (mem, num_bytes);
+  return bson_realloc(mem, num_bytes);
 }
-
 
 /*
  *--------------------------------------------------------------------------
@@ -212,12 +200,10 @@ bson_realloc_ctx (void *mem,        /* IN */
  *--------------------------------------------------------------------------
  */
 
-void
-bson_free (void *mem) /* IN */
+void bson_free(void *mem) /* IN */
 {
-   gMemVtable.free (mem);
+  gMemVtable.free(mem);
 }
-
 
 /*
  *--------------------------------------------------------------------------
@@ -241,16 +227,14 @@ bson_free (void *mem) /* IN */
  *--------------------------------------------------------------------------
  */
 
-void
-bson_zero_free (void *mem,   /* IN */
-                size_t size) /* IN */
+void bson_zero_free(void *mem,   /* IN */
+                    size_t size) /* IN */
 {
-   if (BSON_LIKELY (mem)) {
-      memset (mem, 0, size);
-      gMemVtable.free (mem);
-   }
+  if (BSON_LIKELY(mem)) {
+    memset(mem, 0, size);
+    gMemVtable.free(mem);
+  }
 }
-
 
 /*
  *--------------------------------------------------------------------------
@@ -272,26 +256,21 @@ bson_zero_free (void *mem,   /* IN */
  *--------------------------------------------------------------------------
  */
 
-void
-bson_mem_set_vtable (const bson_mem_vtable_t *vtable)
-{
-   BSON_ASSERT (vtable);
+void bson_mem_set_vtable(const bson_mem_vtable_t *vtable) {
+  BSON_ASSERT(vtable);
 
-   if (!vtable->malloc || !vtable->calloc || !vtable->realloc ||
-       !vtable->free) {
-      fprintf (stderr,
-               "Failure to install BSON vtable, "
-               "missing functions.\n");
-      return;
-   }
+  if (!vtable->malloc || !vtable->calloc || !vtable->realloc || !vtable->free) {
+    fprintf(stderr,
+            "Failure to install BSON vtable, "
+            "missing functions.\n");
+    return;
+  }
 
-   gMemVtable = *vtable;
+  gMemVtable = *vtable;
 }
 
-void
-bson_mem_restore_vtable (void)
-{
-   bson_mem_vtable_t vtable = {
+void bson_mem_restore_vtable(void) {
+  bson_mem_vtable_t vtable = {
       malloc,
       calloc,
 #ifdef BSON_HAVE_REALLOCF
@@ -300,7 +279,7 @@ bson_mem_restore_vtable (void)
       realloc,
 #endif
       free,
-   };
+  };
 
-   bson_mem_set_vtable (&vtable);
+  bson_mem_set_vtable(&vtable);
 }

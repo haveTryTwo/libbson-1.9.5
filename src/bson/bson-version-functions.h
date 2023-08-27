@@ -14,11 +14,9 @@
  * limitations under the License.
  */
 
-
 #if !defined(BSON_INSIDE) && !defined(BSON_COMPILATION)
 #error "Only <bson.h> can be included directly."
 #endif
-
 
 #ifndef BSON_VERSION_FUNCTIONS_H
 #define BSON_VERSION_FUNCTIONS_H
@@ -27,16 +25,16 @@
 
 BSON_BEGIN_DECLS
 
-BSON_EXPORT (int)
-bson_get_major_version (void);
-BSON_EXPORT (int)
-bson_get_minor_version (void);
-BSON_EXPORT (int)
-bson_get_micro_version (void);
-BSON_EXPORT (const char *)
-bson_get_version (void);
-BSON_EXPORT (bool)
-bson_check_version (int required_major, int required_minor, int required_micro);
+BSON_EXPORT(int)
+bson_get_major_version(void);
+BSON_EXPORT(int)
+bson_get_minor_version(void);
+BSON_EXPORT(int)
+bson_get_micro_version(void);
+BSON_EXPORT(const char *)
+bson_get_version(void);
+BSON_EXPORT(bool)
+bson_check_version(int required_major, int required_minor, int required_micro);
 
 BSON_END_DECLS
 
